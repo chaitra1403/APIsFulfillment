@@ -1,0 +1,5 @@
+offset,limit,sort,nobelPrizeYear,yearTo,nobelPrizeCategory,format,csvLang,statusCode,scenario
+1,10,asc,1989,1999,"English",json,en,200,"Successful call of Nobel Prize(s) according to the filled fields"
+5,15,desc,1975,1985,"Svenska",xml,se,400,"Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+20,30,asc,1960,1970,"Norsk",json,no,404,"Not Found. The requested resource could not be found but may be available again in the future."
+10,20,desc,1990,2000,"English",xml,en,422,"Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors."
