@@ -1,0 +1,12 @@
+confirmation,id,subscriberId,statusCode,scenario
+true,"123e4567-e89b-12d3-a456-426655440000",123,200,"successful operation"
+false,"123e4567-e89b-12d3-a456-426655440001",124,400,"Bad Request"
+true,"123e4567-e89b-12d3-a456-426655440002",125,401,"Unauthorized"
+false,"123e4567-e89b-12d3-a456-426655440003",126,403,"Forbidden - Scope Not Permitted"
+true,"123e4567-e89b-12d3-a456-426655440004",127,404,"Not Found"
+false,"123e4567-e89b-12d3-a456-426655440005",128,406,"Not Acceptable"
+true,"123e4567-e89b-12d3-a456-426655440006",129,412,"Precondition Failed"
+false,"123e4567-e89b-12d3-a456-426655440007",130,429,"Too Many Requests - Exceeded Quota"
+true,"123e4567-e89b-12d3-a456-426655440008",131,500,"Internal Server Error"
+false,"123e4567-e89b-12d3-a456-426655440009",132,503,"Service Unavailable"
+true,"123e4567-e89b-12d3-a456-426655440010",133,504,"Gateway Timeout"
