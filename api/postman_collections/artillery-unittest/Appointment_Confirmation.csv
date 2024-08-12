@@ -1,0 +1,12 @@
+confirmation,id,subscriberId,statusCode,scenario
+true,"bff13821-73c3-42cc-9327-b05c7df5a67f","subscriber123",200,"successful operation"
+false,"invalid-id","invalidSubscriber",400,"Bad Request"
+false,"12345678901234567890123456789012345","subscriber456",401,"Unauthorized"
+false,"abcdef12-3456-7890-abcd-ef1234567890","subscriber789",403,"Forbidden - Scope Not Permitted"
+false,"00000000-0000-0000-0000-000000000000","nonexistentSubscriber",404,"Not Found"
+false,"not-a-valid-uuid","subscriber101",406,"Not Acceptable"
+false,"11111111-2222-3333-4444-555555555555","subscriber202",412,"Not Acceptable"
+false,"aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee","subscriber303",429,"Too Many Requests - Exceeded Quota"
+false,"99999999-8888-7777-6666-555555555555","subscriber404",500,"Internal Server Error"
+false,"fedcba98-7654-3210-fedc-ba9876543210","subscriber505",503,"Service Unavailable"
+false,"12345678-90ab-cdef-1234-567890abcdef","subscriber606",504,"Gateway Timeout"
