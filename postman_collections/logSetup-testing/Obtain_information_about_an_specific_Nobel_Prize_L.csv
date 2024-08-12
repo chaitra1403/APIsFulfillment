@@ -1,0 +1,5 @@
+laureateID,statusCode,scenario
+676,200,"Successful call of Laureate given the ID"
+676,400,"Bad request. The request could not be understood by the server due to malformed syntax, modifications needed."
+676,404,"Not Found. The requested resource could not be found but may be available again in the future."
+676,422,"Unprocessable Entity. The request was well-formed but was unable to be followed due to semantic errors."
