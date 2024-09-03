@@ -1,0 +1,11 @@
+availabilityCode^|^availabilityDescription^|^availabilityType^|^inventoryId^|^maxBandwidth^|^products^|^statusCode^|^scenario
+AC01^|^Available for immediate use^|^Immediate^|^INV123^|^500^|^ProductA, ProductB^|^SC01^|^Scenario1
+AC02^|^Available after 24 hours^|^Delayed^|^INV124^|^600^|^ProductC, ProductD^|^SC02^|^Scenario2
+AC03^|^Not available^|^Unavailable^|^INV125^|^700^|^ProductE, ProductF^|^SC03^|^Scenario3
+AC04^|^Available for immediate use^|^Immediate^|^INV126^|^800^|^ProductG, ProductH^|^SC04^|^Scenario4
+AC05^|^Available after 24 hours^|^Delayed^|^INV127^|^900^|^ProductI, ProductJ^|^SC05^|^Scenario5
+AC06^|^Not available^|^Unavailable^|^INV128^|^1000^|^ProductK, ProductL^|^SC06^|^Scenario6
+AC07^|^Available for immediate use^|^Immediate^|^INV129^|^1100^|^ProductM, ProductN^|^SC07^|^Scenario7
+AC08^|^Available after 24 hours^|^Delayed^|^INV130^|^1200^|^ProductO, ProductP^|^SC08^|^Scenario8
+AC09^|^Not available^|^Unavailable^|^INV131^|^1300^|^ProductQ, ProductR^|^SC09^|^Scenario9
+AC10^|^Available for immediate use^|^Immediate^|^INV132^|^1400^|^ProductS, ProductT^|^SC10^|^Scenario10
