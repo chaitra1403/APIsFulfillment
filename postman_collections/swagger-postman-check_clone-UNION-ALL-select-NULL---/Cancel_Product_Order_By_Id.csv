@@ -1,0 +1,12 @@
+order.Id,associatedDocument,subscriberId,statusCode,scenario
+"order_123"^|"doc_456"^|"sub_789"^|200^|"Success"
+"order_124"^|"doc_457"^|"sub_790"^|400^|"Bad Request"
+"order_125"^|"doc_458"^|"sub_791"^|401^|"Unauthorized"
+"order_126"^|"doc_459"^|"sub_792"^|403^|"Forbidden - Scope Not Permitted"
+"order_127"^|"doc_460"^|"sub_793"^|404^|"Not Found"
+"order_128"^|"doc_461"^|"sub_794"^|406^|"Not Acceptable"
+"order_129"^|"doc_462"^|"sub_795"^|423^|"Locked"
+"order_130"^|"doc_463"^|"sub_796"^|429^|"Too Many Requests - Exceeded Quota"
+"order_131"^|"doc_464"^|"sub_797"^|500^|"Internal Server Error"
+"order_132"^|"doc_465"^|"sub_798"^|503^|"Service Unavailable"
+"order_133"^|"doc_466"^|"sub_799"^|504^|"Gateway Timeout"
