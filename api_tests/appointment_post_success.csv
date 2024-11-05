@@ -1,0 +1,11 @@
+reason^|^slot_id^|^statusCode^|^scenario
+Fiber Installation Appointment^|^bff13821-73c3-42cc-9327-b05c7df5a67f^|^200^|^Scenario 1
+Maintenance Appointment^|^cde24821-63d2-42cc-9327-b05c7df5a68g^|^200^|^Scenario 2
+Upgrade Appointment^|^fgt35821-96h3-42cc-9327-b05c7df5a69h^|^200^|^Scenario 3
+Broadband Installation Appointment^|^ijk46821-12k4-42cc-9327-b05c7df5a70i^|^200^|^Scenario 4
+Service Disruption Appointment^|^lmn57821-78l5-42cc-9327-b05c7df5a71j^|^200^|^Scenario 5
+Billing Enquiry Appointment^|^opq68821-34o6-42cc-9327-b05c7df5a72k^|^200^|^Scenario 6
+Package Upgrade Appointment^|^rst79821-56r7-42cc-9327-b05c7df5a73l^|^200^|^Scenario 7
+Account Closure Appointment^|^uvw90821-98v8-42cc-9327-b05c7df5a74m^|^200^|^Scenario 8
+New Connection Appointment^|^xyz01821-21x9-42cc-9327-b05c7df5a75n^|^200^|^Scenario 9
+Service Transfer Appointment^|^abc12821-43a1-42cc-9327-b05c7df5a76o^|^200^|^Scenario 10

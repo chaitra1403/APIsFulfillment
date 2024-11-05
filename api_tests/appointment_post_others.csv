@@ -1,0 +1,11 @@
+reason^|^slot_id^|^statusCode^|^scenario
+Agendamento para Instalação de Fibra^|^bff13821-73c3-42cc-9327-b05c7df5a67f^|^200^|^Installation
+Medical Checkup^|^d7f13821-73c3-42cc-9327-b05c7df5a67g^|^500^|^HealthCare
+Annual Meeting^|^a2c13821-73c3-42cc-9327-b05c7df5a67h^|^404^|^Business
+Birthday Party^|^e3b13821-73c3-42cc-9327-b05c7df5a67i^|^200^|^Event
+Software Update^|^f4a13821-73c3-42cc-9327-b05c7df5a67j^|^400^|^Maintenance
+Dental Checkup^|^c5913821-73c3-42cc-9327-b05c7df5a67k^|^200^|^HealthCare
+Product Launch^|^d6813821-73c3-42cc-9327-b05c7df5a67l^|^500^|^Business
+Wedding Ceremony^|^e7713821-73c3-42cc-9327-b05c7df5a67m^|^200^|^Event
+System Upgrade^|^f8613821-73c3-42cc-9327-b05c7df5a67n^|^404^|^Maintenance
+Eye Checkup^|^g9513821-73c3-42cc-9327-b05c7df5a67o^|^400^|^HealthCare
