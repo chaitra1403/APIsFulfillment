@@ -1,0 +1,11 @@
+confirmation^|^id^|^subscriberId^|^statusCode^|^scenario
+true^|^SA-562403^|^VTAL001^|^200^|^test1
+false^|^SA-562404^|^VTAL002^|^404^|^test2
+true^|^SA-562405^|^VTAL003^|^500^|^test3
+false^|^SA-562406^|^VTAL004^|^200^|^test4
+true^|^SA-562407^|^VTAL005^|^404^|^test5
+false^|^SA-562408^|^VTAL006^|^500^|^test6
+true^|^SA-562409^|^VTAL007^|^200^|^test7
+false^|^SA-562410^|^VTAL008^|^404^|^test8
+true^|^SA-562411^|^VTAL009^|^500^|^test9
+false^|^SA-562412^|^VTAL010^|^200^|^test10
