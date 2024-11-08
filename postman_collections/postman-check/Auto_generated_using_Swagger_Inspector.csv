@@ -1,0 +1,11 @@
+symbol,apikey,function,statusCode,scenario
+IBM,1234abcd,getQuotes,200,"Auto generated using Swagger Inspector"
+AAPL,5678efgh,getHistory,200,"Auto generated using Swagger Inspector"
+GOOG,9101ijkl,getNews,404,"Auto generated using Swagger Inspector"
+MSFT,1213mnop,getProfile,500,"Auto generated using Swagger Inspector"
+AMZN,1415qrst,getCharts,200,"Auto generated using Swagger Inspector"
+FB,1617uvwx,getOptions,400,"Auto generated using Swagger Inspector"
+TSLA,1819yzab,getFinancials,200,"Auto generated using Swagger Inspector"
+NFLX,2021cdef,getEarnings,404,"Auto generated using Swagger Inspector"
+NVDA,2223ghij,getRatings,500,"Auto generated using Swagger Inspector"
+AMD,2425klmn,getDividends,200,"Auto generated using Swagger Inspector"
