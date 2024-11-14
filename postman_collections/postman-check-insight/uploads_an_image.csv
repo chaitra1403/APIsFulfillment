@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+12345,"{\n  \"code\": -5617180,\n  \"type\": \"mollit pariatur\",\n  \"message\": \"dolor dolor\"\n}",200,successful operation
+67890,"{\n  \"code\": -5617180,\n  \"type\": \"mollit pariatur\",\n  \"message\": \"dolor dolor\"\n}",200,successful operation
+23456,"{\n  \"code\": -5617180,\n  \"type\": \"mollit pariatur\",\n  \"message\": \"dolor dolor\"\n}",200,successful operation
+78901,"{\n  \"code\": -5617180,\n  \"type\": \"mollit pariatur\",\n  \"message\": \"dolor dolor\"\n}",200,successful operation
+34567,"{\n  \"code\": -5617180,\n  \"type\": \"mollit pariatur\",\n  \"message\": \"dolor dolor\"\n}",200,successful operation
