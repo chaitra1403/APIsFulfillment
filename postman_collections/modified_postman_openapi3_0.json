@@ -1,0 +1,5301 @@
+{
+  "item": [
+    {
+      "id": "ee078c80-1b0f-4d61-869d-0e2c79d6337d",
+      "name": "actions/{id}",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "dadbb3e1-7468-4e8d-ab5b-6425fdae85b1",
+      "name": "assistants",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "1d531bcf-a12a-4d05-b465-c820fe4534e8",
+      "name": "analytics",
+      "item": [
+        {
+          "id": "ae3dea11-caa4-4012-9131-ec5d525fb223",
+          "name": "custom_reports",
+          "item": [
+            null,
+            null,
+            {
+              "id": "9f0133ed-3b37-4845-8781-d46e6ac20404",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "1683934e-fb00-4cef-85e1-e134cab638fd",
+          "name": "default_reports",
+          "item": [
+            null,
+            null,
+            {
+              "id": "a9474540-4828-4ce6-a033-daae277f3602",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "3ed64c1d-f488-4bbc-9e1a-0dfc981df1fb",
+          "name": "extracted_reports",
+          "item": [
+            null,
+            null,
+            {
+              "id": "d1361149-f24f-45fa-821a-e50b3c26b069",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "4ce60baa-1aa1-436a-bd9c-8ea5b2ed7ba8",
+          "name": "field_reports",
+          "item": [
+            null,
+            null,
+            {
+              "id": "f124fe93-9fcd-4939-890d-e36bf1ceb588",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "20347cc2-63fc-4f4d-bb2e-9f38a13250c0",
+          "name": "metrics",
+          "item": [
+            null,
+            null,
+            {
+              "id": "7991bc5e-9003-44af-9a85-e68b2de1f631",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "040952c2-3a07-4096-8ffe-8247d634fc11",
+          "name": "tree_reports",
+          "item": [
+            null,
+            null,
+            {
+              "id": "85ffacd8-1a21-47af-ac50-a718953deec8",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "900c8932-2226-4852-8dc5-174a64a7cd24",
+      "name": "attachments",
+      "item": [
+        null,
+        null,
+        {
+          "id": "84ef7246-5afc-49ec-b270-ef85d79e006e",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "79cf2491-f294-4b27-85ed-5e5b61bd23ad",
+      "name": "auth",
+      "item": [
+        null,
+        null,
+        {
+          "id": "2f236fbb-0911-4751-84fb-c2789e400039",
+          "name": "local",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "295330f3-f9ae-483f-b456-e6c185e27732",
+      "name": "automations",
+      "item": [
+        null,
+        null,
+        {
+          "id": "531c2fa9-888a-424e-b041-bfde81df06aa",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "13ceea44-b982-45f1-85b1-3e2d06b191f9",
+              "name": "conditions",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "890a870c-5dd5-4d38-923e-d61f474108e4",
+              "name": "actions",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "506f4840-c883-4941-97d3-a69cf5d48d01",
+      "name": "campaign_groups",
+      "item": [
+        null,
+        null,
+        {
+          "id": "88378bf8-847b-43f6-a681-3df41c8204de",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "0aecbee5-5d65-49c4-bc8f-0b63d33e5e91",
+      "name": "campaign-groups/{id}",
+      "item": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "fc35423c-e61b-42c5-9e16-781d9d5dc7ea",
+      "name": "campaigns",
+      "item": [
+        null,
+        null,
+        {
+          "id": "cf3e30dd-19e3-49f3-b4a5-b854d01a38b4",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "be4be7d8-80ba-4d24-8b8e-b5e56af7222c",
+              "name": "lists",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "b7a25a97-2a81-4b9d-930a-c646248c589e",
+              "name": "blacklists",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "272bde43-4e45-4c36-93c4-dab3570c12e5",
+      "name": "canned_answers",
+      "item": [
+        null,
+        null,
+        {
+          "id": "d0e87318-a4d9-4e99-a5f9-2f99e213f6a0",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "8dca34ee-fb91-44a8-8e3a-460876729c19",
+      "name": "cdr",
+      "item": [
+        null,
+        null,
+        null,
+        {
+          "id": "28e12eb0-65b4-4315-9549-6d590fc2e62b",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "f4ae2ce1-a89a-4fac-8a41-f465967269a0",
+      "name": "chat",
+      "item": [
+        {
+          "id": "5fb4f6f4-0eac-4b41-97b1-67216b4dc45f",
+          "name": "applications/{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "5e36415c-aff3-45f1-9389-7c5831cb6f6a",
+          "name": "groups",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "a0a78743-09e1-41d1-a652-82ef67478b34",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "e76280b7-b422-44b1-9053-cfffe39df16a",
+                  "name": "members",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "eb3cd500-26b8-4138-8a26-1f31d8548741",
+                  "name": "messages",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "1915f2f8-85ec-459d-bc68-bbdbe9460de8",
+          "name": "interactions",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "dcf758c8-e039-4b35-9624-bc719a93f45e",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "83fee376-cb7e-466b-97fd-25f463569802",
+                  "name": "messages",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "4b2c9c35-6112-4bfa-bef7-57209ce8ba7a",
+                  "name": "tags",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "7dd52e72-b7dd-4adb-a0dd-6e07a9394d7b",
+          "name": "internal/messages",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "a4df2758-3649-42db-9ef7-ca46e8cd72bf",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "18ae120c-587d-4a45-b4e0-a1aac919b0e2",
+          "name": "messages",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "883718b8-a3a9-4c48-8307-0209478387d0",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "d121237b-5e2e-49cb-8a4d-96d56eb21735",
+          "name": "offline_messages",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "e28874be-4c56-4f92-bb1d-18b399566c10",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "3adf3d5d-9be5-4ed1-a9f0-129d0b7263ac",
+          "name": "proactive_actions",
+          "item": [
+            null,
+            {
+              "id": "3f32944b-899f-4515-a774-ba0a0e58566c",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "2ac08f38-6596-4d85-9085-b656b95f1ca4",
+          "name": "queues",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "429b6ee6-0865-476b-94b5-db5309c103c8",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "8d30d400-47e8-4efc-a78a-3f11f47ee570",
+                  "name": "teams",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "f2c01dbc-1b7c-4b34-a62d-1c3e3e4c4744",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "c9418883-d0c0-4c54-b665-a68be41c376a",
+                  "name": "profiles",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "f3aced66-f1d6-40db-b4c1-6e30c6a7628b",
+          "name": "reports",
+          "item": [
+            {
+              "id": "6afaf4f0-e94e-4335-93c8-ca1495456aed",
+              "name": "queue",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "3d45772f-50e0-40f7-b1de-20781871179f",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "e4ef9da9-ad19-491e-8021-f422af08e281",
+              "name": "transfer",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "1caa6201-b1da-4dad-b309-6cc22952ddc9",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "1beda659-3d04-49d3-a064-d653c2cdb3b2",
+          "name": "websites",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "8d0084dc-65f1-41d2-972b-b2d4f2ccc5ea",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "67e82fdf-ecf1-45fb-865e-9ba5448f7a4f",
+                  "name": "dispositions",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "3e1fd8ca-c076-474a-869b-ede41750db7a",
+                  "name": "canned_answers",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "f370a01a-ea12-408a-8815-1b991e1b9cda",
+                  "name": "logo",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "2572c74e-6cf7-4b49-aad9-7953e65622f0",
+                  "name": "avatar",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "2ee97579-f07f-46a0-a2f7-05c4c6f6486b",
+                  "name": "customer_avatar",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "f1de0bac-c046-4cd2-96c2-b31d6976f144",
+                  "name": "system_avatar",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "9af45eb1-c608-41d1-85f2-9258508606bd",
+                  "name": "interactions",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "d695f881-2380-4b70-a0cc-6ee1c47ca514",
+                  "name": "applications",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "c7834d43-84e6-456c-a6be-bc0301c712a0",
+                  "name": "proactive_actions",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null,
+                {
+                  "id": "c4049f5c-284f-405e-945a-e40a9bbd5b92",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "7a51e708-7454-4e98-84d8-664ce4c32ed8",
+      "name": "cloudProviders",
+      "item": [
+        null,
+        null,
+        {
+          "id": "0e049c9a-1cc5-4877-9ca7-3b824f630dfc",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "23aa76fd-43ba-4b73-8b70-c51f60268e04",
+          "name": "oauth2/microsoft",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "9eff1db2-6a49-443b-bb03-4b2b2010a390",
+      "name": "cm",
+      "item": [
+        {
+          "id": "5199b5af-ca2e-4f22-b24a-9369f72d6e12",
+          "name": "companies",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "46ba589f-33cb-46a2-85c6-7bf1aa01bbc5",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "1646fc00-0c08-4fc5-ab7a-574e6df70c01",
+          "name": "contacts",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "2f26752f-2f11-40b4-9dae-bdd293092dbd",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "b8c3cd39-9e72-45e3-8ec8-e850ba702aa6",
+                  "name": "tags",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            null,
+            {
+              "id": "716f394a-d221-4198-b5e8-77a6ecbdb7a1",
+              "name": "upload",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "95c27ce3-60bf-4340-926f-5da6ab162b7d",
+          "name": "custom_fields",
+          "item": [
+            null,
+            {
+              "id": "039989e6-0d49-427f-aa2c-d5b9f403a4e7",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        null,
+        {
+          "id": "a4dc9617-047e-49eb-a391-b2e9ad01e27e",
+          "name": "hopper",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "b41b8380-72ee-431f-a1d0-3dada7b19e1a",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "774c52a3-11ec-4522-abe7-188faacb10fb",
+          "name": "hopper_black",
+          "item": [
+            null,
+            null,
+            {
+              "id": "503c0f13-c768-4410-b576-14dbf3999b91",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "8887226c-757c-4993-93a0-806664a08528",
+          "name": "hopper_final",
+          "item": [
+            null,
+            null,
+            {
+              "id": "a84f970c-77eb-4532-8d2f-f8c93e8d3b91",
+              "name": "{id}",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "60dd2c42-0e04-4b61-8327-a1d06a8bd71a",
+              "name": "voice",
+              "item": [
+                {
+                  "id": "3bf83a2d-4a0e-4010-8b6a-671ec1b71c62",
+                  "name": "queue",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null
+              ],
+              "event": []
+            },
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "f03514f6-32e3-4c2d-8529-bd65bb0c5223",
+          "name": "hopper_history",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "607b99dc-27d8-496d-b0a5-815ec00e0772",
+              "name": "{id}",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "d9979c29-383e-4dc4-838c-daf7e90a241a",
+          "name": "lists",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "f7f64be8-16dc-45a6-a655-cddee03f22ca",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "8bbe0786-8043-4d53-9cbf-839896222bae",
+                  "name": "dispositions",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "0fadaab9-cdcb-4e61-9ec2-9d513ae526ab",
+                  "name": "contacts",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "8bde61ec-0364-4c56-bb57-57f54194989b",
+                  "name": "fields",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "b1669e65-7157-4d4d-98de-6183bc7ada05",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "1c7e35c2-e2a6-4daa-adc9-5e5a4fee3c5d",
+      "name": "conditions/{id}",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "c67aa1cc-97bb-4579-b05a-5a6030940f73",
+      "name": "dashboards",
+      "item": [
+        null,
+        null,
+        {
+          "id": "df64961f-5707-4955-87a9-0ea9b1befc3a",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "36a17b72-f236-4f4f-8fa5-45414ae07e1f",
+              "name": "items",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        null,
+        {
+          "id": "87f5daaf-15a9-4727-b2e8-13c5864c2341",
+          "name": "items",
+          "item": [
+            null,
+            {
+              "id": "c3ed257d-630b-4f04-92cc-32f3fc826e7a",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "6ecabc4c-9a05-408b-921e-5dd7eeb75b10",
+      "name": "dispositions",
+      "item": [
+        null,
+        null,
+        {
+          "id": "5e9b676d-4d57-40f7-8844-a441e0087058",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "51b845d0-a696-42fc-bba0-40b09a582c90",
+      "name": "fax",
+      "item": [
+        {
+          "id": "5da276df-d019-47a5-96af-89ba69fe8857",
+          "name": "accounts",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "4e8c34e7-2fb8-4812-8dbf-9ffad62cf856",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "7df76c05-baac-403e-9bc6-eedd9692b544",
+                  "name": "dispositions",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "c50500ba-81b3-4436-a631-2a252700493c",
+                  "name": "canned_answers",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "1729199c-8093-48c1-893b-a97ff4727dec",
+                  "name": "interactions",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "d902a8c0-ffbd-47b5-ae3d-de153725d4b5",
+                  "name": "applications",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "e47cd7d4-31e3-41e7-b050-0b687008871b",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null
+              ],
+              "event": []
+            },
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "f571793c-bd28-4dac-b056-8b42af87434c",
+          "name": "applications",
+          "item": [
+            null,
+            null,
+            {
+              "id": "2ed9bf3c-6023-445b-8a7f-81a9488fb7dc",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "5e38059f-bd29-48eb-b0fe-19f1d404e642",
+          "name": "interactions",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "5ae71ce2-55cb-4643-bd43-3c1d9919a150",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "cdfc54bc-f054-4e02-82c5-d33861861a55",
+                  "name": "messages",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "f3b37d37-e869-4e39-b855-54885bc05946",
+                  "name": "tags",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "a6d18638-f45e-4abb-8495-6ed682389700",
+          "name": "messages",
+          "item": [
+            null,
+            null,
+            {
+              "id": "52ef354a-cf8f-4434-8eac-37165cdcde09",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "8f288f0a-cc60-4593-bfc6-d96aafd108b5",
+          "name": "queues",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "0037821c-6915-41df-844f-a0dc446f867c",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "28f82119-c34d-4302-aad0-eac53a4c119d",
+                  "name": "teams",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "e32a7436-0b76-4ade-93ca-3f4e7d72ce68",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "60578077-5233-4ed2-a441-c7849a4b043a",
+                  "name": "profiles",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "766245f3-e803-4a51-b8ef-39649a313576",
+          "name": "reports",
+          "item": [
+            {
+              "id": "d48dbbd4-5eee-44ca-b179-8f0aeda28a3f",
+              "name": "queue",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "49eb6c9d-016c-45e0-8fda-5116abd516d6",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "1c1f07c5-e582-4a02-9ca8-3bed98336244",
+              "name": "transfer",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "326716f0-6090-40c7-92b0-bbe82e674a76",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "42815b89-8a09-4c9a-ad6a-57ee74a76051",
+      "name": "integrations",
+      "item": [
+        null,
+        null,
+        {
+          "id": "76e28f7d-6425-498b-b70e-78ef0bccc4a3",
+          "name": "dynamics365",
+          "item": [
+            {
+              "id": "49017a2c-48da-4338-b8fb-f12ae6da63c8",
+              "name": "accounts",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "9c7cea0c-47e4-4a23-ac16-4ea78e9b4c32",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "e7c9c62d-67f8-4622-9569-2698f509048f",
+                      "name": "configurations",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    },
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "083dba01-c8e1-4838-9538-81f30bcf3d5b",
+              "name": "configurations",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "aa825f97-9441-4ada-a0bd-af69cc096bf4",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "2a1ae9f2-9d1c-4d3b-9f6f-fc1ca3e97131",
+              "name": "fields",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "135fa666-8dfc-411c-9d53-c027bc7ef658",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "88bdc605-2021-415c-b676-bcff3459e292",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "3acc6331-8395-4d6d-85e3-a6f94e8f3d62",
+          "name": "reports",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "3c8cb50f-8954-4b63-ae96-464a940c859d",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "f7e86231-1be1-44b3-9741-4f471d684561",
+          "name": "freshdesk",
+          "item": [
+            {
+              "id": "04b2a544-89db-469c-8f0b-a85beeadda1e",
+              "name": "accounts",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "7292263c-1167-488a-8d90-563b5093a8b5",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "9188024a-bd9b-4466-8dc7-1f6919791dfb",
+                      "name": "configurations",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    },
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "6bce1d87-7e43-49bb-b264-57143189b87b",
+              "name": "configurations",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "ca92050a-03a7-4438-bd1c-657a35d37676",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "4384c76d-4813-4184-a0af-a03e987ea9e0",
+                      "name": "tags",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    }
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "0128e40c-c11d-4c71-89d3-8e9316310da8",
+              "name": "fields",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "f711aff4-0008-45ce-823a-7d625eca585c",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "194b2c08-e169-4316-95d2-c78c8dd1f152",
+          "name": "freshsales",
+          "item": [
+            {
+              "id": "6ad7ff95-8268-47e5-8f85-9776f8ee97ee",
+              "name": "accounts",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "a80d6e51-a14e-4cbd-b03a-89063a62905a",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "c734952a-ca1a-4f42-9f26-b79c800b329c",
+                      "name": "configurations",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    },
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "c9d54c79-06b5-4f05-a57c-08730f176642",
+              "name": "configurations",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "d09c7ee3-2c18-46e3-9e6f-5c5e211c7f92",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "9d84557f-6db3-47c8-b489-56b4e73e9982",
+              "name": "fields",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "2235ab20-b23d-4929-a37c-7977ad78ce6e",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "3d788f70-aac4-4fa2-be69-7704e861cc7a",
+          "name": "salesforce",
+          "item": [
+            {
+              "id": "f38d691b-b3be-4346-9d97-c9c22e48120c",
+              "name": "accounts",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "db59ae2f-a4df-430d-9b7a-c025cc5a9032",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "2e691d2c-eadd-46a9-9883-4cf2029e93c1",
+                      "name": "configurations",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    },
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "6822bad9-2fec-4aab-844b-4af8143fff02",
+              "name": "configurations",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "25861778-450f-4b14-bdc6-4fd67b444ed6",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "1b31634a-bf73-40d1-88cc-f3d1c940e5e8",
+              "name": "fields",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "22790401-c9ad-4406-80f3-4fe8daf125e4",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "aecff17f-0fe5-41c8-8003-d3a1c0b227b9",
+          "name": "servicenow",
+          "item": [
+            {
+              "id": "8120fe1c-2786-4fcc-a121-792cf27a204d",
+              "name": "accounts",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "0f87b046-5ab4-4ced-b2bc-6c8714e76a52",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "a84c205a-b8c8-4e59-afd4-99a16870ee83",
+                      "name": "configurations",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    },
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "f8eefa88-919a-4d54-97f0-71db963ef799",
+              "name": "configurations",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "53bb38ba-568b-4c1a-b2d5-ede74e8105d4",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "799bf2b0-5fa0-4342-b78b-1fd940f20498",
+              "name": "fields",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "5b026023-d849-4b36-94db-9cea16b4a8c8",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "997b0d4f-fed3-4ee3-843e-fee376955441",
+          "name": "sugarcrm",
+          "item": [
+            {
+              "id": "45c375c4-b263-4add-8213-588317f89750",
+              "name": "accounts",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "bee5d3a1-b191-420a-b3ee-fe578edec4e6",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "e3e5a2b6-cb24-41c7-a670-9650e1ce4adf",
+                      "name": "configurations",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    },
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "a644c623-dee8-4f4d-8b02-1ef3e9092c0f",
+              "name": "configurations",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "b5c5f8ec-11a4-4cbb-8514-c5028de4bcb0",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "5ec8dfbd-bb45-47f3-9fc8-b9bc62752643",
+              "name": "fields",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "d9638cd2-29cf-4d00-81da-e30c628b2deb",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "6b2384e2-ca00-4f06-aef2-1749ff4102b7",
+          "name": "vtiger",
+          "item": [
+            {
+              "id": "8695c201-e1c1-4334-8369-5b58fce30959",
+              "name": "accounts",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "8f4bf2e5-6a1e-406e-bb5c-ecfd84d176ef",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "d2607d06-8a3a-4b38-9ade-8b321aaffe22",
+                      "name": "configurations",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    },
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "33e0d2eb-312a-4312-8046-97baaf233bb7",
+              "name": "configurations",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "847a4342-4ec0-4b59-862a-d4b314994a15",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "9530c602-b555-465f-a2ee-a938aae005fb",
+              "name": "fields",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "e5b64b34-40c4-4558-b749-0b3c74e4e417",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "18da1422-215b-4316-9865-7d7a85f245a8",
+          "name": "zendesk",
+          "item": [
+            {
+              "id": "1a69ab92-c70f-4173-8ebc-81a51bfa2482",
+              "name": "accounts",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "278d2394-841b-4c8b-bcc6-8b50e2c7b9f6",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "baf66cef-1fb3-410e-9e2b-e9b0ed7cfb44",
+                      "name": "configurations",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    },
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "70ca896b-0257-4bf8-a71b-3ecae6732934",
+              "name": "configurations",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "cbbcc321-2ee0-4c41-a95f-74f8dc7b69d4",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "f4aba69e-5551-467d-a0fa-b2a631662f4d",
+                      "name": "tags",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    }
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "10b1d900-117e-4327-8540-2aa1276adfec",
+              "name": "fields",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "2467ebdd-2bd8-43c7-ad78-fa6548d690f0",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "1e21ae1d-b74f-4c95-ad6b-30277a19a46e",
+          "name": "zoho",
+          "item": [
+            {
+              "id": "a30ccdda-276f-4c59-ba17-930cc2ffe49c",
+              "name": "accounts",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "1644f19b-3963-47da-a9ff-646a35e1cd5b",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    {
+                      "id": "a44da3d6-3012-4a13-b4ac-fc8aac9b424a",
+                      "name": "configurations",
+                      "item": [
+                        null,
+                        null
+                      ],
+                      "event": []
+                    },
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "d2792822-f6fe-4537-bad4-b4b04fb76f54",
+              "name": "configurations",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "07b9877f-01fa-4cc9-b0e1-093e40ff1475",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "28f36d26-235a-489e-8e7d-b579d8c29c75",
+              "name": "fields",
+              "item": [
+                null,
+                null,
+                {
+                  "id": "6de61b08-7008-4cc7-93f3-87633abcb8ed",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "5e7dd564-f5d8-4b8d-854f-d194c265ab01",
+      "name": "intervals",
+      "item": [
+        null,
+        null,
+        {
+          "id": "4158952f-919a-466e-995b-18afad38a72c",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "6cd906ea-f69e-409e-b099-ca7d65182530",
+              "name": "sub_intervals",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "185ffc69-93b2-44c0-b811-540704f66071",
+      "name": "jscripty",
+      "item": [
+        {
+          "id": "e8096bb9-09c2-4b39-bc74-39b61a31565d",
+          "name": "answers/reports",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "f8947e33-1fd8-4d73-bb63-367260de8448",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "b128f144-1191-4d98-b3ce-260a655fa8b2",
+          "name": "projects",
+          "item": [
+            null,
+            null,
+            {
+              "id": "206f6cef-d8db-4e91-a84b-565c8f42b37f",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "6384b66b-2a8c-4464-94d0-3aced66c1795",
+          "name": "questions/reports",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "2dd2b8b8-04b4-49da-9a17-05e1f5c696a4",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "d4ecbd99-10b6-4a94-b344-57cb1f5cfbb1",
+          "name": "sessions/reports",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "c26108e4-f89e-4464-a432-81a111e4e6a3",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "85e1de69-8420-4a6f-b967-d6b6e9c9d98e",
+      "name": "license",
+      "item": [
+        null,
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "8fe3c051-4ba5-4760-88c0-d60cec1fe566",
+      "name": "mail",
+      "item": [
+        {
+          "id": "1d0fd6b0-17c4-420d-a8a7-832c20f22665",
+          "name": "accounts",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "5c7e1767-8770-41fb-8bb9-e9ef9ccd72e8",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "0562db2c-6675-4425-9eb1-7455ca2c0614",
+                  "name": "dispositions",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "0e8fbe69-a839-423d-a5c8-6f1f719409d0",
+                  "name": "canned_answers",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "4f66dd23-7f18-41e5-b6ac-f00bf41c9ede",
+                  "name": "in_servers",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "ba497ce2-02a8-4f77-a2ed-bfbbaa20bb9e",
+                  "name": "out_servers",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "045df4b8-66e0-4e81-8313-8863d5ed4a62",
+                  "name": "interactions",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "c62d0550-f040-4d1d-854f-bd8edb042edb",
+                  "name": "applications",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null,
+                {
+                  "id": "d864920c-2cbc-4ba8-b124-b1dc1a4b8458",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "54fc3f42-163c-4182-a56e-d8e9a2d19499",
+          "name": "applications/{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "0a649d02-515a-4045-b21c-b69cbb7fc913",
+          "name": "interactions",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "8ae19a0d-54b7-4138-a16c-40640760acea",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "6cff3688-220f-48de-913a-95c8f15d919f",
+                  "name": "messages",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "35e03035-7a94-4a8c-8a11-c49a360a2c84",
+                  "name": "tags",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "a44a2583-bb4b-4ee0-990e-c1f45d791670",
+          "name": "messages",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "edb54d17-c6c0-4a63-b908-02ba3358b2ec",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "762e5795-568c-40b7-bd69-59aa875ca9c2",
+          "name": "queues",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "ac61cb02-6e49-4188-a13e-ecafccf6d495",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "e85b0001-6c19-483d-9f55-c7c03d953ab9",
+                  "name": "teams",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "e000b14c-db50-4248-a991-3061a028890d",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "6ab6e78c-a7b8-4f18-a809-6301748a3d7c",
+                  "name": "profiles",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "ebadac32-0a17-459d-bf4b-90ffb6426927",
+          "name": "reports",
+          "item": [
+            {
+              "id": "4e989768-10b8-4297-a14c-3bb083cb04d1",
+              "name": "queue",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "f16299ad-47cb-461a-b6ff-e0a1e2f34651",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "526af560-b80a-4022-a8fb-040f479bcb2e",
+              "name": "transfer",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "827662ca-6ea0-4bb2-bfeb-6ad721ecd557",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "a76fc034-0cab-4d3e-bffc-454fdbc02dac",
+          "name": "out_servers",
+          "item": [
+            null,
+            null,
+            {
+              "id": "a1c2363d-9c07-4a82-b0ca-8701e9025b70",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "45caa7f6-4266-4512-889e-bbb58314cec9",
+          "name": "substatuses",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "618a4460-02ab-4111-8874-7b2f7aa83a93",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "eda6be10-def3-43b7-8d7b-355a3216e6bc",
+      "name": "members/reports",
+      "item": [
+        null,
+        null,
+        null
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "d3c3286f-1d5a-4386-938f-8802c848c974",
+      "name": "networks",
+      "item": [
+        null,
+        null,
+        {
+          "id": "40b5fc96-ec1c-452e-9670-e5a302fefc1b",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "df425427-4c9a-494e-b34a-fa14f7a128ca",
+      "name": "openaiBots",
+      "item": [
+        null,
+        null,
+        {
+          "id": "e65fadcf-2057-4642-ae9d-7ad58c4c8ac6",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "4e9a50f9-2f48-41ce-9afd-6ee20a126f68",
+      "name": "openchannel",
+      "item": [
+        {
+          "id": "ad14184d-a328-4001-b03b-1c1be09424c4",
+          "name": "accounts",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "793f3f79-484c-4040-8a27-3a1a108f49ff",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "ae32846c-9bcb-4cba-b081-55d8bd56357e",
+                  "name": "dispositions",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "d9b25f44-e479-4957-b61a-c59deaa4d6e2",
+                  "name": "canned_answers",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "77d8fb3a-8995-4902-b186-240866db8af7",
+                  "name": "applications",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "35a8b145-fbb1-45ea-808d-330388f0f9bb",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "c754960f-fd51-48e5-9bc4-7ec87ed192f6",
+          "name": "applications",
+          "item": [
+            null,
+            null,
+            {
+              "id": "663aed0a-fe08-4649-9cf8-f087a076c2d6",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "9a2dabb5-836e-43e4-91d9-eddd50720c56",
+          "name": "interactions",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "8f2f5ba9-348d-485b-80b8-0a3815cd5e1f",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "7ee10e8b-6fdb-4b92-86c0-21c92325397e",
+                  "name": "messages",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "57935f9d-416f-491c-b0fd-3dd1a1d9d4f2",
+                  "name": "tags",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "68ab6f7f-1ae0-4daf-b7cd-00ce7e797b96",
+          "name": "messages",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "fc7c91e6-b50b-4b17-833a-18d838c03043",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "a2371886-5fb3-49d3-bfbe-74f5633c6dcf",
+          "name": "queues",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "7a469480-4144-4c24-885a-8e4da776804c",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "e067abd0-e70b-4199-b70f-865ff62dbcb8",
+                  "name": "teams",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "3f7755db-a812-42fc-845f-15ded4f7be22",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "1d3a9bea-f024-43de-a5ff-d44b31e8fe8e",
+                  "name": "profiles",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "8810a856-77fd-400c-a60d-69d7aa2bf256",
+          "name": "reports",
+          "item": [
+            {
+              "id": "bf1a9d60-7bc9-46d6-9327-6ed0b47bb570",
+              "name": "queue",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "f304125c-5285-4510-a0e5-37e8177b2a6f",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "aaf910b2-a272-468a-a47e-c88847fd95f2",
+              "name": "transfer",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "5fc7b5b7-c29c-4278-a300-922104b41a41",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "0d0de039-ae5f-4fc9-a470-7f87f6659dc8",
+      "name": "pauses",
+      "item": [
+        null,
+        null,
+        null,
+        {
+          "id": "f67901e9-8e63-4b7e-b1c7-901a4332a8c7",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "93226234-d5c6-4a36-910b-0828e58cce0e",
+              "name": "reasons",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "37359bdc-93ed-4e1d-93cf-a2bd5c1978b5",
+      "name": "pause_reasons",
+      "item": [
+        null,
+        null,
+        null,
+        {
+          "id": "98669400-b79c-47a2-808c-86325e3fc894",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "a3fefa88-740a-48b5-8e52-3cbb8d34041a",
+              "name": "pauses",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "2b04c59e-21c6-4bc0-bfe8-7b3c3758db24",
+      "name": "plugins",
+      "item": [
+        null,
+        null,
+        {
+          "id": "91c8e579-6843-4ac8-a269-2d14f96179e5",
+          "name": "webhook",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "a4501de7-0ec2-4ee6-947d-09dc37c8fafa",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "6765608a-cef5-41b5-bb79-464eac219af1",
+      "name": "pm2",
+      "item": [
+        null,
+        {
+          "id": "0ff12427-0970-4882-b10a-48312c1374bf",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "e20ed93f-41f9-48d9-b2a2-98cd0e2f99df",
+      "name": "profiles",
+      "item": [
+        null,
+        null,
+        null,
+        {
+          "id": "df797d32-69fd-42bf-8a02-33a5873ef70b",
+          "name": "{profileId}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "95fed806-17c3-4bc7-9dec-14ea46932fc2",
+              "name": "{channelType}Queues",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "f8186eed-6750-4956-8337-4524abb36d35",
+              "name": "users",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "a20e22d6-5903-4609-9e79-3d5719717b92",
+      "name": "realtime",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "ef2f71eb-14b4-45cc-aa70-d99fb41c84e2",
+      "name": "rpc",
+      "item": [
+        null,
+        {
+          "id": "f1d1468c-e944-4966-b611-cad209de7640",
+          "name": "mail/queues/{id}",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "0a5d445e-737d-415a-b0d8-a8d8e56d7934",
+          "name": "chat/queues/{id}",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "37a778b9-d703-45a9-9b27-bd0d121aee42",
+          "name": "fax/queues/{id}",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "0d74ed78-31f0-4686-8a73-90855da42073",
+          "name": "openchannel/queues/{id}",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "6abe1530-faca-432e-97ac-b91a7e676764",
+          "name": "sms/queues/{id}",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "953fc54f-61c7-4597-9ea2-0deb728a0af7",
+          "name": "whatsapp/queues/{id}",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "1add7fc4-5a3c-4e63-a35c-d20d030a1858",
+      "name": "schedules",
+      "item": [
+        null,
+        null,
+        {
+          "id": "4186a723-1461-4d2a-9f88-198803f02595",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "825f9323-da33-40c5-86f1-d20f1326dd71",
+      "name": "screen/recordings",
+      "item": [
+        null,
+        null,
+        null,
+        {
+          "id": "f76ff908-23b9-4c1e-9b83-e6e146b01dae",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "f6e07c03-0d3a-4313-9655-3c00784a389b",
+      "name": "settings",
+      "item": [
+        null,
+        null,
+        {
+          "id": "609944d5-94dc-4c84-9071-c0dc24815d5f",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            {
+              "id": "088f0f61-8636-493a-bc6d-86f63d1fbf4b",
+              "name": "logo",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "f9623f07-1e5b-4620-a17e-d76de6cece7d",
+              "name": "logo_login",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            {
+              "id": "324b53ad-3f50-4a35-9565-7b5ebaf64103",
+              "name": "preferred",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "666f2442-4bcc-4080-9102-0c124c88235c",
+              "name": "favicon",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "4cea6eec-9c02-44d7-ae24-724f122c54ec",
+      "name": "sms",
+      "item": [
+        {
+          "id": "f0f1e418-0059-4194-8560-50845b389c22",
+          "name": "accounts",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "086a2543-94ab-47fc-b15b-3eee53827c5f",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "086c6131-4952-4290-a688-9e2e99f13680",
+                  "name": "dispositions",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "007c3d73-8e97-4f05-b40f-ffa487030e86",
+                  "name": "canned_answers",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "8e01f46f-1922-44cd-91db-cd4523b7be83",
+                  "name": "applications",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "471fe3c9-edd7-4c56-a5e4-9cf2eb37a878",
+                  "name": "status",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "c5aac883-0942-4905-8bbf-ba9b09470484",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "6b45ff6c-27ed-46fc-889f-a6b03f6909c6",
+          "name": "applications",
+          "item": [
+            null,
+            null,
+            {
+              "id": "aeda14b8-755d-422a-86cc-58efd549804b",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "122ba168-34de-49e2-acca-a7f5134ae5d6",
+          "name": "interactions",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "50166d68-adc1-4394-bced-7e81315689d3",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "17f71a09-832f-400a-bf55-1e6e1c36e3c3",
+                  "name": "messages",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "e56e12ac-275e-44b8-8283-f35ba3ccb8f6",
+                  "name": "tags",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "f73fa5dd-dfeb-4ea2-8d75-609779260bc0",
+          "name": "messages",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "295a1cd5-ae73-4fe4-b4df-925406aca724",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "efff441f-2c1d-4ab2-80ac-24f84166ebe1",
+          "name": "queues",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "65de2edd-3167-4c0b-ab8e-0d138f85d1f9",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "503050ee-6e53-45b0-b42e-9f9b3230301c",
+                  "name": "teams",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "25ca723b-104b-4e26-a2e2-301bbf22a4d2",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "c6792645-5655-4621-9b32-bd82d3754c2c",
+                  "name": "profiles",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "55c31366-7f5e-4acf-a49a-dd813352c425",
+          "name": "reports",
+          "item": [
+            {
+              "id": "a5a71442-aa68-4e4b-aa3b-cfc5c1ef376b",
+              "name": "queue",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "ce45e64d-d151-4098-8201-d21a360ec898",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "c7c84569-a2bd-4866-a5af-e7fe904d81b8",
+              "name": "transfer",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "f254381e-bab8-4413-96fa-9577f3d9d510",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "a3e58d5e-d8bf-42df-bf3b-bcba367236d1",
+      "name": "sounds",
+      "item": [
+        null,
+        null,
+        {
+          "id": "fcd9b002-7513-44cb-b138-d08422cee9c1",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "b13c9923-7283-4cc2-987e-6dd33d055c34",
+      "name": "square",
+      "item": [
+        {
+          "id": "f3474273-403f-4f1f-bb77-ecda571cfe97",
+          "name": "messages",
+          "item": [
+            null,
+            null,
+            {
+              "id": "11f83308-3489-49f3-8bd4-889b86bcadd3",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "b4ccfc9b-e093-4b26-82ff-ac92a0384d40",
+          "name": "odbc",
+          "item": [
+            null,
+            null,
+            {
+              "id": "45538f9b-5dbf-423a-908e-27366aaea283",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "835c1b7c-56dd-4350-ab11-ea45defcb57a",
+          "name": "projects",
+          "item": [
+            null,
+            null,
+            {
+              "id": "27053278-be26-4383-8afd-c2465a0d0594",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "c19a663c-a9e3-4900-90e3-74fcc3f2539a",
+          "name": "recordings",
+          "item": [
+            null,
+            null,
+            {
+              "id": "77095db9-01db-41e5-8067-17b3830566b1",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "1cf8dec7-86fe-4f2c-9d50-76b62515d4f0",
+          "name": "reports",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "8d7d539f-8cbe-4fcc-96a8-3226c6215a56",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "84d14fd1-44eb-4cbf-93d8-cf1781eb4f3c",
+          "name": "details/reports",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "2c07b584-3563-4e6d-b3d8-4d583584a6f3",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "46ac82df-0411-4edb-b867-62d27a23ecea",
+      "name": "system",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "11d0009a-7aa5-4f65-963b-e8a33ec482da",
+      "name": "tags",
+      "item": [
+        null,
+        null,
+        {
+          "id": "2cb810c7-0ea9-4d35-a0b4-83837bda7ac0",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "4fed599c-d09e-4d37-9ba5-6b4aca5bd2f7",
+      "name": "teams",
+      "item": [
+        null,
+        null,
+        {
+          "id": "97512e5d-ca11-4219-9e6b-53ae1d0d185d",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "519ceb1b-fdc8-494c-8e67-a5bcc220a584",
+              "name": "queues",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "16d164c9-1ab3-4002-96e9-5536e1cbe1be",
+              "name": "users",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "6a7ad2d0-e601-49dc-9559-913aef2b49aa",
+      "name": "templates",
+      "item": [
+        null,
+        null,
+        {
+          "id": "6f511f15-e884-4591-a82a-afceabb515ed",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    null,
+    null,
+    {
+      "id": "c133472d-e466-4f68-8a5d-424a43b11c0c",
+      "name": "timing",
+      "item": [
+        null,
+        null,
+        {
+          "id": "940828eb-23f0-4d5c-9c2d-7d06f30baed6",
+          "name": "{timingId}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "692a7605-9f89-4594-ab3d-0fdf4198db83",
+              "name": "queues",
+              "item": [
+                null,
+                {
+                  "id": "3aca27a4-80eb-4545-b9d2-641f680c3e8f",
+                  "name": "/timing/:timingId/queues/rewrite",
+                  "request": {
+                    "name": "/timing/:timingId/queues/rewrite",
+                    "description": {},
+                    "url": {
+                      "path": [
+                        "timing",
+                        ":timingId",
+                        "queues",
+                        "rewrite"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "POST",
+                    "auth": null
+                  },
+                  "response": [],
+                  "event": [
+                    {
+                      "listen": "test",
+                      "script": {
+                        "exec": [
+                          " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test postman-check-insight using AI Type  and AI Model \n\n\nTest generated for /timing/:timingId/queues/rewrite for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n"
+                        ],
+                        "type": "text/javascript"
+                      }
+                    }
+                  ],
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  }
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "7039b52c-0c06-4fb7-889e-a4e2b2b8fec4",
+      "name": "job/voicerecording",
+      "item": [
+        null,
+        null,
+        {
+          "id": "f4e8b0b9-94d3-400e-a2ac-f89f4cec1853",
+          "name": "start",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "06593554-0d67-4e18-95c1-26597f1737a0",
+      "name": "triggers",
+      "item": [
+        null,
+        {
+          "id": "f847c6e7-44ec-4fe2-808f-ad6a3a9ff7c2",
+          "name": "{id}/actions",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "2b9dd800-06e2-4a2f-9c9d-847c5eb2e0b3",
+      "name": "trunks",
+      "item": [
+        null,
+        null,
+        {
+          "id": "441058ec-c211-4c86-ad1e-fc68043308ca",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "612ac5ca-2ece-4c47-81b4-0ebe0aa81c86",
+      "name": "user-settings",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "49ce238c-8c6e-4d28-903b-c5a03b4a1654",
+      "name": "users",
+      "item": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "d3abead8-cc81-4100-8337-b178484fc036",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "92a10159-2826-419a-ac17-a4a49bd09885",
+              "name": "avatar",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            {
+              "id": "7db951d5-9657-4d30-831e-4e9a7c1e672f",
+              "name": "contacts",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "115923fa-6744-4835-b9a1-08124f8c7072",
+              "name": "queues",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "d220bb32-d8da-4370-bddd-5a9a24348f1b",
+              "name": "teams",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            null,
+            null,
+            {
+              "id": "b7943ebd-cadb-4fe9-9871-e165150cf39a",
+              "name": "fax_accounts",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "3784a3d7-b0a6-4af0-9da3-3c99bdaafb3a",
+              "name": "mail_accounts",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "2cc4fb7f-39fb-4a33-b85f-da2a79701a6b",
+              "name": "openchannel_accounts",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "2461c482-4aba-4169-91f1-f5199620a26d",
+              "name": "sms_accounts",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "53c6cffd-9863-4191-a020-4ecf46c5df4b",
+              "name": "chat_websites",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "8a83378c-32ee-45d9-8ac9-5af1a6c25cc1",
+              "name": "whatsapp_accounts",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            {
+              "id": "33dea960-7f4a-44db-804f-782cd2f60ed0",
+              "name": "api_key",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "c6deaada-8486-4a71-a748-723ac7597264",
+              "name": "chat_interactions",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "c4061752-0d3f-41de-9ae2-cee0086e383e",
+              "name": "mail_interactions",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "47f70291-6f2b-44b5-a6f2-c74cfe04dd30",
+              "name": "fax_interactions",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "04e956d4-ba93-41d2-b3ac-cbc970f22c64",
+              "name": "sms_interactions",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "1fad2dd7-7083-48a9-a066-8101a829c879",
+              "name": "openchannel_interactions",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "108d155b-fc5b-484e-b6a2-93fd4c3107c3",
+              "name": "whatsapp_interactions",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            {
+              "id": "057fb67b-6a39-4ead-affb-80b32a896d23",
+              "name": "mfa",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null,
+        {
+          "id": "f6cd234d-fcf4-4beb-b490-76440156a090",
+          "name": "{userId}",
+          "item": [
+            {
+              "id": "6c41bb3e-6a2c-45af-97b8-9dc1fdc8899c",
+              "name": "/users/:userId/profiles",
+              "request": {
+                "name": "/users/:userId/profiles",
+                "description": {},
+                "url": {
+                  "path": [
+                    "users",
+                    ":userId",
+                    "profiles"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "auth": null
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test postman-check-insight using AI Type  and AI Model \n\n\nTest generated for /users/:userId/profiles for http method type get in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "18397966-b980-4606-8ebd-ccc1ac466abc",
+              "name": "/users/:userId/timings",
+              "request": {
+                "name": "/users/:userId/timings",
+                "description": {},
+                "url": {
+                  "path": [
+                    "users",
+                    ":userId",
+                    "timings"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "auth": null
+              },
+              "response": [],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test postman-check-insight using AI Type  and AI Model \n\n\nTest generated for /users/:userId/timings for http method type get in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            }
+          ],
+          "event": []
+        },
+        null,
+        null
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "82d5f126-94af-484e-b3a4-49adbbbeb27e",
+      "name": "userProfiles",
+      "item": [
+        null,
+        null,
+        null,
+        {
+          "id": "ee9d61d1-b276-4736-a2ba-b05299e8bde6",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "abc143ea-6d46-43fe-a4e3-cfd974771600",
+              "name": "sections",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "437b6628-89ce-4820-9cb5-bfc0c0d062ca",
+              "name": "resources",
+              "item": [
+                null,
+                {
+                  "id": "024bfbe4-07eb-4528-9143-ec364970786b",
+                  "name": "Add resources' permissions to User Profile",
+                  "request": {
+                    "name": "Add resources' permissions to User Profile",
+                    "description": {},
+                    "url": {
+                      "path": [
+                        "userProfiles",
+                        ":id",
+                        "resources"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{id}}",
+                          "key": "id",
+                          "description": "(Required) Numeric id of the UserProfile"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "POST",
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{bearerToken}}"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "response": [
+                    {
+                      "id": "49eab82d-3223-4eac-b4d4-80f6ef46c78b",
+                      "name": "the resource was successfully created",
+                      "originalRequest": {
+                        "url": {
+                          "path": [
+                            "userProfiles",
+                            ":id",
+                            "resources"
+                          ],
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "query": [],
+                          "variable": [
+                            {
+                              "disabled": false,
+                              "type": "any",
+                              "value": "{{id}}",
+                              "key": "id",
+                              "description": "(Required) Numeric id of the UserProfile"
+                            }
+                          ]
+                        },
+                        "header": [
+                          {
+                            "description": {
+                              "content": "Added as a part of security scheme: bearer",
+                              "type": "text/plain"
+                            },
+                            "key": "Authorization",
+                            "value": "{{Authorization}}"
+                          }
+                        ],
+                        "method": "POST",
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        }
+                      },
+                      "status": "Created",
+                      "code": 201,
+                      "header": [
+                        {
+                          "key": "Content-Type",
+                          "value": "text/plain"
+                        }
+                      ],
+                      "body": "",
+                      "cookie": [],
+                      "_postman_previewlanguage": "text"
+                    },
+                    {
+                      "id": "83260900-937f-4a81-9244-3c8eea612b93",
+                      "originalRequest": {
+                        "url": {
+                          "path": [
+                            "userProfiles",
+                            ":id",
+                            "resources"
+                          ],
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "query": [],
+                          "variable": [
+                            {
+                              "disabled": false,
+                              "type": "any",
+                              "value": "{{id}}",
+                              "key": "id",
+                              "description": "(Required) Numeric id of the UserProfile"
+                            }
+                          ]
+                        },
+                        "header": [
+                          {
+                            "description": {
+                              "content": "Added as a part of security scheme: bearer",
+                              "type": "text/plain"
+                            },
+                            "key": "Authorization",
+                            "value": "{{Authorization}}"
+                          }
+                        ],
+                        "method": "POST",
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        }
+                      },
+                      "status": "Unauthorized",
+                      "code": 401,
+                      "header": [
+                        {
+                          "key": "Content-Type",
+                          "value": "text/plain"
+                        }
+                      ],
+                      "body": "",
+                      "cookie": [],
+                      "_postman_previewlanguage": "text"
+                    },
+                    {
+                      "id": "e41566fb-854d-49c8-8158-5ca495af8c6e",
+                      "originalRequest": {
+                        "url": {
+                          "path": [
+                            "userProfiles",
+                            ":id",
+                            "resources"
+                          ],
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "query": [],
+                          "variable": [
+                            {
+                              "disabled": false,
+                              "type": "any",
+                              "value": "{{id}}",
+                              "key": "id",
+                              "description": "(Required) Numeric id of the UserProfile"
+                            }
+                          ]
+                        },
+                        "header": [
+                          {
+                            "description": {
+                              "content": "Added as a part of security scheme: bearer",
+                              "type": "text/plain"
+                            },
+                            "key": "Authorization",
+                            "value": "{{Authorization}}"
+                          }
+                        ],
+                        "method": "POST",
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        }
+                      },
+                      "status": "Forbidden",
+                      "code": 403,
+                      "header": [
+                        {
+                          "key": "Content-Type",
+                          "value": "text/plain"
+                        }
+                      ],
+                      "body": "",
+                      "cookie": [],
+                      "_postman_previewlanguage": "text"
+                    },
+                    {
+                      "id": "4abb9fc4-f409-4c86-9ba5-45dc143b9f85",
+                      "originalRequest": {
+                        "url": {
+                          "path": [
+                            "userProfiles",
+                            ":id",
+                            "resources"
+                          ],
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "query": [],
+                          "variable": [
+                            {
+                              "disabled": false,
+                              "type": "any",
+                              "value": "{{id}}",
+                              "key": "id",
+                              "description": "(Required) Numeric id of the UserProfile"
+                            }
+                          ]
+                        },
+                        "header": [
+                          {
+                            "description": {
+                              "content": "Added as a part of security scheme: bearer",
+                              "type": "text/plain"
+                            },
+                            "key": "Authorization",
+                            "value": "{{Authorization}}"
+                          }
+                        ],
+                        "method": "POST",
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{}",
+                          "options": {
+                            "raw": {
+                              "language": "json"
+                            }
+                          }
+                        }
+                      },
+                      "status": "Internal Server Error",
+                      "code": 500,
+                      "header": [
+                        {
+                          "key": "Content-Type",
+                          "value": "text/plain"
+                        }
+                      ],
+                      "body": "",
+                      "cookie": [],
+                      "_postman_previewlanguage": "text"
+                    }
+                  ],
+                  "event": [
+                    {
+                      "listen": "test",
+                      "script": {
+                        "exec": [
+                          " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test postman-check-insight using AI Type  and AI Model \n\n\nTest generated for /userProfiles/:id/resources for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 201){\n    pm.test(\"the resource was successfully created\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Created\");\n    });\n\n}\n\nif (pm.response.code == 401){\n    pm.test(\"undefined\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(responseData, `code`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `code`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n \n        pm.test('code to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"code\", \"\")).to.include.oneOf([\"401\"]);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n\nif (pm.response.code == 403){\n    pm.test(\"undefined\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(responseData, `code`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `code`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n \n        pm.test('code to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"code\", \"\")).to.include.oneOf([\"403\"]);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n\nif (pm.response.code == 500){\n    pm.test(\"undefined\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(responseData, `code`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `code`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n \n        pm.test('code to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"code\", \"\")).to.include.oneOf([\"500\"]);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n"
+                        ],
+                        "type": "text/javascript"
+                      }
+                    }
+                  ],
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  }
+                },
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "428e7bb9-b63e-4786-8229-0c9ec75f7b37",
+      "name": "userProfile",
+      "item": [
+        {
+          "id": "8de90281-7b4c-496b-b384-3e85a31aed8b",
+          "name": "resources",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "0d1aeee1-2f0e-40f2-9b02-70c4e5baaaea",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "8b949805-cd9b-4300-b76c-95efa6eadb26",
+          "name": "sections",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "cfd05045-c431-4593-a9f6-9fa6ab324c48",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "5c29e154-6fb9-4577-8351-0726ad1d8a2e",
+      "name": "variables",
+      "item": [
+        null,
+        null,
+        {
+          "id": "34cdfef2-7b5f-4d1a-8566-1d2f175f7906",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "2c14a408-75ba-4862-a021-4fb5f153f18c",
+      "name": "version",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "ac143d03-b8fa-4f28-a738-a4d32b07aa2f",
+      "name": "voice",
+      "item": [
+        {
+          "id": "a685b3c5-5e63-4e04-8e60-70e487c3fb9a",
+          "name": "agents/reports",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "9f3dcd36-fa4e-4c72-8397-78bb7bde52fd",
+          "name": "calls/reports",
+          "item": [
+            null,
+            null,
+            {
+              "id": "066a3ebc-7daa-4173-b8bd-c2ed44a4754d",
+              "name": "{id}",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "4441a17a-c21f-401b-aae0-21de3bf3f877",
+          "name": "chanspy",
+          "item": [
+            null,
+            null,
+            {
+              "id": "9e2de181-aae8-4e45-99bf-c43c69c2ee1f",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "8a084111-82b5-45f7-9a8b-760e76bc8978",
+          "name": "contexts",
+          "item": [
+            null,
+            null,
+            {
+              "id": "d8a746c1-80a3-454d-b529-092da8f41bc8",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "dd14e318-0e97-4f62-bc61-2a48805eb7cb",
+          "name": "dials/reports",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "16e1bd34-e6db-4ca6-a9f1-a4dbc6c396fd",
+          "name": "extensions",
+          "item": [
+            null,
+            null,
+            {
+              "id": "69088ac4-6b87-4582-9f0c-6a08498253e3",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "225e224f-fcf4-4efc-8203-682bd72e8284",
+          "name": "mails",
+          "item": [
+            null,
+            null,
+            {
+              "id": "2f4d4d84-dcd3-4a02-8731-eefe5612e853",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            {
+              "id": "73c9796d-2aa6-469d-8db0-decfca1d95d1",
+              "name": "messages",
+              "item": [
+                null,
+                {
+                  "id": "4da658c5-db15-4bec-bb16-cf416fb199a6",
+                  "name": "Creates a new Message",
+                  "request": {
+                    "name": "Creates a new Message",
+                    "description": {},
+                    "url": {
+                      "path": [
+                        "voice",
+                        "mails",
+                        "messages"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "POST",
+                    "auth": {
+                      "type": "bearer",
+                      "bearer": [
+                        {
+                          "key": "token",
+                          "value": "{{bearerToken}}"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"msgnum\": \"{{msgnum}}\",\n    \"name\": \"{{name}}\",\n    \"dir\": \"{{dir}}\",\n    \"context\": \"{{context}}\",\n    \"macrocontext\": \"{{macrocontext}}\",\n    \"callerid\": \"{{callerid}}\",\n    \"origtime\": \"{{origtime}}\",\n    \"duration\": \"{{duration}}\",\n    \"mailboxuser\": \"{{mailboxuser}}\",\n    \"mailboxcontext\": \"{{mailboxcontext}}\",\n    \"recording\": \"{{recording}}\",\n    \"flag\": \"{{flag}}\",\n    \"msg_id\": \"{{msg_id}}\",\n    \"stamp\": \"{{stamp}}\",\n    \"createdAt\": \"{{createdAt}}\",\n    \"updatedAt\": \"{{updatedAt}}\"\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "response": [],
+                  "event": [
+                    {
+                      "listen": "test",
+                      "script": {
+                        "exec": [
+                          " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test postman-check-insight using AI Type  and AI Model \n\n\nTest generated for /voice/mails/messages for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n"
+                        ],
+                        "type": "text/javascript"
+                      }
+                    }
+                  ],
+                  "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                  }
+                },
+                {
+                  "id": "ffccb71c-be65-4bef-8c53-ec90a3f10aec",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "73a9515a-f3e9-4622-b54c-5d318ff6303c",
+          "name": "mohs",
+          "item": [
+            null,
+            null,
+            {
+              "id": "3291b495-d8ac-4582-8cc6-2e433cb472bf",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "fa329362-c852-48d0-9c0e-f7e13eba853c",
+                  "name": "sounds",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "325f641e-7c79-4ba7-9b96-2b7afb86aaa3",
+          "name": "prefixes",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "0f80666c-5432-4f14-b85b-bcae4e4ed857",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "992a9851-5756-4784-a6e2-2335e5383f4e",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "a5f519af-19a3-42ac-89c4-91f3ca92e04a",
+                  "name": "teams",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "f7f36a52-dcce-4a0b-b53e-174bdc127035",
+          "name": "qa_categories",
+          "item": [
+            null,
+            null,
+            {
+              "id": "f4c9635a-d1e8-4e57-9d5f-014361e68f67",
+              "name": "{region}",
+              "item": [
+                null,
+                {
+                  "id": "78ef6d71-b705-43c9-86ed-88262df6c236",
+                  "name": "{accountId}/{name}",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "6f921951-3483-4d04-8b26-387f26292688",
+          "name": "queues",
+          "item": [
+            null,
+            null,
+            {
+              "id": "7b63ed26-7ed9-4de7-b865-0c246dc765ee",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "2f424982-a491-40b2-8fc6-49751f2e83b3",
+                  "name": "teams",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "341395f2-a03d-4c34-8a52-52489e8c3b8e",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "db57200e-d7b1-4a4d-9824-37d724d0cab9",
+                  "name": "profiles",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "532beb9b-48e2-42d0-926d-6df0a894ec76",
+                  "name": "lists",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "39ec1fb5-3494-4879-a22c-e628daeffd3d",
+                  "name": "blacklists",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            null,
+            {
+              "id": "0334056b-5834-47e7-b7d9-ea00cc46373c",
+              "name": "reports",
+              "item": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "b86cc4d7-b77b-4bd0-9ae0-a08803702252",
+          "name": "queues-groups",
+          "item": [
+            null,
+            null,
+            {
+              "id": "45db6b9f-1b2d-406b-832d-cc20c73cff16",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "6d71a4b5-4cb9-497e-8c85-2abd7ff2f34c",
+          "name": "recordings",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "01f91620-90ac-462e-b10f-078828f34025",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "26286229-7d7c-467d-9125-f848cbd032ea",
+                  "name": "download",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null,
+                {
+                  "id": "aee6adbf-f6e2-4e46-97bc-4707ca574184",
+                  "name": "transcribe",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "ffff20ce-20e9-4b5a-9be8-5e1da32c9bca",
+          "name": "transfers/reports",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "45e960cf-3d82-4396-be75-20b05d358fb7",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "b067f5b3-e0ed-497e-a90d-f7540e0c16ef",
+      "name": "voiceQueuesLog",
+      "item": [
+        null,
+        null,
+        {
+          "id": "f180ef89-1ac1-47de-8678-1f15b1e9fccc",
+          "name": "{id}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "369324ba-eb7c-4fe0-8805-b7987a61e1d5",
+      "name": "webbar",
+      "item": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "68537813-d883-46e0-8fee-610039683e14",
+      "name": "whatsapp",
+      "item": [
+        {
+          "id": "d287c9f8-5138-4394-839e-aa64648be9db",
+          "name": "accounts",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "abfb3ee4-6964-46e8-a604-bb02137d347b",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "ad8ef0a8-a7fa-4157-b7fe-11b5ebd64925",
+                  "name": "dispositions",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "26a086a6-81f3-4120-b305-5d50ef51c620",
+                  "name": "canned_answers",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "4fdf3208-d237-49cc-b275-95a6f360a0f9",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "18787498-395d-4aa7-be1a-0eb905ac42df",
+                  "name": "applications",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "f53b9fff-d094-413d-9488-cc3ad313a1bd",
+          "name": "applications",
+          "item": [
+            null,
+            null,
+            {
+              "id": "9224a3ad-ea93-4968-9e94-c8b28f1f66e1",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "85bf4bb7-32a8-4a75-8ca9-24335150241b",
+          "name": "interactions",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "id": "6ab9af93-191f-4b1a-a169-1628cc85b134",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "d09dc210-a9e6-4302-8562-b52f67e1a700",
+                  "name": "messages",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null,
+                {
+                  "id": "e079b5bb-d7aa-45ef-979f-2f3d0957c57d",
+                  "name": "tags",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "54cc0651-4139-499e-b816-c135d4e29706",
+          "name": "messages",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "91cac974-7e15-48c6-a067-77014246fe86",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "0da06a3b-39f4-4317-a355-3b945308dbec",
+          "name": "queues",
+          "item": [
+            null,
+            null,
+            null,
+            {
+              "id": "ca508f66-af5a-44fd-9fa7-aca50665273f",
+              "name": "{id}",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                {
+                  "id": "64451a30-730e-4891-aaeb-566d074406ee",
+                  "name": "teams",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "2970589d-19cb-4251-917d-cfe06124c75a",
+                  "name": "users",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                {
+                  "id": "327eeef2-22b2-4bbb-b102-50a8b6bda6df",
+                  "name": "profiles",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        },
+        {
+          "id": "99add106-1774-4690-993f-edd8868d9e31",
+          "name": "reports",
+          "item": [
+            {
+              "id": "313faab7-e2dd-4e89-a472-828b81d5d076",
+              "name": "queue",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "9ff8dee2-030d-409d-8f37-f75c7915ea62",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            },
+            {
+              "id": "3fe85e10-da09-4eb8-b6c3-44bface309ee",
+              "name": "transfer",
+              "item": [
+                null,
+                null,
+                null,
+                {
+                  "id": "971ae5de-d906-448d-8de3-3299eca61675",
+                  "name": "{id}",
+                  "item": [
+                    null,
+                    null,
+                    null
+                  ],
+                  "event": []
+                }
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://zatanna.xcally.com/api",
+      "key": "baseUrl"
+    },
+    {
+      "disabled": false,
+      "description": {
+        "content": "(Required) Retrieve queues belonging to the given profile",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "<string>",
+      "key": "channelType"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "9fc3d322-f470-4688-918f-f467ff72831e",
+    "name": "xCALLY MOTION API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "## General API Description\n\nThis is the interactive documentation for the xCALLY MOTION API.\nWe make changes to the APIs from time to time. For more information, see [Changelog](https://wiki.xcallymotion.com/display/XMV/Motion+GUI).\nThe xCALLY MOTION API consists of several different API endpoints.\nThe API is a JSON API. XML is not supported. To learn more, see [Working with JSON](https://developer.zendesk.com/documentation/developer-tools/getting-started/working-with-json/).\n\nEndpoints are documented with the HTTP method for the request and a partial resource identifier.\nExample:\n\n```sh\nGET /api/users\n```\n\nPrepend your xCALLY URL to the resource identifier to get the full endpoint URL:\n\n```sh\nhttps://motion.xcally.com/api/users\n```\n\nCurly braces, `{}`, indicate values you have to supply. Example:\n\n```sh\nGET  /api/users/{id}\n```\n\nThe examples in the docs are cURL statements. You can run the statements on a command line to try out different API requests. To learn more, see [Installing and using cURL](https://developer.zendesk.com/documentation/developer-tools/getting-started/installing-and-using-curl/). In Windows, you'll need to modify some of the examples in the docs to make them work. See [Using cURL in Windows](https://developer.zendesk.com/documentation/developer-tools/getting-started/installing-and-using-curl/#using-curl-in-windows).\n\nThe examples use basic authentication requiring a xCALLY username and password.\n\n## Security and Authentication\n\nThis is an SSL-only API, regardless of how your account is configured. You can authorize against the API using either basic authentication with your username and password or with an OAuth access token or API Key.\nClient-side CORS requests are supported if the request is authenticated with an OAuth access token. The requests are not supported if the request uses basic authentication or API Key.\n\n### Basic authentication\n\nUse the following authentication format with your username and password:\n`{username}:{password}`\n\nExample:\n\n```sh\ncurl -u admin:password https://motion.xcally.com/api/users\n```\n\n### OAuth access token\n\nThe xCALLY API supports OAuth authorization flows.\nOAuth access tokens also permit client-side API requests.\nIn your requests, specify the access token in an Authorization header as follows:\n`Authorization: Bearer {token}`\n\nExample:\n\n```sh\ncurl -H \"Authorization: Bearer gErypPlm4dOVgGRvA1ZzMH5MQ3nLo8bo\" https://motion.xcally.com/api/users\n```\n\n### API Key\n\nAuthentication for requests using the API Key is supported through two distinct methods:\n\n- **Query Parameter**: append the API Key to the endpoint URL as the `apikey` query string parameter\n\nExample:\n\n```sh\ncurl https://motion.xcally.com/api/users?apikey=eyJhbGciOiJIUzUxMiIsInR5cC...\n```\n\n- **HTTP Header**: include the API Key in the `X-API-Key` HTTP header\n\nExample:\n\n```sh\ncurl -H \"X-API-Key: eyJhbGciOiJIUzUxMiIsInR5cC...\" https://motion.xcally.com/api/users\n```\n\n## Request Format\n\nThe xCALLY API is a JSON API. You must supply a `Content-Type: application/json` header in `PUT` and `POST` requests.\nYou must set an `Accept: application/json` header on all requests.\nYou may get a `text/plain` response for some error responses.\nYou should treat this as an error you need to fix.\n\n## Response Format\n\nThe xCALLY API responds to successful requests with HTTP status codes in the 200 or 300 range.\nWhen you create or update a resource, the API renders the resulting JSON representation in the response body.\nResponses may have the status codes described in the following sections.\n\n### 200 range\n\nThe request was successful. The HTTP status code is:\n\n- 200 for successful GET and PUT requests and some POST requests\n- 201 for most POST requests (especially those that create new items)\n- 204 for DELETE requests\n- 206 for partial contents (see Paging in the following section)\n\n### 400 range\n\nThe request was handled by the server but was not successful because of user-side errors.\nThe HTTP status code is:\n\n- 400 (Bad Request) request failed because of errors in the request format or data\n- 401 (Unauthorized) request failed because of wrong/expired user credentials\n- 403 (Forbidden) request failed because of insufficient user privileges\n- 404 (Not Found) request failed because the data does not exist in the database\n\nThe content type of the response may be `text/plain` for API-level error messages, such as when trying to call the API without SSL.\nThe content type is `application/json` for business-level error messages because the response includes a JSON object with information about the error.\n\nIf you see a response from a known endpoint that looks like plain text, you probably made a syntax error in your request. This type of response commonly occurs when making a request to a nonexistent xCALLY Support instance.\n\n### 500 range\n\nWhen building an API client, we recommend treating any 500 status codes as a warning or temporary state.\nHowever, if the status persists and we don't have a publicly announced maintenance or service disruption, contact us at [support@xcally.com](mailto:support@xcally.com).\n\nThe HTTP status code is:\n\n- 500 (Internal Server error) the requested was handled by motion, but caused an internal error (exception)\n- 502 (Bad Gateway) the requested was _not_ handled by motion because the server was down\n\nIf submitting a ticket to Support, provide the complete HTTP response. This helps the Support team track down the request in the logs more quickly.\n\n## Data Types\n\nThe API returns and accepts JSON values, which can be strings in double quotes, numbers, objects, arrays, true or false, or null. Most programming languages have tools to parse this data.\n\n## ID integers\n\nMost xCALLY Support resources such as queues and users are identified by the integer specified by the id attribute of API responses.\nThe default numeric type in JavaScript, Ruby, Python, and PHP is sufficient to represent xCALLY Support ID integers.\n\n## Time stamps\n\nTime stamps use UTC time and are formatted as ISO 8601 strings. Example: `2017-04-16T09:14:57Z`\n\n## Sorting and filtering results\n\nThis section describes how to generally read paged data when performing `GET` requests, and how to sort or filter data by attribute.\nThis section uses `/api/example/endpoint` as a fictious example endpoint, but the same rules apply to most API described in this documentation.\nSpecific examples may be included in each API endpoint description.\n\n### Paging\n\nFor most entity listing endpoints (`GET`), Motion will return paged results.\nPaged data include the `Content-Range` header in the form start - end / total.\nIf the whole data collection of the endpoint is included in the response, Motion will return a HTTP status code `200`, otherwise it will return a HTTP status code `206` Partial Content.\nThe number of returned items depends on filtering, offset and limit parameters (see below).\n\nMotion renders the resulting JSON representation in the response body.\n\n### Retrieving Specific Fields\n\nTo return only specific fields for a result set you can use the `fields` parameter. This parameter accepts a comma-separated list.\n\nExample: A call returning only `id` and `name` for a result set would look like this:\n\n`GET /api/example/endpoint?fields=id,name`\n\n### Filtering\n\nYou can perform exact-match filtering on any of an entity fields by using the field name as the key and supplying it with a value.\nThese parameters accept a comma-separated list.\n\nExample: A call returning a result set for records with `name` of `john.doe` or `jane.miller`.\n\n`GET /api/example/endpoint?name=john.doe,jane.miller`\n\nExample: If you use the key `filter` the result will be filtered by the value you specify:\n\n`GET /api/example/endpoint?filter=john`\n\n### Sorting\n\nTo sort a result set based on one or several fields you can use the `sort` parameter. This parameters accepts a comma-separated list.\nResults will be sorted in the order of the fields provided. The default sorting order for fields is ascending. Fields can be sorted in descending order by prefixing them with a dash (`-`).\n\nExample: A call sorting a result by `id` ascending and then `name` descending would look like this:\n\n`GET /api/example/endpoint?sort=id,-name`\n\n### Offset and Limit\n\nQuery results are always paged. Motion leverages the `offset` and `limit` parameters to facilitate this.\nWhen neither of these parameters are explicitly supplied the handler will assume the a default `limit` of `100`.\n`offset` is a number indicating the start position in the result set you want to return.\n`limit` is a number indicating how many records past the start position you want returned.\n\nExample: A call with a result set starting at `5` and returning no more than `25` records would look like this.\n\n`GET /api/example/endpoint?offset=5&limit=25`\n\nExample: If there were `50` records in total, the returned `Content-Range` header would look like this:\n\n`Content-Range: 5-30/50`\n\n\nContact Support:\n Name: xCALLY Support\n Email: support@xcally.com",
+      "type": "text/plain"
+    }
+  }
+}
