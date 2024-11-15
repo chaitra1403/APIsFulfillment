@@ -1,0 +1,11 @@
+variable1^|^variable2^|^statusCode^|^scenario
+abc123^|^XYZ789^|^200^|^success
+def456^|^LMN012^|^404^|^not_found
+ghi789^|^OPQ345^|^500^|^server_error
+jkl012^|^RST678^|^201^|^created
+mno345^|^UVW901^|^403^|^forbidden
+pqr678^|^BCD234^|^202^|^accepted
+stu901^|^EFG567^|^400^|^bad_request
+vwx234^|^HIJ890^|^204^|^no_content
+yza567^|^KLM123^|^401^|^unauthorized
+bcd890^|^NOP456^|^503^|^service_unavailable

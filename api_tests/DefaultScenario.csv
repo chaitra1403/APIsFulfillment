@@ -1,0 +1,11 @@
+token^|^statusCode^|^scenario
+a7b3c9d1e5f2g8h6^|^200^|^login_success
+j4k6l8m2n9p3q7r1^|^404^|^page_not_found
+s5t7u1v3w9x2y4z8^|^500^|^server_error
+b2c4d6e8f1g3h5i7^|^201^|^user_created
+k9l1m3n5p7q2r4s6^|^403^|^unauthorized_access
+t8u2v4w6x9y1z3a5^|^302^|^redirect
+d7e9f1g3h5i7j2k4^|^400^|^bad_request
+m6n8p1q3r5s7t2u4^|^204^|^no_content
+v9w1x3y5z7a2b4c6^|^429^|^too_many_requests
+e1f3g5h7i9j2k4l6^|^401^|^unauthorized

@@ -1,0 +1,11 @@
+symbol^|^statusCode^|^scenario
+AAPL^|^200^|^success
+GOOGL^|^404^|^not_found
+MSFT^|^500^|^server_error
+AMZN^|^201^|^created
+FB^|^403^|^forbidden
+TSLA^|^429^|^rate_limit_exceeded
+NFLX^|^400^|^bad_request
+NVDA^|^202^|^accepted
+IBM^|^401^|^unauthorized
+INTC^|^204^|^no_content
