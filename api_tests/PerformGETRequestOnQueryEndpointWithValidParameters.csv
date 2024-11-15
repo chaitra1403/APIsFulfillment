@@ -1,0 +1,11 @@
+symbol^|^apikey^|^function^|^statusCode^|^scenario
+GOOGL^|^123456789^|^getPrice^|^200^|^Test1
+AAPL^|^987654321^|^getVolume^|^200^|^Test2
+MSFT^|^456123789^|^getChange^|^404^|^Test3
+AMZN^|^321789456^|^getPrice^|^500^|^Test4
+FB^|^654321789^|^getVolume^|^200^|^Test5
+TSLA^|^789456123^|^getChange^|^404^|^Test6
+NFLX^|^258147369^|^getPrice^|^500^|^Test7
+NVDA^|^963258741^|^getVolume^|^200^|^Test8
+ADBE^|^741852963^|^getChange^|^404^|^Test9
+BABA^|^159753486^|^getPrice^|^500^|^Test10
