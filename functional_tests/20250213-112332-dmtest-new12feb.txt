@@ -1,0 +1,108 @@
+Based on the given user story, here are the functional and non-functional test cases for the credit card lifecycle:
+
+Functional Test Cases:
+
+1. Credit Card Application
+   • Test Case 1: Successful Application Submission
+     - Input: Valid personal information, income details, and contact information
+     - Action: Submit credit card application online
+     - Expected Output: Application successfully submitted with confirmation message
+
+   • Test Case 2: Invalid Application Submission
+     - Input: Incomplete or invalid personal information
+     - Action: Attempt to submit credit card application
+     - Expected Output: Error message displayed, highlighting missing or invalid fields
+
+2. Waiving Off Charges
+   • Test Case 3: Successful Fee Waiver
+     - Input: Customer request to waive unexpected fee
+     - Action: Review customer history and approve fee waiver
+     - Expected Output: Fee waived, updated balance reflected on account
+
+   • Test Case 4: Fee Waiver Rejection
+     - Input: Customer request to waive fee, poor account history
+     - Action: Review customer history and reject fee waiver
+     - Expected Output: Fee waiver denied, customer notified of decision
+
+3. Redeeming Points
+   • Test Case 5: Successful Points Redemption
+     - Input: Valid request to redeem 10,000 points for a $100 gift card
+     - Action: Process points redemption
+     - Expected Output: Gift card issued, points deducted from account balance
+
+   • Test Case 6: Insufficient Points for Redemption
+     - Input: Request to redeem 5,000 points for a reward requiring 10,000 points
+     - Action: Attempt to process redemption
+     - Expected Output: Error message indicating insufficient points
+
+4. Credit Limit Extension
+   • Test Case 7: Automatic Credit Limit Increase
+     - Input: Customer with excellent payment history and stable income
+     - Action: System evaluates account for credit limit increase
+     - Expected Output: Credit limit increased, customer notified of new limit
+
+   • Test Case 8: Manual Credit Limit Increase Request
+     - Input: Customer request for credit limit increase
+     - Action: Review customer creditworthiness and approve increase
+     - Expected Output: Credit limit increased, customer notified of new limit
+
+5. Credit Limit Reduction
+   • Test Case 9: Risk-Based Credit Limit Reduction
+     - Input: Customer with declining credit score or payment issues
+     - Action: System flags account for credit limit reduction
+     - Expected Output: Credit limit reduced, customer notified of new limit
+
+   • Test Case 10: Regulatory Credit Limit Reduction
+     - Input: Change in regulations requiring lower credit limits
+     - Action: Batch process to reduce affected accounts' credit limits
+     - Expected Output: Credit limits reduced for all affected accounts, customers notified
+
+6. Promotional Balance Transfers
+   • Test Case 11: Successful Balance Transfer
+     - Input: Customer request to transfer $5,000 from another card
+     - Action: Process balance transfer under promotional offer
+     - Expected Output: Balance transferred, promotional rate applied, customer notified
+
+   • Test Case 12: Balance Transfer Exceeding Available Credit
+     - Input: Request to transfer $10,000 with only $5,000 available credit
+     - Action: Attempt to process balance transfer
+     - Expected Output: Error message, transfer denied due to insufficient available credit
+
+Non-Functional Test Cases:
+
+1. Performance
+   • Test Case 13: Credit Card Application Response Time
+     - Action: Measure system response time for credit card application submission
+     - Expected Output: Application submission processed within 3 seconds
+
+2. Security
+   • Test Case 14: Data Encryption for Personal Information
+     - Action: Verify encryption of sensitive data during transmission and storage
+     - Expected Output: All personal and financial data encrypted using industry-standard protocols
+
+3. Scalability
+   • Test Case 15: High Volume Application Processing
+     - Action: Simulate 1000 concurrent credit card applications
+     - Expected Output: System maintains performance and processes all applications without errors
+
+4. Usability
+   • Test Case 16: Mobile Responsiveness of Application Form
+     - Action: Access credit card application form on various mobile devices
+     - Expected Output: Form displays correctly and is easily navigable on all tested devices
+
+5. Reliability
+   • Test Case 17: System Uptime for Points Redemption
+     - Action: Monitor system availability for points redemption feature over 30 days
+     - Expected Output: Points redemption feature available 99.9% of the time
+
+6. Compatibility
+   • Test Case 18: Cross-Browser Compatibility
+     - Action: Test credit card management features on major web browsers
+     - Expected Output: All features function correctly on Chrome, Firefox, Safari, and Edge
+
+7. Compliance
+   • Test Case 19: Regulatory Compliance for Credit Limit Changes
+     - Action: Verify system adheres to regulatory requirements when changing credit limits
+     - Expected Output: All credit limit changes comply with current financial regulations
+
+These test cases cover the main functional aspects of the credit card lifecycle as well as important non-functional requirements to ensure the system's overall quality and performance.
