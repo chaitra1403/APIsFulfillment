@@ -1,0 +1,94 @@
+Based on the given user story, here are the functional and non-functional test cases:
+
+Functional Test Cases:
+
+1. Credit Card Application
+   • Test Case 1: Successful Application Submission
+     Input: Valid personal information, income details, and contact information
+     Expected Output: Application submitted successfully with confirmation message
+   
+   • Test Case 2: Invalid Application Submission
+     Input: Incomplete or invalid information
+     Expected Output: Error message displayed, requesting valid or missing information
+
+2. Waiving Off Charges
+   • Test Case 3: Successful Fee Waiver
+     Input: Customer request to waive unexpected fee, positive customer history
+     Expected Output: Fee waived, updated balance reflected on account
+   
+   • Test Case 4: Fee Waiver Denial
+     Input: Customer request to waive fee, negative customer history
+     Expected Output: Fee waiver denied, explanation provided to customer
+
+3. Redeeming Points
+   • Test Case 5: Successful Points Redemption
+     Input: Valid request to redeem points for available reward
+     Expected Output: Reward claimed successfully, points balance updated
+   
+   • Test Case 6: Insufficient Points for Redemption
+     Input: Request to redeem points exceeding available balance
+     Expected Output: Error message displayed, redemption denied
+
+4. Credit Limit Extension
+   • Test Case 7: Approved Credit Limit Increase
+     Input: Positive creditworthiness, payment history, and income stability
+     Expected Output: Credit limit increased, customer notified of new limit
+   
+   • Test Case 8: Denied Credit Limit Increase
+     Input: Negative creditworthiness or unstable income
+     Expected Output: Credit limit increase denied, customer notified
+
+5. Credit Limit Reduction
+   • Test Case 9: Credit Limit Reduction
+     Input: Negative changes in customer's financial situation or risk profile
+     Expected Output: Credit limit reduced, customer notified of new limit
+   
+   • Test Case 10: Credit Limit Reduction Below Current Balance
+     Input: Attempt to reduce limit below current balance
+     Expected Output: Reduction denied or adjusted to accommodate current balance
+
+6. Promotional Balance Transfers
+   • Test Case 11: Successful Balance Transfer
+     Input: Valid balance transfer request within promotion terms
+     Expected Output: Balance transferred successfully, promotional terms applied
+   
+   • Test Case 12: Balance Transfer Exceeding Limit
+     Input: Balance transfer request exceeding available credit or promotion limit
+     Expected Output: Transfer denied or partially approved, customer notified
+
+Non-Functional Test Cases:
+
+1. Performance
+   • Test Case 13: Application Response Time
+     Input: Measure system response time during credit card application process
+     Expected Output: Response time within acceptable range (e.g., < 3 seconds)
+
+2. Scalability
+   • Test Case 14: Concurrent Application Handling
+     Input: Simulate multiple concurrent credit card applications
+     Expected Output: System handles load without significant performance degradation
+
+3. Reliability
+   • Test Case 15: System Recovery
+     Input: Simulate connection loss during credit card application process
+     Expected Output: System recovers gracefully, preserving partially entered data
+
+4. Security
+   • Test Case 16: Data Encryption
+     Input: Verify encryption of personal and financial data during transmission and storage
+     Expected Output: All sensitive data properly encrypted
+
+5. Usability
+   • Test Case 17: Application Form User-Friendliness
+     Input: User feedback on application form layout and instructions
+     Expected Output: Positive user feedback on form clarity and ease of use
+
+6. Compatibility
+   • Test Case 18: Cross-Browser Compatibility
+     Input: Access credit card application on different browsers and devices
+     Expected Output: Consistent functionality and appearance across platforms
+
+7. Compliance
+   • Test Case 19: Regulatory Compliance
+     Input: Review of credit card application process against relevant financial regulations
+     Expected Output: All regulatory requirements met and documented
