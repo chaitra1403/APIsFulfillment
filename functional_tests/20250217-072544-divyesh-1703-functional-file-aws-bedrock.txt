@@ -1,0 +1,85 @@
+Based on the provided user story, here are the test scenarios covering both functional and non-functional tests:
+
+Functional Tests:
+
+• JIRA Integration Tests:
+  - Test Case 1: Verify JIRA connection
+    Input: Valid JIRA credentials (email, hostname)
+    Expected Output: Successful connection to JIRA instance
+
+  - Test Case 2: Fetch JIRA ticket details
+    Input: Valid JIRA ticket ID
+    Expected Output: Correct ticket details retrieved (title, description, comments)
+
+  - Test Case 3: Handle invalid JIRA ticket ID
+    Input: Non-existent JIRA ticket ID
+    Expected Output: Appropriate error message
+
+• AI Model Integration Tests:
+  - Test Case 4: Verify AI model connection
+    Input: Valid AI model credentials
+    Expected Output: Successful connection to AI model
+
+  - Test Case 5: Generate test cases using AI
+    Input: JIRA ticket details
+    Expected Output: Relevant test cases generated
+
+  - Test Case 6: Adjust AI temperature setting
+    Input: Different temperature values (0.1, 0.5, 0.9)
+    Expected Output: Varying levels of creativity in generated test cases
+
+• Test Creation and Management:
+  - Test Case 7: Create functional test
+    Input: Test details (title, steps, expected results)
+    Expected Output: Test successfully created and saved
+
+  - Test Case 8: Create test without git information
+    Input: Test details without git info, valid JIRA IDs
+    Expected Output: Test created successfully
+
+  - Test Case 9: Attempt to create test without git info and JIRA IDs
+    Input: Test details without git info and JIRA IDs
+    Expected Output: Error message, test not created
+
+Non-Functional Tests:
+
+• Performance Tests:
+  - Test Case 10: Measure response time for JIRA ticket fetch
+    Input: Multiple JIRA ticket IDs
+    Expected Output: Response time within acceptable limits (e.g., < 2 seconds)
+
+  - Test Case 11: Measure AI test case generation time
+    Input: Complex JIRA ticket with lengthy description
+    Expected Output: Test cases generated within acceptable time frame (e.g., < 30 seconds)
+
+• Scalability Tests:
+  - Test Case 12: Handle multiple concurrent test creations
+    Input: Simulate 100 concurrent test creation requests
+    Expected Output: System handles load without significant performance degradation
+
+• Security Tests:
+  - Test Case 13: Verify data encryption for JIRA credentials
+    Input: JIRA email and hostname
+    Expected Output: Credentials stored securely, not in plain text
+
+  - Test Case 14: Test access control for private tests
+    Input: Attempt to access private test by unauthorized user
+    Expected Output: Access denied
+
+• Usability Tests:
+  - Test Case 15: Verify UI elements for test creation
+    Input: Navigate through test creation process
+    Expected Output: All UI elements are properly aligned and responsive
+
+  - Test Case 16: Test error message clarity
+    Input: Trigger various error scenarios
+    Expected Output: Clear, user-friendly error messages displayed
+
+• Compatibility Tests:
+  - Test Case 17: Verify functionality across different browsers
+    Input: Access system using Chrome, Firefox, Safari
+    Expected Output: Consistent behavior across all tested browsers
+
+  - Test Case 18: Test responsiveness on mobile devices
+    Input: Access system on various mobile screen sizes
+    Expected Output: UI adapts appropriately to different screen sizes
