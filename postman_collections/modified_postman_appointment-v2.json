@@ -1,0 +1,4001 @@
+{
+  "item": [
+    {
+      "id": "15aead10-ba45-4945-9901-4fb496f77065",
+      "name": "appointment",
+      "item": [
+        {
+          "id": "633de672-d5ed-411f-ac46-87db2444a912",
+          "name": "Post Appointment",
+          "request": {
+            "name": "Post Appointment",
+            "description": {},
+            "url": {
+              "path": [
+                "appointment"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "163e853a-ff82-4db9-a505-75b93cf5ddf3",
+              "name": "successful operation",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"address\": {\n    \"id\": 17713\n  },\n  \"appointment\": {\n    \"finishDate\": \"2021-05-30T18:00:00\",\n    \"id\": \"SA-562403\",\n    \"priority\": {\n      \"flag\": true,\n      \"reason\": \"Cliente Diamond\"\n    },\n    \"startDate\": \"2021-05-30T13:00:00\"\n  },\n  \"control\": {\n    \"code\": 201,\n    \"message\": \"Created\",\n    \"type\": \"S\"\n  },\n  \"customer\": {\n    \"subscriberId\": \"VTAL001\"\n  },\n  \"order\": {\n    \"addressChange\": {\n      \"flag\": true\n    },\n    \"associatedDocument\": \"VTT001\",\n    \"type\": \"Instalacao\"\n  },\n  \"products\": {\n    \"product\": [\n      {\n        \"type\": \"Banda Larga\"\n      }\n    ]\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "29eea1a7-c050-4c61-97b1-cefc9d36f6cc",
+              "name": "Bad Request",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "6e2849d0-a0fb-4d62-8793-86ef81d7514b",
+              "name": "Unauthorized",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Unauthorized",
+              "code": 401,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 401,\n    \"message\": \"PriorizaÃ§Ã£o de agendamento nÃ£o autorizado\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "5e2febe0-c6bf-4d53-9d15-50c174311fb2",
+              "name": "Forbidden - Scope Not Permitted",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Forbidden",
+              "code": 403,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "c7bd3d64-d567-4369-b38c-9adaa7d900c1",
+              "name": "Not Found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Identificador do Slot nÃ£o encontrado ou expirado\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "adb8331b-e0f3-4922-8bcf-709d9ec4fa6e",
+              "name": "Not Acceptable",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Not Acceptable",
+              "code": 406,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 406,\n    \"message\": \"Not Acceptable\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "bd8bfb7e-5b6c-47ca-bce1-080ac0dc5740",
+              "name": "Not Acceptable",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Precondition Failed",
+              "code": 412,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 412,\n    \"message\": \"Precondition Failed\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "47ff59a3-aa7c-4ad3-941b-bb2fede6f635",
+              "name": "Locked",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Locked (WebDAV) (RFC 4918)",
+              "code": 423,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 423,\n    \"message\": \"Agendamento nÃ£o pode ser alterado\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "ee5f55b2-3cce-4000-9fa4-2cc37e3054ce",
+              "name": "Too Many Requests - Exceeded Quota",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Too Many Requests",
+              "code": 429,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "e78f21c6-4587-462a-9a35-f393c992a9a0",
+              "name": "Internal Server Error",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "7be2196b-18be-49b8-bd7d-e16c06ea1383",
+              "name": "Service Unavailable",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Service Unavailable",
+              "code": 503,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "5d6c8136-d3fa-4183-98d4-07d416272f2c",
+              "name": "Gateway Timeout",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "appointment"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Gateway Timeout",
+              "code": 504,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pythonHTest2_clone using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for appointment for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 201){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Created\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `address` field',function(){\n            pm.expect(responseData.address).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.address).to.eql(JSON.parse(pm.request.body).address);\n\n          })\n\n          pm.test('Response has the `appointment` field',function(){\n            pm.expect(responseData.appointment).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.appointment).to.eql(JSON.parse(pm.request.body).appointment);\n\n          })\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          pm.test('Response has the `customer` field',function(){\n            pm.expect(responseData.customer).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.customer).to.eql(JSON.parse(pm.request.body).customer);\n\n          })\n\n          pm.test('Response has the `order` field',function(){\n            pm.expect(responseData.order).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.order).to.eql(JSON.parse(pm.request.body).order);\n\n          })\n\n          pm.test('Response has the `products` field',function(){\n            pm.expect(responseData.products).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.products).to.eql(JSON.parse(pm.request.body).products);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden - Scope Not Permitted\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 406){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Acceptable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 412){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Precondition Failed\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 423){\n    pm.test(\"Locked\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Locked (WebDAV) (RFC 4918)\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 429){\n    pm.test(\"Too Many Requests - Exceeded Quota\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Too Many Requests\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 500){\n    pm.test(\"Internal Server Error\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 503){\n    pm.test(\"Service Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 504){\n    pm.test(\"Gateway Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "038a57c3-0765-4b7e-a6c2-637798491690",
+          "name": "{appointmentId}",
+          "item": [
+            {
+              "id": "9bf54705-f3e4-4a27-bf58-acf98110aceb",
+              "name": "Delete Appointment",
+              "request": {
+                "name": "Delete Appointment",
+                "description": {},
+                "url": {
+                  "path": [
+                    "appointment",
+                    ":appointmentId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "disabled": false,
+                      "key": "appointmentReason",
+                      "value": "{{appointmentReason}}",
+                      "description": "(Required) DescriÃ§Ã£o da causa do cancelamento"
+                    },
+                    {
+                      "disabled": false,
+                      "key": "appointmentComments",
+                      "value": "{{appointmentComments}}",
+                      "description": "ObservaÃ§Ã£o a ser colocada"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "{{appointmentId}}",
+                      "key": "appointmentId",
+                      "description": "(Required) identificador do agendamento a ser cancelado"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "DELETE",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "82763cd5-edd6-4b7e-aaae-bcffdc27eb88",
+                  "name": "successful operation",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 200,\n    \"message\": \"OK\",\n    \"type\": \"S\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "f6962ab6-8085-4807-bb80-61e5ac8be6de",
+                  "name": "Bad Request",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Bad Request",
+                  "code": 400,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "d9e888fc-a83f-44bb-9682-c9c2c6403cda",
+                  "name": "Unauthorized",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Unauthorized",
+                  "code": 401,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 401,\n    \"message\": \"PriorizaÃ§Ã£o de agendamento nÃ£o autorizado\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "2ad157e7-c225-4738-9d74-fb3515ab589a",
+                  "name": "Forbidden - Scope Not Permitted",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Forbidden",
+                  "code": 403,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "ea3173a5-42e3-4fd2-bd97-4ffecc20f6bd",
+                  "name": "Not Found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "8696417e-cfc0-4be0-b7ee-7335a44941c0",
+                  "name": "Not Acceptable",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Not Acceptable",
+                  "code": 406,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 406,\n    \"message\": \"Not Acceptable\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "572a9928-053d-4130-ae14-0bf221dcfc79",
+                  "name": "Not Acceptable",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Precondition Failed",
+                  "code": 412,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 412,\n    \"message\": \"Precondition Failed\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "ceae2ce7-6857-4c74-bcee-833b91f64193",
+                  "name": "Locked",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Locked (WebDAV) (RFC 4918)",
+                  "code": 423,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 423,\n    \"message\": \"Agendamento nÃ£o pode ser alterado\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "945ca2cd-573d-4906-b1d6-3f2e07656488",
+                  "name": "Too Many Requests - Exceeded Quota",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Too Many Requests",
+                  "code": 429,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "49cd1761-318c-4263-b682-1708a3898504",
+                  "name": "Internal Server Error",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Internal Server Error",
+                  "code": 500,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "d6f0687f-60b1-4f49-b050-193c34db636c",
+                  "name": "Service Unavailable",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Service Unavailable",
+                  "code": 503,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "0e44fd35-5e21-40fd-8567-53f5a81df9c7",
+                  "name": "Gateway Timeout",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [
+                        {
+                          "key": "appointmentReason",
+                          "value": "{{appointmentReason}}"
+                        },
+                        {
+                          "key": "appointmentComments",
+                          "value": "{{appointmentComments}}"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser cancelado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "Gateway Timeout",
+                  "code": 504,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pythonHTest2_clone using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for appointment/{{appointmentId}}?appointmentReason={{appointmentReason}}&appointmentComments={{appointmentComments}} for http method type delete in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden - Scope Not Permitted\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 406){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Acceptable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 412){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Precondition Failed\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 423){\n    pm.test(\"Locked\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Locked (WebDAV) (RFC 4918)\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 429){\n    pm.test(\"Too Many Requests - Exceeded Quota\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Too Many Requests\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 500){\n    pm.test(\"Internal Server Error\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 503){\n    pm.test(\"Service Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 504){\n    pm.test(\"Gateway Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "f9acbc76-0097-4153-9aa6-c1958cf844d8",
+              "name": "Retrieve Appointment",
+              "request": {
+                "name": "Retrieve Appointment",
+                "description": {},
+                "url": {
+                  "path": [
+                    "appointment",
+                    ":appointmentId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "{{appointmentId}}",
+                      "key": "appointmentId",
+                      "description": "(Required) identificador do agendamento a ser consultado"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "dae12a84-df40-418b-95d5-72310ae0c83e",
+                  "name": "successful operation",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"appointments\": {\n    \"id\": \"SA-562403\",\n    \"lifeCycleStatus\": \"NÃ£o atribuÃ­do\",\n    \"occurrences\": [\n      {\n        \"creationDateTime\": \"2021-12-07T12:17:20\",\n        \"finishDate\": \"2021-10-09T18:00:00\",\n        \"reason\": \"Teste Vtal CW\",\n        \"reasonDetail\": \"Teste Vtal CW\",\n        \"startDate\": \"2021-10-09T13:00:00\"\n      }\n    ]\n  },\n  \"control\": {\n    \"code\": 200,\n    \"message\": \"Ok\",\n    \"type\": \"S\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "7f840cf8-f104-40fe-b042-c63b637c091d",
+                  "name": "Bad Request",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Bad Request",
+                  "code": 400,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "b8406e7c-55ec-4f99-afd7-1e21cc8a5add",
+                  "name": "Unauthorized",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Unauthorized",
+                  "code": 401,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 401,\n    \"message\": \"PriorizaÃ§Ã£o de agendamento nÃ£o autorizado\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "cea4a466-cdef-4e62-a69e-e4f571de02f2",
+                  "name": "Forbidden - Scope Not Permitted",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Forbidden",
+                  "code": 403,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "180c75cc-129b-44e8-bb06-fa890dcebd19",
+                  "name": "Not Found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "f549eae6-7326-4e78-8b8f-768fb1e754b0",
+                  "name": "Not Acceptable",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Not Acceptable",
+                  "code": 406,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 406,\n    \"message\": \"Not Acceptable\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "36514e34-bfac-49a3-9b08-4c42bd5cc646",
+                  "name": "Not Acceptable",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Precondition Failed",
+                  "code": 412,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 412,\n    \"message\": \"Precondition Failed\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "be81e26e-fa86-4ffc-8b2a-697faaff09b1",
+                  "name": "Too Many Requests - Exceeded Quota",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Too Many Requests",
+                  "code": 429,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "3c8d6b8f-ca7c-4d5a-84ef-9aa5bc664913",
+                  "name": "Internal Server Error",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Internal Server Error",
+                  "code": 500,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "31668877-1f48-4bc4-91b0-55fc34d38c92",
+                  "name": "Service Unavailable",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Service Unavailable",
+                  "code": 503,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "76d93069-6624-47ad-a2f3-43083cb2809d",
+                  "name": "Gateway Timeout",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser consultado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "Gateway Timeout",
+                  "code": 504,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pythonHTest2_clone using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for appointment/{{appointmentId}} for http method type get in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `appointments` field',function(){\n            pm.expect(responseData.appointments).to.exist.and.to.be.a(\"object\");\n          })\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden - Scope Not Permitted\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 406){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Acceptable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 412){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Precondition Failed\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 429){\n    pm.test(\"Too Many Requests - Exceeded Quota\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Too Many Requests\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 500){\n    pm.test(\"Internal Server Error\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 503){\n    pm.test(\"Service Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 504){\n    pm.test(\"Gateway Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "id": "5095f6ba-609c-4cde-829f-8ddc77d75637",
+              "name": "Patch Appointment",
+              "request": {
+                "name": "Patch Appointment",
+                "description": {},
+                "url": {
+                  "path": [
+                    "appointment",
+                    ":appointmentId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "{{appointmentId}}",
+                      "key": "appointmentId",
+                      "description": "(Required) identificador do agendamento a ser atualizado"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PATCH",
+                "auth": null,
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [
+                {
+                  "id": "227517a2-af79-4f4e-8965-aac5929fbd33",
+                  "name": "successful operation",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"address\": {\n    \"id\": 17713\n  },\n  \"appointment\": {\n    \"finishDate\": \"2021-05-30T18:00:00\",\n    \"id\": \"SA-562403\",\n    \"priority\": {\n      \"flag\": true,\n      \"reason\": \"Cliente Diamond\"\n    },\n    \"startDate\": \"2021-05-30T13:00:00\"\n  },\n  \"control\": {\n    \"code\": 201,\n    \"message\": \"Created\",\n    \"type\": \"S\"\n  },\n  \"customer\": {\n    \"subscriberId\": \"VTAL001\"\n  },\n  \"order\": {\n    \"addressChange\": {\n      \"flag\": true\n    },\n    \"associatedDocument\": \"VTT001\",\n    \"type\": \"Instalacao\"\n  },\n  \"products\": {\n    \"product\": [\n      {\n        \"type\": \"Banda Larga\"\n      }\n    ]\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "9e6ac474-2ee3-4159-9a36-a3c79662eeb1",
+                  "name": "Bad Request",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Bad Request",
+                  "code": 400,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "94336cb9-6063-479f-96c2-8002d33d1eb5",
+                  "name": "Unauthorized",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Unauthorized",
+                  "code": 401,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 401,\n    \"message\": \"PriorizaÃ§Ã£o de agendamento nÃ£o autorizado\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "72ebb602-599e-4f0f-b1ab-175f3f45cb49",
+                  "name": "Forbidden - Scope Not Permitted",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Forbidden",
+                  "code": 403,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "05886d6b-1e08-49e4-b65d-6f829a52cb4e",
+                  "name": "Not Found",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Not Found",
+                  "code": 404,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Identificador do Slot nÃ£o encontrado ou expirado\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "aed029f3-aa56-4ec0-b388-f1f4b7f64882",
+                  "name": "Not Acceptable",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Not Acceptable",
+                  "code": 406,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 406,\n    \"message\": \"Not Acceptable\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "919e5375-ab1e-4547-ba60-b49868d89adb",
+                  "name": "Not Acceptable",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Precondition Failed",
+                  "code": 412,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 412,\n    \"message\": \"Precondition Failed\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "e50deb74-ec0c-4bd3-a88c-d1f7c88d22d7",
+                  "name": "Locked",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Locked (WebDAV) (RFC 4918)",
+                  "code": 423,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 423,\n    \"message\": \"Agendamento nÃ£o pode ser alterado\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "1870a1ac-19b5-4eee-87f4-a17546fb8937",
+                  "name": "Too Many Requests - Exceeded Quota",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Too Many Requests",
+                  "code": 429,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "a9b64c71-12f7-4013-ab5b-a548852fc302",
+                  "name": "Internal Server Error",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Internal Server Error",
+                  "code": 500,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "9f75b55a-f149-4eb0-849e-0550cda5fb73",
+                  "name": "Service Unavailable",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Service Unavailable",
+                  "code": 503,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                },
+                {
+                  "id": "edb3b601-8f99-4460-b76f-d8b17a51cdb4",
+                  "name": "Gateway Timeout",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "appointment",
+                        ":appointmentId"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "{{appointmentId}}",
+                          "key": "appointmentId",
+                          "description": "(Required) identificador do agendamento a ser atualizado"
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PATCH",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"appointment\": {\n        \"reason\": \"{{reason}}\",\n        \"slot\": {\n            \"id\": \"{{id}}\"\n        }\n    }\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "Gateway Timeout",
+                  "code": 504,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pythonHTest2_clone using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for appointment/{{appointmentId}} for http method type patch in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `address` field',function(){\n            pm.expect(responseData.address).to.exist.and.to.be.a(\"object\");\n          })\n\n          pm.test('Response has the `appointment` field',function(){\n            pm.expect(responseData.appointment).to.exist.and.to.be.a(\"object\");\n          })\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          pm.test('Response has the `customer` field',function(){\n            pm.expect(responseData.customer).to.exist.and.to.be.a(\"object\");\n          })\n\n          pm.test('Response has the `order` field',function(){\n            pm.expect(responseData.order).to.exist.and.to.be.a(\"object\");\n          })\n\n          pm.test('Response has the `products` field',function(){\n            pm.expect(responseData.products).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden - Scope Not Permitted\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 406){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Acceptable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 412){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Precondition Failed\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 423){\n    pm.test(\"Locked\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Locked (WebDAV) (RFC 4918)\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 429){\n    pm.test(\"Too Many Requests - Exceeded Quota\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Too Many Requests\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 500){\n    pm.test(\"Internal Server Error\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 503){\n    pm.test(\"Service Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 504){\n    pm.test(\"Gateway Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "09853023-d730-436b-9cb5-faf16128d16e",
+      "name": "Appointment Confirmation",
+      "request": {
+        "name": "Appointment Confirmation",
+        "description": {},
+        "url": {
+          "path": [
+            "appointmentConfirmation"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        }\n    }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "dc23518f-79b0-4afe-99f3-d6e17a1b20c3",
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 200,\n    \"message\": \"OK\",\n    \"type\": \"S\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "68b9e246-8060-4eaf-ba00-ac021f511279",
+          "name": "Bad Request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "0d60ec2c-0a9c-4c6b-88c3-c797bd30e850",
+          "name": "Unauthorized",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 401,\n    \"message\": \"PriorizaÃ§Ã£o de agendamento nÃ£o autorizado\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "e4f589f6-30d1-4e23-a273-cb7f3a266e9a",
+          "name": "Forbidden - Scope Not Permitted",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "0cfbc684-47c0-418a-8f63-b0e92e56c64c",
+          "name": "Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "b440cf8b-a651-4a67-ada5-e096c5b1ebc7",
+          "name": "Not Acceptable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Not Acceptable",
+          "code": 406,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 406,\n    \"message\": \"Not Acceptable\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "8e2f8b3b-b0cc-44db-a1b7-459a58781373",
+          "name": "Not Acceptable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Precondition Failed",
+          "code": 412,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 412,\n    \"message\": \"Precondition Failed\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "9ba8ce59-7bcc-476a-8c91-925f577416b1",
+          "name": "Too Many Requests - Exceeded Quota",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Too Many Requests",
+          "code": 429,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "f79e5f9e-f180-43d5-84ec-b13638c80905",
+          "name": "Internal Server Error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "c3a4d2fc-bf70-44e4-85df-ec70832fd5c5",
+          "name": "Service Unavailable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "410452f8-ace1-422b-beaf-e6c9e5f812d1",
+          "name": "Gateway Timeout",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "appointmentConfirmation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"appointment\": {\n        \"confirmation\": \"{{confirmation}}\",\n        \"id\": \"{{id}}\"\n    },\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Gateway Timeout",
+          "code": 504,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pythonHTest2_clone using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for appointmentConfirmation for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden - Scope Not Permitted\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 406){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Acceptable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 412){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Precondition Failed\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 429){\n    pm.test(\"Too Many Requests - Exceeded Quota\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Too Many Requests\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 500){\n    pm.test(\"Internal Server Error\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 503){\n    pm.test(\"Service Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 504){\n    pm.test(\"Gateway Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "a9632a67-7bf5-489a-a3f0-08568fcc7d79",
+      "name": "Retrive Search Time Slot",
+      "request": {
+        "name": "Retrive Search Time Slot",
+        "description": {},
+        "url": {
+          "path": [
+            "searchTimeSlot"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "addressId",
+              "value": "{{addressId}}",
+              "description": "(Required) ID do endereÃ§o"
+            },
+            {
+              "disabled": false,
+              "key": "subscriberId",
+              "value": "{{subscriberId}}",
+              "description": "Identificador Ãºnico da instaÃ§Ã£o do cliente. <br>Parametro com preenchimento obrigatÃ³rio para todos os agendamento de Ordens com tipo diferente de InstalaÃ§Ã£o."
+            },
+            {
+              "disabled": false,
+              "key": "associatedDocument",
+              "value": "{{associatedDocument}}",
+              "description": "(Required) Documento associado utilizado na criaÃ§Ã£o da ordem de agendamento"
+            },
+            {
+              "disabled": false,
+              "key": "startDate",
+              "value": "{{startDate}}",
+              "description": "(Required) Data de inicio para o periodo de pesquisa de slots ('Intervalo entre startDate e finishDate deve ser de no mÃ¡ximo 14 dias')"
+            },
+            {
+              "disabled": false,
+              "key": "finishDate",
+              "value": "{{finishDate}}",
+              "description": "(Required) Data de final para o periodo de pesquisa de slots ('Intervalo entre startDate e finishDate deve ser de no mÃ¡ximo 14 dias')"
+            },
+            {
+              "disabled": false,
+              "key": "orderType",
+              "value": "{{orderType}}",
+              "description": "(Required) Tipo da Ordem a ser executada <br> - InstalaÃ§Ã£o <br> - Retirada <br> - RemanejamentoPonto <br> - ChamadoTecnico <br>"
+            },
+            {
+              "disabled": false,
+              "key": "addressChangeFlag",
+              "value": "{{addressChangeFlag}}",
+              "description": "Flag indicadora de MudanÃ§a de endereÃ§o em uma ordem de instalaÃ§Ã£o (preenchimento permitido apenas para agendamentos de ordens do tipo instalaÃ§Ã£o - orderType=Instalacao)"
+            },
+            {
+              "disabled": false,
+              "key": "productType",
+              "value": "{{productType}}",
+              "description": "(Required) Tipo do produto a ser considerado para o tipo de ordem a ser executada <br> - Banda Larga <br>"
+            },
+            {
+              "disabled": false,
+              "key": "priorityFlag",
+              "value": "{{priorityFlag}}",
+              "description": "Flag indicadora de agendamento prioritÃ¡rio (Preenchimento permitido apenas para orderType=Instalacao ou orderType=ChamadoTecnico)<br><b>*** APENAS PARA CONTRATOS COBERTOS COM ESTA FUNCIONALIDADE"
+            },
+            {
+              "disabled": false,
+              "key": "priorityReason",
+              "value": "{{priorityReason}}",
+              "description": "Motivo da solicitaÃ§Ã£o de priorizaÃ§Ã£o do agendamento (Preenchimento obrigatÃ³rio para quando \"priorityFlag\"= true)"
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "7e1be428-cd03-46be-a4fe-a4f520f12cd7",
+          "name": "success",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 200,\n    \"message\": \"OK\",\n    \"type\": \"S\"\n  },\n  \"slots\": [\n    {\n      \"expireIn\": 300,\n      \"finishDate\": \"2021-05-30T12:00:00\",\n      \"id\": \"8c2c93c7-4621-4830-b384-0d12bb33eedf\",\n      \"startDate\": \"2021-05-30T08:00:00\"\n    },\n    {\n      \"expireIn\": 300,\n      \"finishDate\": \"2021-05-30T18:00:00\",\n      \"id\": \"bff13821-73c3-42cc-9327-b05c7df5a67f\",\n      \"startDate\": \"2021-05-30T13:00:00\"\n    },\n    {\n      \"expireIn\": 300,\n      \"finishDate\": \"2021-05-31T12:00:00\",\n      \"id\": \"6cbace1a-7eda-4093-9619-09e571e742b0\",\n      \"startDate\": \"2021-05-31T08:00:00\"\n    },\n    {\n      \"expireIn\": 300,\n      \"finishDate\": \"2021-05-31T18:00:00\",\n      \"id\": \"0b78aee7-2e4f-4c0a-852c-5a4845564aff\",\n      \"startDate\": \"2021-05-31T13:00:00\"\n    }\n  ]\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "24e2f7b1-fefc-4416-83c9-9c61cdb3dbfd",
+          "name": "Bad Request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 400,\n    \"message\": \"Bad Request\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "19d41442-0dfb-4c73-bf23-f541d0f6625d",
+          "name": "Unauthorized",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 401,\n    \"message\": \"PriorizaÃ§Ã£o de agendamento nÃ£o autorizado\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "809847b8-5ddb-4585-8d24-f99db721fab7",
+          "name": "Forbidden - Scope Not Permitted",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "d2d857d0-30ce-49c2-bd7d-f68d0567a215",
+          "name": "Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "43b00887-ae3b-4037-ad18-e5fdcf3f4de6",
+          "name": "Not Acceptable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Acceptable",
+          "code": 406,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 406,\n    \"message\": \"Not Acceptable\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "321a018b-f1bc-4884-9084-576780ba5f4b",
+          "name": "Not Acceptable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Precondition Failed",
+          "code": 412,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 412,\n    \"message\": \"Precondition Failed\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "1daf3f86-db75-4c24-9802-236f28e4c3b1",
+          "name": "Too Many Requests - Exceeded Quota",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Too Many Requests",
+          "code": 429,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "39df0b4d-c716-4060-bd31-187f443da7ef",
+          "name": "Internal Server Error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "28ac2c93-9f60-4d10-ad21-782147214395",
+          "name": "Service Unavailable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "bc865d0a-f454-486d-a243-08bcea7b572f",
+          "name": "Gateway Timeout",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "searchTimeSlot"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "addressId",
+                  "value": "{{addressId}}"
+                },
+                {
+                  "key": "subscriberId",
+                  "value": "{{subscriberId}}"
+                },
+                {
+                  "key": "associatedDocument",
+                  "value": "{{associatedDocument}}"
+                },
+                {
+                  "key": "startDate",
+                  "value": "{{startDate}}"
+                },
+                {
+                  "key": "finishDate",
+                  "value": "{{finishDate}}"
+                },
+                {
+                  "key": "orderType",
+                  "value": "{{orderType}}"
+                },
+                {
+                  "key": "addressChangeFlag",
+                  "value": "{{addressChangeFlag}}"
+                },
+                {
+                  "key": "productType",
+                  "value": "{{productType}}"
+                },
+                {
+                  "key": "priorityFlag",
+                  "value": "{{priorityFlag}}"
+                },
+                {
+                  "key": "priorityReason",
+                  "value": "{{priorityReason}}"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Gateway Timeout",
+          "code": 504,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pythonHTest2_clone using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for searchTimeSlot?addressId={{addressId}}&subscriberId={{subscriberId}}&associatedDocument={{associatedDocument}}&startDate={{startDate}}&finishDate={{finishDate}}&orderType={{orderType}}&addressChangeFlag={{addressChangeFlag}}&productType={{productType}}&priorityFlag={{priorityFlag}}&priorityReason={{priorityReason}} for http method type get in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"success\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          pm.test('Response has the `slots` field',function(){\n            pm.expect(responseData.slots).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden - Scope Not Permitted\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 406){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Acceptable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 412){\n    pm.test(\"Not Acceptable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Precondition Failed\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 429){\n    pm.test(\"Too Many Requests - Exceeded Quota\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Too Many Requests\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 500){\n    pm.test(\"Internal Server Error\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 503){\n    pm.test(\"Service Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 504){\n    pm.test(\"Gateway Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          })\n\n          });\n\n        }\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "46c34f14-55b0-4060-a739-a9648ed349c0",
+    "name": "Appointment",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

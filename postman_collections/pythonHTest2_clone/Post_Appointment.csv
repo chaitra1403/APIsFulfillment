@@ -1,0 +1,13 @@
+reason,id,statusCode,scenario
+"Created","17713",201,"Successful operation"
+"Bad Request","10234",400,"Bad Request"
+"Priorização de agendamento não autorizado","87412",401,"Unauthorized"
+"Forbidden - Scope Not Permitted","76341",403,"Forbidden - Scope Not Permitted"
+"Identificador do Slot não encontrado ou expirado","6512",404,"Not Found"
+"Not Acceptable","4923",406,"Not Acceptable"
+"Precondition Failed","54126",412,"Precondition Failed"
+"Agendamento não pode ser alterado","71023",423,"Locked"
+"Too Many Requests - Exceeded Quota","52910",429,"Too Many Requests - Exceeded Quota"
+"Internal Server Error","30861",500,"Internal Server Error"
+"Service Unavailable","49120",503,"Service Unavailable"
+"Gateway Timeout","37912",504,"Gateway Timeout"

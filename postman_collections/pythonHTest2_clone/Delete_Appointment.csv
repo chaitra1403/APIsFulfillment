@@ -1,0 +1,13 @@
+appointmentReason,appointmentComments,appointmentId,statusCode,scenario
+Checkup Appointment,This is a follow-up checkup,1234,200,Successful operation
+Sickness Feeling,Patient has been feeling sick recently,2345,400,Bad Request
+Dental Issue,Patient has a tooth ache,3456,401,Unauthorized
+Eye Checkup,Regular eye checkup for the patient,4567,403,Forbidden - Scope Not Permitted
+Ear Pain,Patient complains about ear pain,5678,404,Not Found
+Stomach Pain,Patient faces severe stomach pain,6789,406,Not Acceptable
+Broken Arm,Patient broke arm in an accident,7890,412,Precondition Failed
+Leg Pain,Patient leg pain increases,8901,423,Locked
+Fever,Sudden high fever,9012,429,Too Many Requests - Exceeded Quota
+Chest Pain,Patient complained about chest pain,0123,500,Internal Server Error
+Respiratory Issue,Patient has difficulty in breathing,2340,503,Service Unavailable
+Frequent Headache,Patient complain about frequent headaches,3452,504,Gateway Timeout
