@@ -1,0 +1,306 @@
+{
+  "item": [
+    {
+      "id": "3fd5ad27-1a6f-4098-9e20-078bae5d6596",
+      "name": "Communication Message Listener",
+      "request": {
+        "name": "Communication Message Listener",
+        "description": {},
+        "url": {
+          "path": [
+            "listener",
+            "communicationMessage"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"affectedService\": {\n        \"address\": [\n            \"{{address}}\"\n        ],\n        \"type\": \"{{type}}\"\n    },\n    \"affectedStretch\": \"{{affectedStretch}}\",\n    \"cancelDate\": \"{{cancelDate}}\",\n    \"cancelReason\": \"{{cancelReason}}\",\n    \"closingDate\": \"{{closingDate}}\",\n    \"closureCause\": \"{{closureCause}}\",\n    \"closureDate\": \"{{closureDate}}\",\n    \"closureMotive\": \"{{closureMotive}}\",\n    \"closureProvidence\": \"{{closureProvidence}}\",\n    \"closureReason\": \"{{closureReason}}\",\n    \"company\": \"{{company}}\",\n    \"detailedReason\": \"{{detailedReason}}\",\n    \"downtime\": \"{{downtime}}\",\n    \"editionDate\": \"{{editionDate}}\",\n    \"editionReason\": \"{{editionReason}}\",\n    \"emissionDate\": \"{{emissionDate}}\",\n    \"endDate\": \"{{endDate}}\",\n    \"estimatedDowntime\": \"{{estimatedDowntime}}\",\n    \"eventType\": \"{{eventType}}\",\n    \"generalStatus\": \"{{generalStatus}}\",\n    \"id\": \"{{id}}\",\n    \"identifiedFailure\": \"{{identifiedFailure}}\",\n    \"loss\": \"{{loss}}\",\n    \"messageType\": \"{{messageType}}\",\n    \"networkType\": \"{{networkType}}\",\n    \"openingDate\": \"{{openingDate}}\",\n    \"promiseDate\": \"{{promiseDate}}\",\n    \"promiseEndDate\": \"{{promiseEndDate}}\",\n    \"promiseStartDate\": \"{{promiseStartDate}}\",\n    \"reason\": \"{{reason}}\",\n    \"startDate\": \"{{startDate}}\",\n    \"status\": \"{{status}}\",\n    \"ticketNumber\": \"{{ticketNumber}}\",\n    \"type\": \"{{type}}\",\n    \"windowType\": \"{{windowType}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "3e4c588e-4162-4717-8015-e0f1f298392c",
+          "name": "OperaÃ§Ã£o realizada com sucesso",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "listener",
+                "communicationMessage"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"affectedService\": {\n        \"address\": [\n            \"{{address}}\"\n        ],\n        \"type\": \"{{type}}\"\n    },\n    \"company\": \"{{company}}\",\n    \"emissionDate\": \"{{emissionDate}}\",\n    \"eventType\": \"{{eventType}}\",\n    \"id\": \"{{id}}\",\n    \"identifiedFailure\": \"{{identifiedFailure}}\",\n    \"messageType\": \"{{messageType}}\",\n    \"promiseDate\": \"{{promiseDate}}\",\n    \"startDate\": \"{{startDate}}\",\n    \"status\": \"{{status}}\",\n    \"ticketNumber\": \"{{ticketNumber}}\",\n    \"type\": \"{{type}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "No Content",
+          "code": 204,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "id": "97fe65bc-48a7-4902-a960-19efbc26667a",
+          "name": "BadRequest",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "listener",
+                "communicationMessage"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"affectedService\": {\n        \"address\": [\n            \"{{address}}\"\n        ],\n        \"type\": \"{{type}}\"\n    },\n    \"company\": \"{{company}}\",\n    \"emissionDate\": \"{{emissionDate}}\",\n    \"eventType\": \"{{eventType}}\",\n    \"id\": \"{{id}}\",\n    \"identifiedFailure\": \"{{identifiedFailure}}\",\n    \"messageType\": \"{{messageType}}\",\n    \"promiseDate\": \"{{promiseDate}}\",\n    \"startDate\": \"{{startDate}}\",\n    \"status\": \"{{status}}\",\n    \"ticketNumber\": \"{{ticketNumber}}\",\n    \"type\": \"{{type}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "id": "adf7d232-0c92-4dfa-b9b9-b2a0e4ac3ba2",
+          "name": "Unauthorized",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "listener",
+                "communicationMessage"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"affectedService\": {\n        \"address\": [\n            \"{{address}}\"\n        ],\n        \"type\": \"{{type}}\"\n    },\n    \"company\": \"{{company}}\",\n    \"emissionDate\": \"{{emissionDate}}\",\n    \"eventType\": \"{{eventType}}\",\n    \"id\": \"{{id}}\",\n    \"identifiedFailure\": \"{{identifiedFailure}}\",\n    \"messageType\": \"{{messageType}}\",\n    \"promiseDate\": \"{{promiseDate}}\",\n    \"startDate\": \"{{startDate}}\",\n    \"status\": \"{{status}}\",\n    \"ticketNumber\": \"{{ticketNumber}}\",\n    \"type\": \"{{type}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "id": "74c5e170-d29c-442b-ac5c-e94d2b3b159e",
+          "name": "ServerError",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "listener",
+                "communicationMessage"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"affectedService\": {\n        \"address\": [\n            \"{{address}}\"\n        ],\n        \"type\": \"{{type}}\"\n    },\n    \"company\": \"{{company}}\",\n    \"emissionDate\": \"{{emissionDate}}\",\n    \"eventType\": \"{{eventType}}\",\n    \"id\": \"{{id}}\",\n    \"identifiedFailure\": \"{{identifiedFailure}}\",\n    \"messageType\": \"{{messageType}}\",\n    \"promiseDate\": \"{{promiseDate}}\",\n    \"startDate\": \"{{startDate}}\",\n    \"status\": \"{{status}}\",\n    \"ticketNumber\": \"{{ticketNumber}}\",\n    \"type\": \"{{type}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "id": "4d033e52-7100-4d63-86eb-d100e2c8c322",
+          "name": "Unavailable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "listener",
+                "communicationMessage"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"affectedService\": {\n        \"address\": [\n            \"{{address}}\"\n        ],\n        \"type\": \"{{type}}\"\n    },\n    \"company\": \"{{company}}\",\n    \"emissionDate\": \"{{emissionDate}}\",\n    \"eventType\": \"{{eventType}}\",\n    \"id\": \"{{id}}\",\n    \"identifiedFailure\": \"{{identifiedFailure}}\",\n    \"messageType\": \"{{messageType}}\",\n    \"promiseDate\": \"{{promiseDate}}\",\n    \"startDate\": \"{{startDate}}\",\n    \"status\": \"{{status}}\",\n    \"ticketNumber\": \"{{ticketNumber}}\",\n    \"type\": \"{{type}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        },
+        {
+          "id": "a6dd09f8-3652-4693-976f-47abe9d2ecd8",
+          "name": "Timeout",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "listener",
+                "communicationMessage"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"affectedService\": {\n        \"address\": [\n            \"{{address}}\"\n        ],\n        \"type\": \"{{type}}\"\n    },\n    \"company\": \"{{company}}\",\n    \"emissionDate\": \"{{emissionDate}}\",\n    \"eventType\": \"{{eventType}}\",\n    \"id\": \"{{id}}\",\n    \"identifiedFailure\": \"{{identifiedFailure}}\",\n    \"messageType\": \"{{messageType}}\",\n    \"promiseDate\": \"{{promiseDate}}\",\n    \"startDate\": \"{{startDate}}\",\n    \"status\": \"{{status}}\",\n    \"ticketNumber\": \"{{ticketNumber}}\",\n    \"type\": \"{{type}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Gateway Timeout",
+          "code": 504,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test pythonHTest2_clone using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for listener/communicationMessage for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 204){\n    pm.test(\"OperaÃ§Ã£o realizada com sucesso\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"No Content\");\n      });\n\n    }\n\nif (pm.response.code == 400){\n    pm.test(\"BadRequest\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n      });\n\n    }\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n      });\n\n    }\n\nif (pm.response.code == 500){\n    pm.test(\"ServerError\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n      });\n\n    }\n\nif (pm.response.code == 503){\n    pm.test(\"Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n      });\n\n    }\n\nif (pm.response.code == 504){\n    pm.test(\"Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n      });\n\n    }\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "e9a7e175-8d9a-45b6-8cbb-f62dbf9a422b",
+    "name": "Communication Management",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

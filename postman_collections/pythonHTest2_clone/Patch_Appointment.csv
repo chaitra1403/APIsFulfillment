@@ -1,0 +1,13 @@
+appointmentId,reason,id,statusCode,scenario
+SA-562403,"Cliente Diamond",17713,200,"Successful operation"
+SC-423241,"Request malform",19827,400,"Bad Request"
+SP-324269,"Access denied",23684,401,"Unauthorized"
+SV-874023,"Not in scope",20493,403,"Forbidden - Scope Not Permitted"
+FP-265340,"Resource missing",22845,404,"Not Found"
+GD-569283,"Invalid response",24451,406,"Not Acceptable"
+LG-982436,"Preconditions not met",14527,412,"Not Acceptable"
+MX-403275,"Resource locked",20704,423,"Locked"
+KL-574029,"Exceeded quota",14427,429,"Too Many Requests - Exceeded Quota"
+IT-238403,"Server fault",28832,500,"Internal Server Error"
+KR-982435,"Server unavailable",27340,503,"Service Unavailable"
+JP-294005,"Timeout error",24830,504,"Gateway Timeout"
