@@ -1,0 +1,17 @@
+[
+  {
+    "output": "<?xml version=\"1.0\"?>\n<batch>\n    <result index=\"0\">\n        <ip>72.229.28.185</ip>\n        <type>ipv4</type>\n        <continent_code>NA</continent_code>\n        <continent_name>North America</continent_name>\n        <country_code>US</country_code>\n        <country_name>United States</country_name>\n        <region_code>NY</region_code>\n        <region_name>New York</region_name>\n        <city>Manhattan</city>\n        <zip>10020</zip>\n        <latitude>40.7589111328125</latitude>\n        <longitude>-73.97901916503906</longitude>\n        <location>\n            <geoname_id>5125771</geoname_id>\n            <capital>Washington D.C.</capital>\n            <languages>\n                <code>en</code>\n                <name>English</name>\n                <native>English</native>\n            </languages>\n            <country_flag>https://assets.ipstack.com/flags/us.svg</country_flag>\n            <country_flag_emoji>&#x1F1FA;&#x1F1F8;</country_flag_emoji>\n            <country_flag_emoji_unicode>U+1</location>\n</batch>",
+    "statusCode": 200,
+    "scenario": "200 OK – XML Output"
+  },
+  {
+    "output": "<?xml version=\"1.0\"?>\n<batch>\n    <result index=\"0\">\n        <ip>0.0.0.0</ip>\n        <type>invalid</type>\n        <continent_code>ZZ</continent_code>\n        <continent_name>Unknown</continent_name>\n        <country_code>XX</country_code>\n        <country_name>Unknown</country_name>\n        <region_code>00</region_code>\n        <region_name>Unknown</region_name>\n        <city>Unknown</city>\n        <zip>00000</zip>\n        <latitude>-999.999</latitude>\n        <longitude>-999.999</longitude>\n        <location>\n            <geoname_id>0</geoname_id>\n            <capital>None</capital>\n            <languages>\n                <code>xx</code>\n                <name>Unknown</name>\n                <native>Unknown</native>\n            </languages>\n            <country_flag>https://assets.ipstack.com/flags/xx.svg</country_flag>\n            <country_flag_emoji>&#x1F1FA;&#x1F1F8;</country_flag_emoji>\n            <country_flag_emoji_unicode>U+1</location>\n</batch>",
+    "statusCode": 200,
+    "scenario": "200 OK – XML Output"
+  },
+  {
+    "output": "<?xml version=\"1.0\"?>\n<batch>\n    <result index=\"0\">\n        <ip>256.256.256.256</ip>\n        <type>invalid</type>\n        <continent_code>XX</continent_code>\n        <continent_name>Nowhere</continent_name>\n        <country_code>YY</country_code>\n        <country_name>Nowhere</country_name>\n        <region_code>00</region_code>\n        <region_name>Nowhere</region_name>\n        <city>Nowhere</city>\n        <zip>00000</zip>\n        <latitude>91.000</latitude>\n        <longitude>181.000</longitude>\n        <location>\n            <geoname_id>-1</geoname_id>\n            <capital>None</capital>\n            <languages>\n                <code>yy</code>\n                <name>None</name>\n                <native>None</native>\n            </languages>\n            <country_flag>https://assets.ipstack.com/flags/yy.svg</country_flag>\n            <country_flag_emoji>&#x1F1FA;&#x1F1F8;</country_flag_emoji>\n            <country_flag_emoji_unicode>U+1</location>\n</batch>",
+    "statusCode": 200,
+    "scenario": "200 OK – XML Output"
+  }
+]
