@@ -1,0 +1,2633 @@
+{
+  "item": [
+    {
+      "name": "Retrive complement of an address with id",
+      "request": {
+        "name": "Retrive complement of an address with id",
+        "description": {},
+        "url": {
+          "path": [
+            "addressComplements",
+            ":addressId"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<long>",
+              "key": "addressId",
+              "description": "(Required) Id do endereÃÂ§o"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "addressComplements",
+                ":addressId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<long>",
+                  "key": "addressId",
+                  "description": "(Required) Id do endereÃÂ§o"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"complementList\": [\n    {\n      \"complement\": \"\",\n      \"id\": 3240962\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"101\"\n          }\n        ]\n      },\n      \"id\": 3248470\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"102\"\n          }\n        ]\n      },\n      \"id\": 3248471\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"103\"\n          }\n        ]\n      },\n      \"id\": 3248472\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"104\"\n          }\n        ]\n      },\n      \"id\": 3248473\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"201\"\n          }\n        ]\n      },\n      \"id\": 3248474\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"202\"\n          }\n        ]\n      },\n      \"id\": 3248475\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"203\"\n          }\n        ]\n      },\n      \"id\": 3248476\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"204\"\n          }\n        ]\n      },\n      \"id\": 3248477\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"301\"\n          }\n        ]\n      },\n      \"id\": 3248478\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"302\"\n          }\n        ]\n      },\n      \"id\": 3248479\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"303\"\n          }\n        ]\n      },\n      \"id\": 3248480\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"304\"\n          }\n        ]\n      },\n      \"id\": 3248481\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"401\"\n          }\n        ]\n      },\n      \"id\": 3248482\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"402\"\n          }\n        ]\n      },\n      \"id\": 3248483\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"403\"\n          }\n        ]\n      },\n      \"id\": 3248484\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"404\"\n          }\n        ]\n      },\n      \"id\": 3248485\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"105\"\n          }\n        ]\n      },\n      \"id\": 3248434\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"106\"\n          }\n        ]\n      },\n      \"id\": 3248435\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"107\"\n          }\n        ]\n      },\n      \"id\": 3248436\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"108\"\n          }\n        ]\n      },\n      \"id\": 3248437\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"205\"\n          }\n        ]\n      },\n      \"id\": 3248438\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"206\"\n          }\n        ]\n      },\n      \"id\": 3248439\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"207\"\n          }\n        ]\n      },\n      \"id\": 3248440\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"208\"\n          }\n        ]\n      },\n      \"id\": 3248441\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"305\"\n          }\n        ]\n      },\n      \"id\": 3248442\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"306\"\n          }\n        ]\n      },\n      \"id\": 3248443\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"307\"\n          }\n        ]\n      },\n      \"id\": 3248444\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"308\"\n          }\n        ]\n      },\n      \"id\": 3248445\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"405\"\n          }\n        ]\n      },\n      \"id\": 3248446\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"406\"\n          }\n        ]\n      },\n      \"id\": 3248447\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"407\"\n          }\n        ]\n      },\n      \"id\": 3248448\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"1B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"408\"\n          }\n        ]\n      },\n      \"id\": 3248449\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"101\"\n          }\n        ]\n      },\n      \"id\": 3241175\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"102\"\n          }\n        ]\n      },\n      \"id\": 3241176\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"103\"\n          }\n        ]\n      },\n      \"id\": 3241177\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"104\"\n          }\n        ]\n      },\n      \"id\": 3241178\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"201\"\n          }\n        ]\n      },\n      \"id\": 3241179\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"202\"\n          }\n        ]\n      },\n      \"id\": 3241180\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"203\"\n          }\n        ]\n      },\n      \"id\": 3241181\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"204\"\n          }\n        ]\n      },\n      \"id\": 3241182\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"301\"\n          }\n        ]\n      },\n      \"id\": 3241183\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"302\"\n          }\n        ]\n      },\n      \"id\": 3241184\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"303\"\n          }\n        ]\n      },\n      \"id\": 3241185\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"304\"\n          }\n        ]\n      },\n      \"id\": 3241186\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"401\"\n          }\n        ]\n      },\n      \"id\": 3241187\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"402\"\n          }\n        ]\n      },\n      \"id\": 3241188\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"403\"\n          }\n        ]\n      },\n      \"id\": 3241189\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"404\"\n          }\n        ]\n      },\n      \"id\": 3241190\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"105\"\n          }\n        ]\n      },\n      \"id\": 3241314\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"106\"\n          }\n        ]\n      },\n      \"id\": 3241315\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"107\"\n          }\n        ]\n      },\n      \"id\": 3241316\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"108\"\n          }\n        ]\n      },\n      \"id\": 3241317\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"205\"\n          }\n        ]\n      },\n      \"id\": 3241318\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"206\"\n          }\n        ]\n      },\n      \"id\": 3241319\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"207\"\n          }\n        ]\n      },\n      \"id\": 3241320\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"208\"\n          }\n        ]\n      },\n      \"id\": 3241321\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"305\"\n          }\n        ]\n      },\n      \"id\": 3241322\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"306\"\n          }\n        ]\n      },\n      \"id\": 3241323\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"307\"\n          }\n        ]\n      },\n      \"id\": 3241324\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"308\"\n          }\n        ]\n      },\n      \"id\": 3241325\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"405\"\n          }\n        ]\n      },\n      \"id\": 3241326\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"406\"\n          }\n        ]\n      },\n      \"id\": 3241327\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"407\"\n          }\n        ]\n      },\n      \"id\": 3241328\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"2B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"408\"\n          }\n        ]\n      },\n      \"id\": 3241329\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"101\"\n          }\n        ]\n      },\n      \"id\": 3241117\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"102\"\n          }\n        ]\n      },\n      \"id\": 3241118\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"103\"\n          }\n        ]\n      },\n      \"id\": 3241119\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"104\"\n          }\n        ]\n      },\n      \"id\": 3241120\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"201\"\n          }\n        ]\n      },\n      \"id\": 3241121\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"202\"\n          }\n        ]\n      },\n      \"id\": 3241122\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"203\"\n          }\n        ]\n      },\n      \"id\": 3241123\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"204\"\n          }\n        ]\n      },\n      \"id\": 3241124\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"301\"\n          }\n        ]\n      },\n      \"id\": 3241125\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"302\"\n          }\n        ]\n      },\n      \"id\": 3241126\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"303\"\n          }\n        ]\n      },\n      \"id\": 3241127\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"304\"\n          }\n        ]\n      },\n      \"id\": 3241128\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"401\"\n          }\n        ]\n      },\n      \"id\": 3241129\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"402\"\n          }\n        ]\n      },\n      \"id\": 3241130\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"403\"\n          }\n        ]\n      },\n      \"id\": 3241131\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"404\"\n          }\n        ]\n      },\n      \"id\": 3241152\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"105\"\n          }\n        ]\n      },\n      \"id\": 3241060\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"106\"\n          }\n        ]\n      },\n      \"id\": 3241061\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"107\"\n          }\n        ]\n      },\n      \"id\": 3241062\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"108\"\n          }\n        ]\n      },\n      \"id\": 3241063\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"205\"\n          }\n        ]\n      },\n      \"id\": 3241064\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"206\"\n          }\n        ]\n      },\n      \"id\": 3241065\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"207\"\n          }\n        ]\n      },\n      \"id\": 3241066\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"208\"\n          }\n        ]\n      },\n      \"id\": 3241067\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"305\"\n          }\n        ]\n      },\n      \"id\": 3241068\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"306\"\n          }\n        ]\n      },\n      \"id\": 3241069\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"307\"\n          }\n        ]\n      },\n      \"id\": 3241070\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"308\"\n          }\n        ]\n      },\n      \"id\": 3241071\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"405\"\n          }\n        ]\n      },\n      \"id\": 3241072\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"406\"\n          }\n        ]\n      },\n      \"id\": 3241073\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"407\"\n          }\n        ]\n      },\n      \"id\": 3241074\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"3B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"408\"\n          }\n        ]\n      },\n      \"id\": 3241075\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"101\"\n          }\n        ]\n      },\n      \"id\": 3241194\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"102\"\n          }\n        ]\n      },\n      \"id\": 3241195\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"103\"\n          }\n        ]\n      },\n      \"id\": 3241196\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"104\"\n          }\n        ]\n      },\n      \"id\": 3241197\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"201\"\n          }\n        ]\n      },\n      \"id\": 3241198\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"202\"\n          }\n        ]\n      },\n      \"id\": 3241199\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"203\"\n          }\n        ]\n      },\n      \"id\": 3241200\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"204\"\n          }\n        ]\n      },\n      \"id\": 3241201\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"301\"\n          }\n        ]\n      },\n      \"id\": 3241202\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"302\"\n          }\n        ]\n      },\n      \"id\": 3241203\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"303\"\n          }\n        ]\n      },\n      \"id\": 3241204\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"304\"\n          }\n        ]\n      },\n      \"id\": 3241205\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"401\"\n          }\n        ]\n      },\n      \"id\": 3241206\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"402\"\n          }\n        ]\n      },\n      \"id\": 3241207\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"403\"\n          }\n        ]\n      },\n      \"id\": 3241208\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"404\"\n          }\n        ]\n      },\n      \"id\": 3241209\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"105\"\n          }\n        ]\n      },\n      \"id\": 3241338\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"106\"\n          }\n        ]\n      },\n      \"id\": 3241339\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"107\"\n          }\n        ]\n      },\n      \"id\": 3241340\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"108\"\n          }\n        ]\n      },\n      \"id\": 3241341\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"205\"\n          }\n        ]\n      },\n      \"id\": 3241342\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"206\"\n          }\n        ]\n      },\n      \"id\": 3241343\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"207\"\n          }\n        ]\n      },\n      \"id\": 3241344\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"208\"\n          }\n        ]\n      },\n      \"id\": 3241345\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"305\"\n          }\n        ]\n      },\n      \"id\": 3241346\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"306\"\n          }\n        ]\n      },\n      \"id\": 3241347\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"307\"\n          }\n        ]\n      },\n      \"id\": 3241348\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"308\"\n          }\n        ]\n      },\n      \"id\": 3241349\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"405\"\n          }\n        ]\n      },\n      \"id\": 3241350\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"406\"\n          }\n        ]\n      },\n      \"id\": 3241351\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"407\"\n          }\n        ]\n      },\n      \"id\": 3241352\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"4B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"408\"\n          }\n        ]\n      },\n      \"id\": 3241353\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"101\"\n          }\n        ]\n      },\n      \"id\": 3240963\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"102\"\n          }\n        ]\n      },\n      \"id\": 3240964\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"103\"\n          }\n        ]\n      },\n      \"id\": 3240965\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"104\"\n          }\n        ]\n      },\n      \"id\": 3240966\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"201\"\n          }\n        ]\n      },\n      \"id\": 3240967\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"202\"\n          }\n        ]\n      },\n      \"id\": 3240968\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"203\"\n          }\n        ]\n      },\n      \"id\": 3240969\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"204\"\n          }\n        ]\n      },\n      \"id\": 3240970\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"301\"\n          }\n        ]\n      },\n      \"id\": 3240971\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"302\"\n          }\n        ]\n      },\n      \"id\": 3240972\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"303\"\n          }\n        ]\n      },\n      \"id\": 3240973\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"304\"\n          }\n        ]\n      },\n      \"id\": 3240974\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"401\"\n          }\n        ]\n      },\n      \"id\": 3240975\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"402\"\n          }\n        ]\n      },\n      \"id\": 3240976\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"403\"\n          }\n        ]\n      },\n      \"id\": 3240977\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"404\"\n          }\n        ]\n      },\n      \"id\": 3240978\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"105\"\n          }\n        ]\n      },\n      \"id\": 3241252\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"106\"\n          }\n        ]\n      },\n      \"id\": 3241253\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"107\"\n          }\n        ]\n      },\n      \"id\": 3241254\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"108\"\n          }\n        ]\n      },\n      \"id\": 3241255\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"205\"\n          }\n        ]\n      },\n      \"id\": 3241256\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"206\"\n          }\n        ]\n      },\n      \"id\": 3241257\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"207\"\n          }\n        ]\n      },\n      \"id\": 3241258\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"208\"\n          }\n        ]\n      },\n      \"id\": 3241259\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"305\"\n          }\n        ]\n      },\n      \"id\": 3241260\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"306\"\n          }\n        ]\n      },\n      \"id\": 3241261\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"307\"\n          }\n        ]\n      },\n      \"id\": 3241262\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"308\"\n          }\n        ]\n      },\n      \"id\": 3241263\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"405\"\n          }\n        ]\n      },\n      \"id\": 3241264\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"406\"\n          }\n        ]\n      },\n      \"id\": 3241265\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"407\"\n          }\n        ]\n      },\n      \"id\": 3241266\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"5B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"408\"\n          }\n        ]\n      },\n      \"id\": 3241267\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Casa\",\n            \"type\": \"CA\",\n            \"value\": \"101\"\n          }\n        ]\n      },\n      \"id\": 3240995\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Casa\",\n            \"type\": \"CA\",\n            \"value\": \"102\"\n          }\n        ]\n      },\n      \"id\": 3240996\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Casa\",\n            \"type\": \"CA\",\n            \"value\": \"103\"\n          }\n        ]\n      },\n      \"id\": 3240997\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Casa\",\n            \"type\": \"CA\",\n            \"value\": \"104\"\n          }\n        ]\n      },\n      \"id\": 3240998\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"201\"\n          }\n        ]\n      },\n      \"id\": 3240999\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"202\"\n          }\n        ]\n      },\n      \"id\": 3241000\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"203\"\n          }\n        ]\n      },\n      \"id\": 3241001\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"204\"\n          }\n        ]\n      },\n      \"id\": 3241002\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"301\"\n          }\n        ]\n      },\n      \"id\": 3241003\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"302\"\n          }\n        ]\n      },\n      \"id\": 3241004\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"303\"\n          }\n        ]\n      },\n      \"id\": 3241005\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"304\"\n          }\n        ]\n      },\n      \"id\": 3241006\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"401\"\n          }\n        ]\n      },\n      \"id\": 3241007\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"402\"\n          }\n        ]\n      },\n      \"id\": 3241008\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"403\"\n          }\n        ]\n      },\n      \"id\": 3241009\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6A\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"404\"\n          }\n        ]\n      },\n      \"id\": 3241010\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"105\"\n          }\n        ]\n      },\n      \"id\": 3240979\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"106\"\n          }\n        ]\n      },\n      \"id\": 3240980\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"107\"\n          }\n        ]\n      },\n      \"id\": 3240981\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"108\"\n          }\n        ]\n      },\n      \"id\": 3240982\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"205\"\n          }\n        ]\n      },\n      \"id\": 3240983\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"206\"\n          }\n        ]\n      },\n      \"id\": 3240984\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"207\"\n          }\n        ]\n      },\n      \"id\": 3240985\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"208\"\n          }\n        ]\n      },\n      \"id\": 3240986\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"305\"\n          }\n        ]\n      },\n      \"id\": 3240987\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"306\"\n          }\n        ]\n      },\n      \"id\": 3240988\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"307\"\n          }\n        ]\n      },\n      \"id\": 3240989\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"308\"\n          }\n        ]\n      },\n      \"id\": 3240990\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"405\"\n          }\n        ]\n      },\n      \"id\": 3240991\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"406\"\n          }\n        ]\n      },\n      \"id\": 3240992\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"407\"\n          }\n        ]\n      },\n      \"id\": 3240993\n    },\n    {\n      \"complement\": {\n        \"complements\": [\n          {\n            \"description\": \"Bloco\",\n            \"type\": \"BL\",\n            \"value\": \"6B\"\n          },\n          {\n            \"description\": \"Apartamento\",\n            \"type\": \"AP\",\n            \"value\": \"408\"\n          }\n        ]\n      },\n      \"id\": 3240994\n    }\n  ],\n  \"control\": {\n    \"code\": \"200\",\n    \"message\": \"Ok\",\n    \"type\": \"S\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Forbidden - Scope Not Permitted",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "addressComplements",
+                ":addressId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<long>",
+                  "key": "addressId",
+                  "description": "(Required) Id do endereÃÂ§o"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "addressComplements",
+                ":addressId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<long>",
+                  "key": "addressId",
+                  "description": "(Required) Id do endereÃÂ§o"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Too Many Requests - Exceeded Quota",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "addressComplements",
+                ":addressId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<long>",
+                  "key": "addressId",
+                  "description": "(Required) Id do endereÃÂ§o"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Too Many Requests",
+          "code": 429,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Internal Server Error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "addressComplements",
+                ":addressId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<long>",
+                  "key": "addressId",
+                  "description": "(Required) Id do endereÃÂ§o"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Service Unavailable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "addressComplements",
+                ":addressId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<long>",
+                  "key": "addressId",
+                  "description": "(Required) Id do endereÃÂ§o"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Gateway Timeout",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "addressComplements",
+                ":addressId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<long>",
+                  "key": "addressId",
+                  "description": "(Required) Id do endereÃÂ§o"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Gateway Timeout",
+          "code": 504,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "name": "Retrive city using stateAbreviation",
+      "request": {
+        "name": "Retrive city using stateAbreviation",
+        "description": {},
+        "url": {
+          "path": [
+            "city",
+            ":stateAbreviation"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "stateAbreviation",
+              "description": "(Required) AbreviÃÂ§ÃÂ£o do estado"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "city",
+                ":stateAbreviation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviÃÂ§ÃÂ£o do estado"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "[\n  {\n    \"control\": {\n      \"code\": \"200\",\n      \"message\": \"OK\",\n      \"type\": \"S\"\n    }\n  },\n  {\n    \"fid\": 3300159,\n    \"name\": \"AperibÃÂ©\",\n    \"stateAbreviation\": \"RJ\"\n  },\n  {\n    \"fid\": 3300209,\n    \"name\": \"Araruama\",\n    \"stateAbreviation\": \"RJ\"\n  }\n]",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Forbidden - Scope Not Permitted",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "city",
+                ":stateAbreviation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviÃÂ§ÃÂ£o do estado"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "city",
+                ":stateAbreviation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviÃÂ§ÃÂ£o do estado"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Too Many Requests - Exceeded Quota",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "city",
+                ":stateAbreviation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviÃÂ§ÃÂ£o do estado"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Too Many Requests",
+          "code": 429,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Internal Server Error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "city",
+                ":stateAbreviation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviÃÂ§ÃÂ£o do estado"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Service Unavailable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "city",
+                ":stateAbreviation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviÃÂ§ÃÂ£o do estado"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Gateway Timeout",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "city",
+                ":stateAbreviation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviÃÂ§ÃÂ£o do estado"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Gateway Timeout",
+          "code": 504,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "name": "List complement types",
+      "request": {
+        "name": "List complement types",
+        "description": {},
+        "url": {
+          "path": [
+            "complementTypes"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "complementTypes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"complements\": [\n    {\n      \"description\": \"ACADEMIA\",\n      \"type\": \"AM\"\n    },\n    {\n      \"description\": \"ACAMPAMENTO\",\n      \"type\": \"AC\"\n    },\n    {\n      \"description\": \"ADMINISTRACAO\",\n      \"type\": \"AD\"\n    },\n    {\n      \"description\": \"ALA\",\n      \"type\": \"AA\"\n    },\n    {\n      \"description\": \"ALMOXARIFADO\",\n      \"type\": \"AF\"\n    },\n    {\n      \"description\": \"ALTO\",\n      \"type\": \"AL\"\n    },\n    {\n      \"description\": \"ALTOS\",\n      \"type\": \"AS\"\n    },\n    {\n      \"description\": \"AMBULATORIO\",\n      \"type\": \"AB\"\n    },\n    {\n      \"description\": \"ANDAR\",\n      \"type\": \"AN\"\n    },\n    {\n      \"description\": \"ANEXO\",\n      \"type\": \"AX\"\n    },\n    {\n      \"description\": \"APARTAMENTO\",\n      \"type\": \"AP\"\n    },\n    {\n      \"description\": \"ARMAZEM\",\n      \"type\": \"AZ\"\n    },\n    {\n      \"description\": \"ATE\",\n      \"type\": \"AT\"\n    },\n    {\n      \"description\": \"BAIXOS\",\n      \"type\": \"BS\"\n    },\n    {\n      \"description\": \"BANCA\",\n      \"type\": \"BA\"\n    },\n    {\n      \"description\": \"BARRACAO\",\n      \"type\": \"BR\"\n    },\n    {\n      \"description\": \"BECO\",\n      \"type\": \"BC\"\n    },\n    {\n      \"description\": \"BLOCO\",\n      \"type\": \"BL\"\n    },\n    {\n      \"description\": \"BOX\",\n      \"type\": \"BX\"\n    },\n    {\n      \"description\": \"BRIGADA DE INCENDIO\",\n      \"type\": \"BI\"\n    },\n    {\n      \"description\": \"CAIS\",\n      \"type\": \"CS\"\n    },\n    {\n      \"description\": \"CAIXA POSTAL\",\n      \"type\": \"CX\"\n    },\n    {\n      \"description\": \"CAMINHO\",\n      \"type\": \"CM\"\n    },\n    {\n      \"description\": \"CARPINTARIA\",\n      \"type\": \"CP\"\n    },\n    {\n      \"description\": \"CASA\",\n      \"type\": \"CA\"\n    },\n    {\n      \"description\": \"CELA\",\n      \"type\": \"CE\"\n    },\n    {\n      \"description\": \"CENTRAL\",\n      \"type\": \"CT\"\n    },\n    {\n      \"description\": \"CHACARA\",\n      \"type\": \"CH\"\n    },\n    {\n      \"description\": \"COBERTURA\",\n      \"type\": \"CB\"\n    },\n    {\n      \"description\": \"COLINA\",\n      \"type\": \"CL\"\n    },\n    {\n      \"description\": \"CONDOMINIO\",\n      \"type\": \"CD\"\n    },\n    {\n      \"description\": \"CONJUNTO\",\n      \"type\": \"CJ\"\n    },\n    {\n      \"description\": \"CONJUNTO RESIDENCIAL\",\n      \"type\": \"CR\"\n    },\n    {\n      \"description\": \"CORREDOR\",\n      \"type\": \"CO\"\n    },\n    {\n      \"description\": \"DEPOSITO\",\n      \"type\": \"DP\"\n    },\n    {\n      \"description\": \"DIRETORIA\",\n      \"type\": \"DT\"\n    },\n    {\n      \"description\": \"DISTRIBUIDOR GERAL\",\n      \"type\": \"DG\"\n    },\n    {\n      \"description\": \"DIVISAO\",\n      \"type\": \"DV\"\n    },\n    {\n      \"description\": \"EDIFICIO\",\n      \"type\": \"ED\"\n    },\n    {\n      \"description\": \"ENTRADA\",\n      \"type\": \"EN\"\n    },\n    {\n      \"description\": \"ESCRITORIO\",\n      \"type\": \"ES\"\n    },\n    {\n      \"description\": \"ESPACO DE CONVIVENCIA\",\n      \"type\": \"EC\"\n    },\n    {\n      \"description\": \"ESTACAO\",\n      \"type\": \"ET\"\n    },\n    {\n      \"description\": \"ETAPA\",\n      \"type\": \"EP\"\n    },\n    {\n      \"description\": \"FERROVIARIA\",\n      \"type\": \"FE\"\n    },\n    {\n      \"description\": \"FORUM\",\n      \"type\": \"FO\"\n    },\n    {\n      \"description\": \"FRENTE\",\n      \"type\": \"FR\"\n    },\n    {\n      \"description\": \"FUNDOS\",\n      \"type\": \"FU\"\n    },\n    {\n      \"description\": \"GALERIA\",\n      \"type\": \"GL\"\n    },\n    {\n      \"description\": \"GALPAO\",\n      \"type\": \"GP\"\n    },\n    {\n      \"description\": \"GARAGEM\",\n      \"type\": \"GA\"\n    },\n    {\n      \"description\": \"GLEBA\",\n      \"type\": \"GB\"\n    },\n    {\n      \"description\": \"GRANJA\",\n      \"type\": \"GJ\"\n    },\n    {\n      \"description\": \"GRUPO\",\n      \"type\": \"GR\"\n    },\n    {\n      \"description\": \"GRUPO MOTOR GERADOR\",\n      \"type\": \"GM\"\n    },\n    {\n      \"description\": \"GUICHE\",\n      \"type\": \"GH\"\n    },\n    {\n      \"description\": \"HANGAR\",\n      \"type\": \"HG\"\n    },\n    {\n      \"description\": \"HELIPONTO\",\n      \"type\": \"HP\"\n    },\n    {\n      \"description\": \"LADO\",\n      \"type\": \"LD\"\n    },\n    {\n      \"description\": \"LAMINA\",\n      \"type\": \"LM\"\n    },\n    {\n      \"description\": \"LANCHONETE\",\n      \"type\": \"LH\"\n    },\n    {\n      \"description\": \"LETRA\",\n      \"type\": \"LE\"\n    },\n    {\n      \"description\": \"LOJA\",\n      \"type\": \"LJ\"\n    },\n    {\n      \"description\": \"LOTE\",\n      \"type\": \"LT\"\n    },\n    {\n      \"description\": \"LOTEAMENTO\",\n      \"type\": \"LO\"\n    },\n    {\n      \"description\": \"MANSAO\",\n      \"type\": \"M \"\n    },\n    {\n      \"description\": \"MART\",\n      \"type\": \"MT\"\n    },\n    {\n      \"description\": \"MERCADO\",\n      \"type\": \"MC\"\n    },\n    {\n      \"description\": \"MEZANINO\",\n      \"type\": \"MZ\"\n    },\n    {\n      \"description\": \"MODULO\",\n      \"type\": \"MD\"\n    },\n    {\n      \"description\": \"NAO DISPONIVEL\",\n      \"type\": \"ND\"\n    },\n    {\n      \"description\": \"NAO SE APLICA\",\n      \"type\": \"NA\"\n    },\n    {\n      \"description\": \"NUCLEO\",\n      \"type\": \"NC\"\n    },\n    {\n      \"description\": \"OFICINA MECANICA\",\n      \"type\": \"OM\"\n    },\n    {\n      \"description\": \"ORGAO\",\n      \"type\": \"OG\"\n    },\n    {\n      \"description\": \"PALACIO\",\n      \"type\": \"PC\"\n    },\n    {\n      \"description\": \"PARADA\",\n      \"type\": \"PR\"\n    },\n    {\n      \"description\": \"PATIO\",\n      \"type\": \"PP\"\n    },\n    {\n      \"description\": \"PAVILHAO\",\n      \"type\": \"PV\"\n    },\n    {\n      \"description\": \"PAVIMENTO\",\n      \"type\": \"PM\"\n    },\n    {\n      \"description\": \"PILOTIS\",\n      \"type\": \"PS\"\n    },\n    {\n      \"description\": \"PISO\",\n      \"type\": \"PA\"\n    },\n    {\n      \"description\": \"PLATAFORMA\",\n      \"type\": \"PL\"\n    },\n    {\n      \"description\": \"POCO\",\n      \"type\": \"P \"\n    },\n    {\n      \"description\": \"PONTO DE TAXI\",\n      \"type\": \"PI\"\n    },\n    {\n      \"description\": \"PORAO\",\n      \"type\": \"PO\"\n    },\n    {\n      \"description\": \"PORTAO\",\n      \"type\": \"PT\"\n    },\n    {\n      \"description\": \"PREDIO\",\n      \"type\": \"PD\"\n    },\n    {\n      \"description\": \"PRESIDENCIA\",\n      \"type\": \"PE\"\n    },\n    {\n      \"description\": \"PROXIMO\",\n      \"type\": \"PX\"\n    },\n    {\n      \"description\": \"QUADRA\",\n      \"type\": \"QU\"\n    },\n    {\n      \"description\": \"QUARTO\",\n      \"type\": \"QT\"\n    },\n    {\n      \"description\": \"QUILOMETRO\",\n      \"type\": \"KM\"\n    },\n    {\n      \"description\": \"QUINTA\",\n      \"type\": \"QN\"\n    },\n    {\n      \"description\": \"QUIOSQUE\",\n      \"type\": \"QQ\"\n    },\n    {\n      \"description\": \"RAMAL\",\n      \"type\": \"RM\"\n    },\n    {\n      \"description\": \"RECEPCAO\",\n      \"type\": \"RP\"\n    },\n    {\n      \"description\": \"REFEITORIO\",\n      \"type\": \"RF\"\n    },\n    {\n      \"description\": \"RESTAURANTE\",\n      \"type\": \"RT\"\n    },\n    {\n      \"description\": \"RODOVIARIA\",\n      \"type\": \"RO\"\n    },\n    {\n      \"description\": \"ROTULA\",\n      \"type\": \"RL\"\n    },\n    {\n      \"description\": \"SALA\",\n      \"type\": \"SL\"\n    },\n    {\n      \"description\": \"SALA TECNICA\",\n      \"type\": \"SA\"\n    },\n    {\n      \"description\": \"SALAO DE EVENTOS\",\n      \"type\": \"SE\"\n    },\n    {\n      \"description\": \"SECAO\",\n      \"type\": \"SC\"\n    },\n    {\n      \"description\": \"SEM COMPLEMENTO\",\n      \"type\": \"SK\"\n    },\n    {\n      \"description\": \"SETOR\",\n      \"type\": \"SR\"\n    },\n    {\n      \"description\": \"SETOR ORGAO (RVI)\",\n      \"type\": \"ST\"\n    },\n    {\n      \"description\": \"SOBRADO\",\n      \"type\": \"SB\"\n    },\n    {\n      \"description\": \"SOBRELOJA\",\n      \"type\": \"SJ\"\n    },\n    {\n      \"description\": \"STAND\",\n      \"type\": \"SD\"\n    },\n    {\n      \"description\": \"SUB NUMERO\",\n      \"type\": \"NR\"\n    },\n    {\n      \"description\": \"SUBESTACAO\",\n      \"type\": \"SU\"\n    },\n    {\n      \"description\": \"SUBSOLO\",\n      \"type\": \"SS\"\n    },\n    {\n      \"description\": \"SUPER QUADRA\",\n      \"type\": \"SQ\"\n    },\n    {\n      \"description\": \"TERRENO\",\n      \"type\": \"TN\"\n    },\n    {\n      \"description\": \"TERREO\",\n      \"type\": \"TO\"\n    },\n    {\n      \"description\": \"TITULO S/ COMPLEMENTO\",\n      \"type\": \"ZZ\"\n    },\n    {\n      \"description\": \"TORRE\",\n      \"type\": \"TE\"\n    },\n    {\n      \"description\": \"TRAVESSA\",\n      \"type\": \"TV\"\n    },\n    {\n      \"description\": \"TRECHO\",\n      \"type\": \"TR\"\n    },\n    {\n      \"description\": \"VILA\",\n      \"type\": \"VL\"\n    },\n    {\n      \"description\": \"VIZINHO\",\n      \"type\": \"VZ\"\n    }\n  ]\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Forbidden - Scope Not Permitted",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "complementTypes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "complementTypes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Too Many Requests - Exceeded Quota",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "complementTypes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Too Many Requests",
+          "code": 429,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Internal Server Error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "complementTypes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Service Unavailable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "complementTypes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Gateway Timeout",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "complementTypes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Gateway Timeout",
+          "code": 504,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "name": "geographicAddress",
+      "item": [
+        {
+          "name": "List address with keywords",
+          "request": {
+            "name": "List address with keywords",
+            "description": {},
+            "url": {
+              "path": [
+                "geographicAddress"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "address",
+                  "value": "<string>",
+                  "description": "(Required) Logradouro a ser pesquisado (rua, bairro, CEP, etc...)"
+                },
+                {
+                  "disabled": false,
+                  "key": "number",
+                  "value": "<string>",
+                  "description": "NÃÂºmero do logradouro"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "name": "successful operation",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "address",
+                      "value": "Rua do Lavradio Rio de Janeiro"
+                    },
+                    {
+                      "key": "number",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"addresses\": {\n    \"address\": [\n      {\n        \"city\": null,\n        \"description\": \"Rua Do Lavradio, Parque Residencial Aeroporto - MaringÃÂ¡, PR\",\n        \"hasNumber\": true,\n        \"id\": null,\n        \"location\": \"MaringÃÂ¡\",\n        \"locationAbbreviation\": null,\n        \"locationCode\": null,\n        \"locationUniqueZipCode\": false,\n        \"neighborhood\": null,\n        \"number\": null,\n        \"state\": null,\n        \"stateAbbreviation\": \"PR\",\n        \"streetName\": \"Do Lavradio\",\n        \"streetTitle\": null,\n        \"streetType\": null,\n        \"zipCode\": null\n      },\n      {\n        \"city\": null,\n        \"description\": \"Rua Do Lavradio, Mar Do Norte - Rio Das Ostras, RJ\",\n        \"hasNumber\": true,\n        \"id\": null,\n        \"location\": \"Rio Das Ostras\",\n        \"locationAbbreviation\": null,\n        \"locationCode\": null,\n        \"locationUniqueZipCode\": true,\n        \"neighborhood\": null,\n        \"number\": null,\n        \"state\": null,\n        \"stateAbbreviation\": \"RJ\",\n        \"streetName\": \"Do Lavradio\",\n        \"streetTitle\": null,\n        \"streetType\": null,\n        \"zipCode\": null\n      },\n      {\n        \"city\": null,\n        \"description\": \"Rua Do Lavradio, Centro - Rio De Janeiro, RJ\",\n        \"hasNumber\": true,\n        \"id\": null,\n        \"location\": \"Rio De Janeiro\",\n        \"locationAbbreviation\": null,\n        \"locationCode\": null,\n        \"locationUniqueZipCode\": false,\n        \"neighborhood\": null,\n        \"number\": null,\n        \"state\": null,\n        \"stateAbbreviation\": \"RJ\",\n        \"streetName\": \"Do Lavradio\",\n        \"streetTitle\": null,\n        \"streetType\": null,\n        \"zipCode\": null\n      }\n    ]\n  },\n  \"control\": {\n    \"code\": 200,\n    \"message\": \"OK\",\n    \"type\": \"S\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Bad Request",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "address",
+                      "value": "Rua do Lavradio Rio de Janeiro"
+                    },
+                    {
+                      "key": "number",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 400,\n    \"message\": \"OSB Validate action failed validation\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Forbidden - Scope Not Permitted",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "address",
+                      "value": "Rua do Lavradio Rio de Janeiro"
+                    },
+                    {
+                      "key": "number",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Forbidden",
+              "code": 403,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Not Found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "address",
+                      "value": "Rua do Lavradio Rio de Janeiro"
+                    },
+                    {
+                      "key": "number",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Too Many Requests - Exceeded Quota",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "address",
+                      "value": "Rua do Lavradio Rio de Janeiro"
+                    },
+                    {
+                      "key": "number",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Too Many Requests",
+              "code": 429,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Internal Server Error",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "address",
+                      "value": "Rua do Lavradio Rio de Janeiro"
+                    },
+                    {
+                      "key": "number",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Service Unavailable",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "address",
+                      "value": "Rua do Lavradio Rio de Janeiro"
+                    },
+                    {
+                      "key": "number",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Service Unavailable",
+              "code": 503,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Gateway Timeout",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "address",
+                      "value": "Rua do Lavradio Rio de Janeiro"
+                    },
+                    {
+                      "key": "number",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Gateway Timeout",
+              "code": 504,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "name": "Retrive address with id",
+          "request": {
+            "name": "Retrive address with id",
+            "description": {},
+            "url": {
+              "path": [
+                "geographicAddress",
+                ":addressId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<long>",
+                  "key": "addressId",
+                  "description": "(Required) Id do endereÃÂ§o"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "name": "successful operation",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress",
+                    ":addressId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<long>",
+                      "key": "addressId",
+                      "description": "(Required) Id do endereÃÂ§o"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"address\": {\n    \"cellCode\": \"4504-RJ-DQX-DQX-608 (DQX) SecundÃÂ¡ria\",\n    \"censusSection\": \"330330205000830\",\n    \"city\": \"Rio De Janeiro\",\n    \"description\": \"Rua do Lavradio, 71, Centro - Rio De Janeiro, RJ (20230-070)\",\n    \"geolocation\": {\n      \"geometry\": \"POINT (-43.1830219 -22.9091906)\",\n      \"latitude\": -22.9091906,\n      \"longitude\": -43.1830219,\n      \"returnTypeDescription\": \"LOGRADOURO SURVEY\",\n      \"returnTypeId\": 10\n    },\n    \"hasNumber\": true,\n    \"id\": 14393,\n    \"location\": \"Rio de Janeiro\",\n    \"locationAbbreviation\": \"RJO\",\n    \"locationCode\": 21000,\n    \"neighborhood\": \"Centro\",\n    \"number\": 71,\n    \"state\": \"Rio De Janeiro\",\n    \"stateAbbreviation\": \"RJ\",\n    \"streetName\": \"do Lavradio\",\n    \"streetTitle\": null,\n    \"streetType\": \"Rua\",\n    \"zipCode\": 20230070\n  },\n  \"control\": {\n    \"code\": 200,\n    \"message\": \"OK\",\n    \"type\": \"S\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Bad Request",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress",
+                    ":addressId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<long>",
+                      "key": "addressId",
+                      "description": "(Required) Id do endereÃÂ§o"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 400,\n    \"message\": \"OSB Validate action failed validation\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Forbidden - Scope Not Permitted",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress",
+                    ":addressId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<long>",
+                      "key": "addressId",
+                      "description": "(Required) Id do endereÃÂ§o"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Forbidden",
+              "code": 403,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Not Found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress",
+                    ":addressId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<long>",
+                      "key": "addressId",
+                      "description": "(Required) Id do endereÃÂ§o"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Too Many Requests - Exceeded Quota",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress",
+                    ":addressId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<long>",
+                      "key": "addressId",
+                      "description": "(Required) Id do endereÃÂ§o"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Too Many Requests",
+              "code": 429,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Internal Server Error",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress",
+                    ":addressId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<long>",
+                      "key": "addressId",
+                      "description": "(Required) Id do endereÃÂ§o"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Service Unavailable",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress",
+                    ":addressId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<long>",
+                      "key": "addressId",
+                      "description": "(Required) Id do endereÃÂ§o"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Service Unavailable",
+              "code": 503,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "name": "Gateway Timeout",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "geographicAddress",
+                    ":addressId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<long>",
+                      "key": "addressId",
+                      "description": "(Required) Id do endereÃÂ§o"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Gateway Timeout",
+              "code": 504,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    },
+    {
+      "name": "List address with keywords",
+      "request": {
+        "name": "List address with keywords",
+        "description": {},
+        "url": {
+          "path": [
+            "geographicLocation"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "latitude",
+              "value": "<double>",
+              "description": "(Required) latitude"
+            },
+            {
+              "disabled": false,
+              "key": "longitude",
+              "value": "<double>",
+              "description": "(Required) longitude"
+            },
+            {
+              "disabled": false,
+              "key": "radius",
+              "value": "<integer>",
+              "description": "(Required) radius in meters (maxValue 50)"
+            }
+          ],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "geographicLocation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "-22.9091906"
+                },
+                {
+                  "key": "longitude",
+                  "value": "-43.1830219"
+                },
+                {
+                  "key": "radius",
+                  "value": "50"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"addresses\": {\n    \"address\": [\n      {\n        \"city\": \"Rio De Janeiro\",\n        \"description\": \"Avenida Prefeito DulcÃÂ­dio Cardoso, 2920, Barra Da Tijuca - Rio De Janeiro, RJ (22631-052)\",\n        \"geoLocation\": {\n          \"geometry\": \"POINT (-23.004346, -43.349478)\",\n          \"latitude\": -23.004346,\n          \"longitude\": -43.349478,\n          \"returnTypeDescription\": \"LOGRADOURO SURVEY\",\n          \"returnTypeId\": 10\n        },\n        \"hasNumber\": true,\n        \"id\": 147210,\n        \"location\": \"Rio de Janeiro\",\n        \"locationAbbreviation\": \"RJO\",\n        \"locationCode\": \"21089\",\n        \"locationUniqueZipCode\": false,\n        \"neighborhood\": \"Barra Da Tijuca\",\n        \"number\": \"2920\",\n        \"state\": \"Rio De Janeiro\",\n        \"stateAbbreviation\": \"RJ\",\n        \"streetName\": \"DulcÃÂ­dio Cardoso\",\n        \"streetTitle\": \"Prefeito\",\n        \"streetType\": \"Avenida\",\n        \"zipCode\": \"22631052\"\n      },\n      {\n        \"city\": \"Rio De Janeiro\",\n        \"description\": \"Avenida Prefeito DulcÃÂ­dio Cardoso, 2900, Barra Da Tijuca - Rio De Janeiro, RJ (22620-311)\",\n        \"geoLocation\": {\n          \"geometry\": \"POINT (-23.004346, -43.349478)\",\n          \"latitude\": -23.004346,\n          \"longitude\": -43.349478\n        },\n        \"hasNumber\": true,\n        \"id\": 148456,\n        \"location\": \"Rio de Janeiro\",\n        \"locationAbbreviation\": \"RJO\",\n        \"locationCode\": \"21000\",\n        \"locationUniqueZipCode\": false,\n        \"neighborhood\": \"Barra Da Tijuca\",\n        \"number\": \"2900\",\n        \"state\": \"Rio De Janeiro\",\n        \"stateAbbreviation\": \"RJ\",\n        \"streetName\": \"DulcÃÂ­dio Cardoso\",\n        \"streetTitle\": \"Prefeito\",\n        \"streetType\": \"Avenida\",\n        \"zipCode\": \"22620311\"\n      }\n    ]\n  },\n  \"control\": {\n    \"code\": 200,\n    \"message\": \"OK\",\n    \"type\": \"S\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Bad Request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "geographicLocation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "-22.9091906"
+                },
+                {
+                  "key": "longitude",
+                  "value": "-43.1830219"
+                },
+                {
+                  "key": "radius",
+                  "value": "50"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 400,\n    \"message\": \"Raio informado maior que o permitido. O limite do raio ÃÂ© ${limiteDoRaio}\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Forbidden - Scope Not Permitted",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "geographicLocation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "-22.9091906"
+                },
+                {
+                  "key": "longitude",
+                  "value": "-43.1830219"
+                },
+                {
+                  "key": "radius",
+                  "value": "50"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "geographicLocation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "-22.9091906"
+                },
+                {
+                  "key": "longitude",
+                  "value": "-43.1830219"
+                },
+                {
+                  "key": "radius",
+                  "value": "50"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Unprocessable Entity",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "geographicLocation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "-22.9091906"
+                },
+                {
+                  "key": "longitude",
+                  "value": "-43.1830219"
+                },
+                {
+                  "key": "radius",
+                  "value": "50"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+          "code": 422,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 422,\n    \"message\": \"Quantidade de endereÃÂ§os selecionada maior que o suportado. Reduza o tamanho do raio.\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Too Many Requests - Exceeded Quota",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "geographicLocation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "-22.9091906"
+                },
+                {
+                  "key": "longitude",
+                  "value": "-43.1830219"
+                },
+                {
+                  "key": "radius",
+                  "value": "50"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Too Many Requests",
+          "code": 429,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Internal Server Error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "geographicLocation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "-22.9091906"
+                },
+                {
+                  "key": "longitude",
+                  "value": "-43.1830219"
+                },
+                {
+                  "key": "radius",
+                  "value": "50"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Service Unavailable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "geographicLocation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "-22.9091906"
+                },
+                {
+                  "key": "longitude",
+                  "value": "-43.1830219"
+                },
+                {
+                  "key": "radius",
+                  "value": "50"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Gateway Timeout",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "geographicLocation"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "latitude",
+                  "value": "-22.9091906"
+                },
+                {
+                  "key": "longitude",
+                  "value": "-43.1830219"
+                },
+                {
+                  "key": "radius",
+                  "value": "50"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Gateway Timeout",
+          "code": 504,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "name": "Retrive neighborhood using stateAbreviation and city",
+      "request": {
+        "name": "Retrive neighborhood using stateAbreviation and city",
+        "description": {},
+        "url": {
+          "path": [
+            "neighborhood",
+            ":stateAbreviation",
+            ":city"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "stateAbreviation",
+              "description": "(Required) AbreviaÃÂ§ÃÂ£o do estado"
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "city",
+              "description": "(Required) Cidade"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "neighborhood",
+                ":stateAbreviation",
+                ":city"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviaÃÂ§ÃÂ£o do estado"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "city",
+                  "description": "(Required) Cidade"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"neighborhoods\": [\n    {\n      \"code\": \"200\",\n      \"control\": null,\n      \"message\": \"OK\",\n      \"type\": \"S\"\n    },\n    {\n      \"city\": \"Cabral\",\n      \"fid\": 23314,\n      \"name\": \"Cabral\",\n      \"stateAbreviation\": \"RJ\"\n    },\n    {\n      \"city\": \"Cabuis\",\n      \"fid\": 23315,\n      \"name\": \"Cabuis\",\n      \"stateAbreviation\": \"RJ\"\n    },\n    {\n      \"city\": \"Centro\",\n      \"fid\": 23316,\n      \"name\": \"Centro\",\n      \"stateAbreviation\": \"RJ\"\n    },\n    {\n      \"city\": \"N Sra FÃÂ¡tima\",\n      \"fid\": 23317,\n      \"name\": \"Nossa Senhora de FÃÂ¡tima\",\n      \"stateAbreviation\": \"RJ\"\n    },\n    {\n      \"city\": \"N Cidade\",\n      \"fid\": 23318,\n      \"name\": \"Nova Cidade\",\n      \"stateAbreviation\": \"RJ\"\n    },\n    {\n      \"city\": \"Olinda\",\n      \"fid\": 23319,\n      \"name\": \"Olinda\",\n      \"stateAbreviation\": \"RJ\"\n    },\n    {\n      \"city\": \"P PÃÂ³lvora\",\n      \"fid\": 23320,\n      \"name\": \"Paiol de PÃÂ³lvora\",\n      \"stateAbreviation\": \"RJ\"\n    },\n    {\n      \"city\": \"A R NilÃÂ³polis\",\n      \"fid\": 23313,\n      \"name\": \"ÃÂrea Rural de NilÃÂ³polis\",\n      \"stateAbreviation\": \"RJ\"\n    }\n  ]\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Forbidden - Scope Not Permitted",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "neighborhood",
+                ":stateAbreviation",
+                ":city"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviaÃÂ§ÃÂ£o do estado"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "city",
+                  "description": "(Required) Cidade"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "neighborhood",
+                ":stateAbreviation",
+                ":city"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviaÃÂ§ÃÂ£o do estado"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "city",
+                  "description": "(Required) Cidade"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 404,\n    \"message\": \"Not Found\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Too Many Requests - Exceeded Quota",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "neighborhood",
+                ":stateAbreviation",
+                ":city"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviaÃÂ§ÃÂ£o do estado"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "city",
+                  "description": "(Required) Cidade"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Too Many Requests",
+          "code": 429,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\",\n    \"type\": \"E\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Internal Server Error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "neighborhood",
+                ":stateAbreviation",
+                ":city"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviaÃÂ§ÃÂ£o do estado"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "city",
+                  "description": "(Required) Cidade"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 500,\n    \"message\": \"Internal Server Error\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Service Unavailable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "neighborhood",
+                ":stateAbreviation",
+                ":city"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviaÃÂ§ÃÂ£o do estado"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "city",
+                  "description": "(Required) Cidade"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 503,\n    \"message\": \"Service Unavailable\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "name": "Gateway Timeout",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "neighborhood",
+                ":stateAbreviation",
+                ":city"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "stateAbreviation",
+                  "description": "(Required) AbreviaÃÂ§ÃÂ£o do estado"
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "city",
+                  "description": "(Required) Cidade"
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Gateway Timeout",
+          "code": 504,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\",\n    \"type\": \"T\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    },
+    {
+      "type": "number",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "e4b5b742-b777-4972-baad-d1bba6ccfa73",
+    "name": "GeographicAddressManagement",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}
