@@ -1,0 +1,27 @@
+[
+  {
+    "hostname": "072-229-028-185.res.spectrum.com",
+    "statusCode": 200,
+    "scenario": "200 OK – Hostname"
+  },
+  {
+    "hostname": "example.invalid",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "hostname": "localhost",
+    "statusCode": 200,
+    "scenario": "200 OK – Hostname"
+  },
+  {
+    "hostname": "256.256.256.256",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "hostname": "test-hostname.com",
+    "statusCode": 200,
+    "scenario": "200 OK – Hostname"
+  }
+]
