@@ -1,0 +1,27 @@
+[
+  {
+    "hostname": "160.39.144.19",
+    "statusCode": 200,
+    "scenario": "200 OK – Hostname"
+  },
+  {
+    "hostname": "invalid_hostname_!@#",
+    "statusCode": 400,
+    "scenario": "400 Bad Request – Invalid Hostname"
+  },
+  {
+    "hostname": "example.com",
+    "statusCode": 200,
+    "scenario": "200 OK – Hostname"
+  },
+  {
+    "hostname": "%%%%wrong_hostname@@",
+    "statusCode": 500,
+    "scenario": "500 Internal Server Error – Malformed Hostname"
+  },
+  {
+    "hostname": "hostname.with.dashes",
+    "statusCode": 200,
+    "scenario": "200 OK – Hostname"
+  }
+]
