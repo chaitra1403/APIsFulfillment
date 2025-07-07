@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_get[1.1:41]","start":1751870461363,"end":1751870461368,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_get[1.1:41] 06:41:01.363-06:41:01.368 GET \/country - Validate response for valid headers and successful operation","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_get[2.1:53]","start":1751870461373,"end":1751870461388,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_get[2.1:53] 06:41:01.373-06:41:01.388 GET \/country - Validate response for valid headers and error case (Invalid Keys)","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_get[2.2:54]","start":1751870461393,"end":1751870461395,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_get[2.2:54] 06:41:01.393-06:41:01.395 GET \/country - Validate response for valid headers and error case (Invalid Keys)","className":"failed"},{"id":4,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_delete[1.1:28]","start":1751870461650,"end":1751870461656,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_delete[1.1:28] 06:41:01.650-06:41:01.656 Validate delete country API for success response","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_get[1.1:41]","start":1751870461517,"end":1751870461520,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_get[1.1:41] 06:41:01.517-06:41:01.520 Testing \/country\/{id} with valid ID, app-identifier and customer-secret-key","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_get[2.1:53]","start":1751870461526,"end":1751870461528,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_get[2.1:53] 06:41:01.526-06:41:01.528 Testing \/country\/{id} with invalid inputs","className":"failed"},{"id":7,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_get[2.2:54]","start":1751870461534,"end":1751870461537,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_get[2.2:54] 06:41:01.534-06:41:01.537 Testing \/country\/{id} with invalid inputs","className":"failed"},{"id":8,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_put[1.1:45]","start":1751870461252,"end":1751870461256,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_id_put[1.1:45] 06:41:01.252-06:41:01.256 Validate Update Country by ID Endpoint with valid input","className":"failed"},{"id":9,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[1.1:56]","start":1751870459618,"end":1751870460202,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[1.1:56] 06:40:59.618-06:41:00.202 Test POST \/country API with valid payload and validate the response","className":"failed"},{"id":10,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[1.2:56]","start":1751870460217,"end":1751870460225,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[1.2:56] 06:41:00.217-06:41:00.225 Test POST \/country API with valid payload and validate the response","className":"failed"},{"id":11,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[2:58]","start":1751870460235,"end":1751870460241,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[2:58] 06:41:00.235-06:41:00.241 Test POST \/country API with missing required fields","className":"failed"},{"id":12,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[3.1:95]","start":1751870460248,"end":1751870460253,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[3.1:95] 06:41:00.248-06:41:00.253 Test invalid data types in POST \/country","className":"failed"},{"id":13,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[3.2:96]","start":1751870460260,"end":1751870460263,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[3.2:96] 06:41:00.260-06:41:00.263 Test invalid data types in POST \/country","className":"failed"},{"id":14,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[3.3:97]","start":1751870460270,"end":1751870460274,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/Country\/country_post[3.3:97] 06:41:00.270-06:41:00.274 Test invalid data types in POST \/country","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
