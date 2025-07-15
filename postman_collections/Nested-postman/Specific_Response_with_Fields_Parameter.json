@@ -1,0 +1,27 @@
+[
+  {
+    "fields": "zip",
+    "statusCode": 200,
+    "scenario": "200 OK – Specific Response with Fields Parameter"
+  },
+  {
+    "fields": "zipcode",
+    "statusCode": 200,
+    "scenario": "200 OK – Specific Response with Fields Parameter"
+  },
+  {
+    "fields": "postalCode",
+    "statusCode": 200,
+    "scenario": "200 OK – Specific Response with Fields Parameter"
+  },
+  {
+    "fields": "12345",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "fields": "",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  }
+]
