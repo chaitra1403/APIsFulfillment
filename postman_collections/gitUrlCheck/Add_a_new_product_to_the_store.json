@@ -1,0 +1,42 @@
+[
+  {
+    "name_*string": "apple",
+    "id_*long": 10,
+    "description_*string": "description of the product",
+    "price_*long": 20,
+    "statusCode": 200,
+    "scenario": "Successful operation"
+  },
+  {
+    "name_*string": "banana",
+    "id_*long": 11,
+    "description_*string": "fresh bananas",
+    "price_*long": 15,
+    "statusCode": 200,
+    "scenario": "Successful operation"
+  },
+  {
+    "name_*string": "cherry",
+    "id_*long": 12,
+    "description_*string": "sweet cherries",
+    "price_*long": 25,
+    "statusCode": 200,
+    "scenario": "Successful operation"
+  },
+  {
+    "name_*string": "",
+    "id_*long": -1,
+    "description_*string": "",
+    "price_*long": -100,
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "name_*string": "invalid_name",
+    "id_*long": 1000000000000000000,
+    "description_*string": "invalid description",
+    "price_*long": 1000000000000000000,
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  }
+]
