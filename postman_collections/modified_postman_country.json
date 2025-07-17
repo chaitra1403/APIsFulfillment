@@ -1,0 +1,621 @@
+{
+  "item": [
+    {
+      "name": "country",
+      "item": [
+        {
+          "name": "Get all countries",
+          "request": {
+            "name": "Get all countries",
+            "description": {},
+            "url": {
+              "path": [
+                "country"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "app-identifier",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "customer-secret-key",
+                "value": "<string>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "name": "Success",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "country"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "app-identifier",
+                    "value": "d645d2b40811f5672c93794d8622da45588f32cdb2ed85336475bf479e5d"
+                  },
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "customer-secret-key",
+                    "value": "12546580645c21b8a3529680f455f715b6b6829da8976bdfd2e9d51181fe"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"status\": \"success\",\n  \"message\": \"Data fetched successfully\",\n  \"data\": {\n    \"countries\": [\n      {\n        \"id\": 32,\n        \"name\": null,\n        \"code\": \"USA\",\n        \"default_currency\": \"USD\",\n        \"is_active\": 1,\n        \"app_id\": 62,\n        \"customer_id\": 48,\n        \"created_by\": 0,\n        \"updated_by\": 0,\n        \"created_at\": \"2025-03-19T04:17:03.000Z\",\n        \"updated_at\": \"2025-03-19T04:17:03.000Z\",\n        \"currencies\": [\n          \"INR\",\n          \"EURO\",\n          \"USD\"\n        ]\n      },\n      {\n        \"id\": 32,\n        \"name\": null,\n        \"code\": \"USA\",\n        \"default_currency\": \"USD\",\n        \"is_active\": 1,\n        \"app_id\": 62,\n        \"customer_id\": 48,\n        \"created_by\": 0,\n        \"updated_by\": 0,\n        \"created_at\": \"2025-03-19T04:17:03.000Z\",\n        \"updated_at\": \"2025-03-19T04:17:03.000Z\",\n        \"currencies\": [\n          \"INR\",\n          \"EURO\",\n          \"USD\"\n        ]\n      }\n    ]\n  },\n  \"error_info\": null\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "name": "Create a new country",
+          "request": {
+            "name": "Create a new country",
+            "description": {},
+            "url": {
+              "path": [
+                "country"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "app-identifier",
+                "value": "{{app-identifier}}"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) ",
+                "key": "customer-secret-key",
+                "value": "{{customer-secret-key}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{bearerToken}}"
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\": \"{{name_*string}}\",\n    \"code\": \"{{code_*string}}\",\n    \"currencies\": [\n        \"{{currencies_0_*string}}\",\n        \"{{currencies_1_*string}}\"\n    ],\n    \"default_currency\": \"{{default_currency_*string}}\",\n    \"is_active\": \"{{is_active_*integer}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "name": "Country created successfully",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "country"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "{{Authorization}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "app-identifier",
+                    "value": "{{app-identifier}}"
+                  },
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "customer-secret-key",
+                    "value": "{{customer-secret-key}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"name\": \"{{name_*string}}\",\n    \"code\": \"{{code_*string}}\",\n    \"currencies\": [\n        \"{{currencies_0_*string}}\",\n        \"{{currencies_1_*string}}\",\n        \"{{currencies_2_*string}}\"\n    ],\n    \"default_currency\": \"{{default_currency_*string}}\",\n    \"is_active\": \"{{is_active_*number}}\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"status\": \"success\",\n  \"message\": \"Country created successfully\",\n  \"data\": {\n    \"id\": 32,\n    \"name\": null,\n    \"code\": \"USA\",\n    \"default_currency\": \"USD\",\n    \"is_active\": 1,\n    \"app_id\": 62,\n    \"customer_id\": 48,\n    \"created_by\": 0,\n    \"updated_by\": 0,\n    \"created_at\": \"2025-03-19T04:17:03.000Z\",\n    \"updated_at\": \"2025-03-19T04:17:03.000Z\",\n    \"currencies\": [\n      \"INR\",\n      \"EURO\",\n      \"USD\"\n    ]\n  },\n  \"error_info\": null\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test apispec-test using AI Type Open AI and AI Model gpt-4o\n\n\nTest generated for country for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n         console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\nif (pm.response.code == 201){\n    pm.test(\"Country created successfully\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Created\");\n        pm.test('Response has the `status` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`status`)){\n                if(pm.expect(ld.get(pm.response.json(), `status`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `status`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.id` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`data.id`)){\n                if(pm.expect(ld.get(responseData, `data.id`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `data.id`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.name` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`data.name`)){\n                if(pm.expect(ld.get(pm.response.json(), `data.name`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `data.name`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`data.code`)){\n                if(pm.expect(ld.get(pm.response.json(), `data.code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `data.code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.default_currency` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`data.default_currency`)){\n                if(pm.expect(ld.get(pm.response.json(), `data.default_currency`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `data.default_currency`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.is_active` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`data.is_active`)){\n                if(pm.expect(ld.get(responseData, `data.is_active`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `data.is_active`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.app_id` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`data.app_id`)){\n                if(pm.expect(ld.get(responseData, `data.app_id`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `data.app_id`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.customer_id` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`data.customer_id`)){\n                if(pm.expect(ld.get(responseData, `data.customer_id`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `data.customer_id`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.created_by` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`data.created_by`)){\n                if(pm.expect(ld.get(responseData, `data.created_by`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `data.created_by`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.updated_by` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`data.updated_by`)){\n                if(pm.expect(ld.get(responseData, `data.updated_by`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `data.updated_by`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `data.created_at` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`data.created_at`)){\n                if(pm.expect(ld.get(pm.response.json(), `data.created_at`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `data.created_at`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('data.created_at format to be date-time',function(){\n            pm.expect(ld.get(responseData, `data.created_at`, \"\")).to.match(/^d{4}-d{2}-d{2}T([01]d|2[0-3]):([0-5]d):([0-5]d)$/);\n        })\n\n        pm.test('Response has the `data.updated_at` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`data.updated_at`)){\n                if(pm.expect(ld.get(pm.response.json(), `data.updated_at`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `data.updated_at`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('data.updated_at format to be date-time',function(){\n            pm.expect(ld.get(responseData, `data.updated_at`, \"\")).to.match(/^d{4}-d{2}-d{2}T([01]d|2[0-3]):([0-5]d):([0-5]d)$/);\n        })\n\n        pm.test('Response has the `data.currencies` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`data.currencies`)){\n                if(pm.expect(ld.get(pm.response.json(), `data.currencies`)).to.exist){\n                  pm.expect(Array.isArray(ld.get(pm.response.json(), `data.currencies`))).to.equal(true);\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `error_info` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`error_info`)){\n                if(pm.expect(ld.get(pm.response.json(), `error_info`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `error_info`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n\n    });\n\n}\n"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "name": "{id}",
+          "item": [
+            {
+              "name": "Get country by ID",
+              "request": {
+                "name": "Get country by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "country",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<integer>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "app-identifier",
+                    "value": "<string>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "customer-secret-key",
+                    "value": "<string>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "name": "Success",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "country",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<integer>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "disabled": false,
+                        "description": "(Required) ",
+                        "key": "app-identifier",
+                        "value": "d645d2b40811f5672c93794d8622da45588f32cdb2ed85336475bf479e5d"
+                      },
+                      {
+                        "disabled": false,
+                        "description": "(Required) ",
+                        "key": "customer-secret-key",
+                        "value": "12546580645c21b8a3529680f455f715b6b6829da8976bdfd2e9d51181fe"
+                      },
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"status\": \"success\",\n  \"message\": \"Data fetched successfully\",\n  \"data\": {\n    \"country\": {\n      \"id\": 32,\n      \"name\": null,\n      \"code\": \"USA\",\n      \"default_currency\": \"USD\",\n      \"is_active\": 1,\n      \"app_id\": 62,\n      \"customer_id\": 48,\n      \"created_by\": 0,\n      \"updated_by\": 0,\n      \"created_at\": \"2025-03-19T04:17:03.000Z\",\n      \"updated_at\": \"2025-03-19T04:17:03.000Z\",\n      \"currencies\": [\n        \"INR\",\n        \"EURO\",\n        \"USD\"\n      ]\n    }\n  },\n  \"error_info\": null\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "name": "Update country by ID",
+              "request": {
+                "name": "Update country by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "country",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<integer>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "app-identifier",
+                    "value": "<string>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "customer-secret-key",
+                    "value": "<string>"
+                  },
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PUT",
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "key": "token",
+                      "value": "{{bearerToken}}"
+                    }
+                  ]
+                },
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"<string>\",\n  \"code\": \"<string>\",\n  \"currencies\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"default_currency\": \"<string>\",\n  \"is_active\": \"<integer>\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": [
+                {
+                  "name": "Country updated successfully",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "country",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<integer>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: bearer",
+                          "type": "text/plain"
+                        },
+                        "key": "Authorization",
+                        "value": "Bearer <token>"
+                      },
+                      {
+                        "disabled": false,
+                        "description": "(Required) ",
+                        "key": "app-identifier",
+                        "value": "d645d2b40811f5672c93794d8622da45588f32cdb2ed85336475bf479e5d"
+                      },
+                      {
+                        "disabled": false,
+                        "description": "(Required) ",
+                        "key": "customer-secret-key",
+                        "value": "12546580645c21b8a3529680f455f715b6b6829da8976bdfd2e9d51181fe"
+                      },
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "PUT",
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"name\": \"INDIA\",\n  \"code\": \"IND\",\n  \"currencies\": [\n    \"INR\",\n    \"USD\",\n    \"EURO\"\n  ],\n  \"default_currency\": \"INR\",\n  \"is_active\": 1\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"status\": \"success\",\n  \"message\": \"Country updated successfully\",\n  \"data\": {\n    \"id\": 32,\n    \"name\": null,\n    \"code\": \"USA\",\n    \"default_currency\": \"USD\",\n    \"is_active\": 1,\n    \"app_id\": 62,\n    \"customer_id\": 48,\n    \"created_by\": 0,\n    \"updated_by\": 0,\n    \"created_at\": \"2025-03-19T04:17:03.000Z\",\n    \"updated_at\": \"2025-03-19T04:17:03.000Z\",\n    \"currencies\": [\n      \"INR\",\n      \"EURO\",\n      \"USD\"\n    ]\n  },\n  \"error_info\": null\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            {
+              "name": "Delete country by ID",
+              "request": {
+                "name": "Delete country by ID",
+                "description": {},
+                "url": {
+                  "path": [
+                    "country",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<integer>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "app-identifier",
+                    "value": "<string>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": "(Required) ",
+                    "key": "customer-secret-key",
+                    "value": "<string>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "DELETE",
+                "auth": null
+              },
+              "response": [
+                {
+                  "name": "Success",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "country",
+                        ":id"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": [
+                        {
+                          "disabled": false,
+                          "type": "any",
+                          "value": "<integer>",
+                          "key": "id",
+                          "description": "(Required) "
+                        }
+                      ]
+                    },
+                    "header": [
+                      {
+                        "disabled": false,
+                        "description": "(Required) ",
+                        "key": "app-identifier",
+                        "value": "d645d2b40811f5672c93794d8622da45588f32cdb2ed85336475bf479e5d"
+                      },
+                      {
+                        "disabled": false,
+                        "description": "(Required) ",
+                        "key": "customer-secret-key",
+                        "value": "12546580645c21b8a3529680f455f715b6b6829da8976bdfd2e9d51181fe"
+                      },
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "DELETE",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"status\": \"success\",\n  \"message\": \"Country deleted successfully\",\n  \"error_info\": null\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                }
+              ],
+              "event": [],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "http://api.example.com/v1",
+      "key": "baseUrl"
+    },
+    {
+      "type": "number",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "8fc1307e-8b65-4274-aad8-66839702cb40",
+    "name": "Sample API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.",
+      "type": "text/plain"
+    }
+  }
+}
