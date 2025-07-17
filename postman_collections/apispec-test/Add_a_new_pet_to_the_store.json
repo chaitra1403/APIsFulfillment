@@ -1,0 +1,47 @@
+[
+  {
+    "name_*string": "doggie",
+    "photoUrls_0_*string": "https://example.com/photo1.jpg",
+    "photoUrls_1_*string": "https://example.com/photo2.jpg",
+    "id_*long": 1234567890123,
+    "category.id_*long": 1001,
+    "category.name_*string": "Pets",
+    "tags_0.id_*long": 2001,
+    "tags_0.name_*string": "Cute",
+    "tags_1.id_*long": 2002,
+    "tags_1.name_*string": "Friendly",
+    "status_*string": "available",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "name_*string": "feline",
+    "photoUrls_0_*string": "https://example.com/cat1.jpg",
+    "photoUrls_1_*string": "https://example.com/cat2.jpg",
+    "id_*long": 9876543210123,
+    "category.id_*long": 1002,
+    "category.name_*string": "Animals",
+    "tags_0.id_*long": 3001,
+    "tags_0.name_*string": "Furry",
+    "tags_1.id_*long": 3002,
+    "tags_1.name_*string": "Playful",
+    "status_*string": "pending",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  },
+  {
+    "name_*string": "bunny",
+    "photoUrls_0_*string": "https://example.com/bunny1.jpg",
+    "photoUrls_1_*string": "https://example.com/bunny2.jpg",
+    "id_*long": 1122334455667,
+    "category.id_*long": 1003,
+    "category.name_*string": "Wildlife",
+    "tags_0.id_*long": 4001,
+    "tags_0.name_*string": "Fluffy",
+    "tags_1.id_*long": 4002,
+    "tags_1.name_*string": "Jumping",
+    "status_*string": "sold",
+    "statusCode": 405,
+    "scenario": "Invalid input"
+  }
+]
