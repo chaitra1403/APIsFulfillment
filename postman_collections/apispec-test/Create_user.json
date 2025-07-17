@@ -1,0 +1,62 @@
+[
+  {
+    "id_*long": 1234567890123,
+    "username_*string": "johndoe",
+    "firstName_*string": "John",
+    "lastName_*string": "Doe",
+    "email_*string": "john.doe@example.com",
+    "password_*string": "securePassword123",
+    "phone_*string": "+1234567890",
+    "userStatus_*integer": 1,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id_*long": 9876543210987,
+    "username_*string": "janedoe",
+    "firstName_*string": "Jane",
+    "lastName_*string": "Doe",
+    "email_*string": "jane.doe@example.com",
+    "password_*string": "anotherSecurePassword456",
+    "phone_*string": "+0987654321",
+    "userStatus_*integer": 2,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id_*long": 1231231231231,
+    "username_*string": "bobsam",
+    "firstName_*string": "Bob",
+    "lastName_*string": "Samson",
+    "email_*string": "bob.samson@example.com",
+    "password_*string": "yetAnotherPassword789",
+    "phone_*string": "+1122334455",
+    "userStatus_*integer": 0,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id_*long": 4564564564564,
+    "username_*string": "alicet",
+    "firstName_*string": "Alice",
+    "lastName_*string": "Turner",
+    "email_*string": "alice.turner@example.com",
+    "password_*string": "passwordAlice123",
+    "phone_*string": "+1223344556",
+    "userStatus_*integer": 1,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  },
+  {
+    "id_*long": 7897897897897,
+    "username_*string": "mikej",
+    "firstName_*string": "Mike",
+    "lastName_*string": "Johnson",
+    "email_*string": "mike.johnson@example.com",
+    "password_*string": "mikeSecurePassword321",
+    "phone_*string": "+6677889900",
+    "userStatus_*integer": 3,
+    "statusCode": 500,
+    "scenario": "successful operation"
+  }
+]
