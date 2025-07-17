@@ -1,0 +1,27 @@
+[
+  {
+    "appointmentId": "SA-562403",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "appointmentId": "INVALID_ID",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "appointmentId": "UNAUTH-9999",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "appointmentId": "NON_EXISTENT",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "appointmentId": "ERR-500-XYZ",
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  }
+]
