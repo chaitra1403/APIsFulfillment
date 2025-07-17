@@ -1,0 +1,52 @@
+[
+  {
+    "name_*string": "INDIA",
+    "code_*string": "IND",
+    "currencies_0_*string": "INR",
+    "currencies_1_*string": "USD",
+    "default_currency_*string": "INR",
+    "is_active_*integer": 1,
+    "statusCode": 201,
+    "scenario": "Country created successfully"
+  },
+  {
+    "name_*string": "UNITED STATES",
+    "code_*string": "USA",
+    "currencies_0_*string": "USD",
+    "currencies_1_*string": "EUR",
+    "default_currency_*string": "USD",
+    "is_active_*integer": 1,
+    "statusCode": 201,
+    "scenario": "Country created successfully"
+  },
+  {
+    "name_*string": "FRANCE",
+    "code_*string": "FRA",
+    "currencies_0_*string": "EUR",
+    "currencies_1_*string": "USD",
+    "default_currency_*string": "EUR",
+    "is_active_*integer": 1,
+    "statusCode": 201,
+    "scenario": "Country created successfully"
+  },
+  {
+    "name_*string": "INVALID_COUNTRY",
+    "code_*string": "123",
+    "currencies_0_*string": "XXX",
+    "currencies_1_*string": "YYY",
+    "default_currency_*string": "ZZZ",
+    "is_active_*integer": 0,
+    "statusCode": 201,
+    "scenario": "Country created successfully"
+  },
+  {
+    "name_*string": "GERMANY",
+    "code_*string": "DEU",
+    "currencies_0_*string": "EUR",
+    "currencies_1_*string": "GBP",
+    "default_currency_*string": "EUR",
+    "is_active_*integer": 1,
+    "statusCode": 201,
+    "scenario": "Country created successfully"
+  }
+]
