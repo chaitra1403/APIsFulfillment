@@ -1,0 +1,72 @@
+[
+  {
+    "addressId": "ADD123456",
+    "subscriberId": "SUB987654",
+    "associatedDocument": "DOC20230901",
+    "startDate": "2023-09-01",
+    "finishDate": "2023-09-10",
+    "orderType": "NEW",
+    "addressChangeFlag": "N",
+    "productType": "FIBER",
+    "priorityFlag": "Y",
+    "priorityReason": "Medical facility installation",
+    "statusCode": 200,
+    "scenario": "success"
+  },
+  {
+    "addressId": "###INVALID_ADDR###",
+    "subscriberId": "00000000000000000000",
+    "associatedDocument": "@@BAD_DOC@@",
+    "startDate": "2023-13-32",
+    "finishDate": "not-a-date",
+    "orderType": "???",
+    "addressChangeFlag": "maybe",
+    "productType": "!@#",
+    "priorityFlag": "??",
+    "priorityReason": "%%%",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "addressId": "UNAUTH_ADDR_001",
+    "subscriberId": "UNAUTH_SUB_001",
+    "associatedDocument": "UNAUTH_DOC",
+    "startDate": "2022-02-30",
+    "finishDate": "2022-02-31",
+    "orderType": "UNAUTH_ORDER",
+    "addressChangeFlag": "X",
+    "productType": "UNAUTH_PRODUCT",
+    "priorityFlag": "Z",
+    "priorityReason": "UNAUTH_REASON",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "addressId": "FORB_ADDR_999",
+    "subscriberId": "FORB_SUB_999",
+    "associatedDocument": "FORB_DOC_999",
+    "startDate": "2025-02-29",
+    "finishDate": "2025-02-30",
+    "orderType": "FORB_ORDER",
+    "addressChangeFlag": "FORB",
+    "productType": "FORB_PRODUCT",
+    "priorityFlag": "FORB_FLAG",
+    "priorityReason": "FORB_REASON",
+    "statusCode": 403,
+    "scenario": "Forbidden - Scope Not Permitted"
+  },
+  {
+    "addressId": "SRV_ERR_ADDR",
+    "subscriberId": "SRV_ERR_SUB",
+    "associatedDocument": "SRV_ERR_DOC",
+    "startDate": "9999-99-99",
+    "finishDate": "9999-99-99",
+    "orderType": "SRV_ERR_ORDER",
+    "addressChangeFlag": "ERR",
+    "productType": "SRV_ERR_PRODUCT",
+    "priorityFlag": "ERR_FLAG",
+    "priorityReason": "SRV_ERR_REASON",
+    "statusCode": 500,
+    "scenario": "Internal Server Error"
+  }
+]
