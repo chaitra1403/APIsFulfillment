@@ -1,0 +1,11 @@
+confirmation^|^id^|^subscriberId^|^statusCode^|^scenario
+true^|^SA-123456^|^VTAL001^|^200^|^Appointment Confirmed
+false^|^SA-234567^|^VTAL002^|^404^|^Subscriber Not Found
+true^|^SA-345678^|^VTAL003^|^500^|^Technical Issue
+false^|^SA-456789^|^VTAL004^|^400^|^Invalid Request
+true^|^SA-567890^|^VTAL005^|^202^|^Request Accepted
+false^|^SA-678901^|^VTAL006^|^403^|^Permission Denied
+true^|^SA-789012^|^VTAL007^|^204^|^No Content
+false^|^SA-890123^|^VTAL008^|^401^|^Unauthorized Access
+true^|^SA-901234^|^VTAL009^|^201^|^Resource Created
+false^|^SA-012345^|^VTAL010^|^302^|^Redirect
