@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"appointmentConfirmation_post[1.1:39]","start":1754368749670,"end":1754368750370,"title":"appointmentConfirmation_post[1.1:39] 04:39:09.670-04:39:10.370 Validate Appointment Confirmation API - Success Response (200)","className":"failed"},{"id":2,"group":1,"content":"appointmentConfirmation_post[1.2:39]","start":1754368750386,"end":1754368750432,"title":"appointmentConfirmation_post[1.2:39] 04:39:10.386-04:39:10.432 Validate Appointment Confirmation API - Success Response (200)","className":"failed"},{"id":3,"group":1,"content":"appointmentConfirmation_post[2.1:63]","start":1754368750440,"end":1754368750470,"title":"appointmentConfirmation_post[2.1:63] 04:39:10.440-04:39:10.470 Validate Appointment Confirmation API - Error Responses","className":"failed"},{"id":4,"group":1,"content":"appointmentConfirmation_post[2.2:64]","start":1754368750480,"end":1754368750504,"title":"appointmentConfirmation_post[2.2:64] 04:39:10.480-04:39:10.504 Validate Appointment Confirmation API - Error Responses","className":"failed"},{"id":5,"group":1,"content":"appointmentConfirmation_post[3:66]","start":1754368750511,"end":1754368750536,"title":"appointmentConfirmation_post[3:66] 04:39:10.511-04:39:10.536 Validate Unauthorized Response (401)","className":"failed"},{"id":6,"group":1,"content":"appointmentConfirmation_post[4:86]","start":1754368750543,"end":1754368750566,"title":"appointmentConfirmation_post[4:86] 04:39:10.543-04:39:10.566 Validate Forbidden Response (403)","className":"failed"},{"id":7,"group":1,"content":"appointmentConfirmation_post[5:106]","start":1754368750575,"end":1754368750593,"title":"appointmentConfirmation_post[5:106] 04:39:10.575-04:39:10.593 Validate Internal Server Error Response (500)","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
