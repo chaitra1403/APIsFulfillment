@@ -1,0 +1,32 @@
+[
+  {
+    "appointment.reason_*string": "Routine Checkup",
+    "appointment.slot.id_*string": "slot123",
+    "statusCode": 201,
+    "scenario": "successful operation"
+  },
+  {
+    "appointment.reason_*string": "Urgent Consultation",
+    "appointment.slot.id_*string": "slot456",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "appointment.reason_*string": "Follow-up Visit",
+    "appointment.slot.id_*string": "slot789",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "appointment.reason_*string": "Annual Physical",
+    "appointment.slot.id_*string": "slot000",
+    "statusCode": 403,
+    "scenario": "Forbidden - Scope Not Permitted"
+  },
+  {
+    "appointment.reason_*string": "Consultation",
+    "appointment.slot.id_*string": "slot999",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  }
+]
