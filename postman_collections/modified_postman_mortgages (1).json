@@ -1,0 +1,516 @@
+{
+  "item": [
+    {
+      "id": "f1e4188b-7b79-42e4-94ee-c0e3402210f0",
+      "name": "Information about our financing options geared towards property purchase for retail customers, including interest rates, eligibility requirements, term lengths and more.",
+      "request": {
+        "name": "Information about our financing options geared towards property purchase for retail customers, including interest rates, eligibility requirements, term lengths and more.",
+        "description": {
+          "content": "Information about our financing options geared towards property purchase for retail customers, including interest rates, eligibility requirements, term lengths and more.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "open-banking",
+            "v1.0",
+            "personal-mortgages"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "disabled": false,
+            "description": "(Required) Client ID for the Third Party Provider, available after logon to the developer portal.",
+            "key": "ClientID",
+            "value": "<string>"
+          },
+          {
+            "disabled": false,
+            "description": "(Required) Client Secret for the Third Party Provider, available after logon to the developer portal.",
+            "key": "ClientSecret",
+            "value": "<string>"
+          },
+          {
+            "disabled": false,
+            "description": "Options en-HK, zh-HK or zh-CN. If not provided, en-HK will be as default value",
+            "key": "Accept-Language",
+            "value": "<string>"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "f4472641-40c3-4cff-87d1-1457e9eab215",
+          "name": "Success",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "open-banking",
+                "v1.0",
+                "personal-mortgages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) Client ID for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientID",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) Client Secret for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientSecret",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "Options en-HK, zh-HK or zh-CN. If not provided, en-HK will be as default value",
+                "key": "Accept-Language",
+                "value": "<string>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"data\": [\n    {\n      \"Brand\": [\n        {\n          \"BrandName\": \"proident ad adipisicing officia\",\n          \"Mortgage\": [\n            {\n              \"Name\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"MortgageMarketingState\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"OnSaleIndicator\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          ]\n        },\n        {\n          \"BrandName\": \"occaecat proident \",\n          \"Mortgage\": [\n            {\n              \"Name\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"MortgageMarketingState\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"OnSaleIndicator\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"Brand\": [\n        {\n          \"BrandName\": \"ut\",\n          \"Mortgage\": [\n            {\n              \"Name\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"MortgageMarketingState\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"OnSaleIndicator\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          ]\n        },\n        {\n          \"BrandName\": \"ut Excepteur id\",\n          \"Mortgage\": [\n            {\n              \"Name\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"MortgageMarketingState\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              },\n              \"OnSaleIndicator\": {\n                \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"meta\": {\n    \"LastUpdated\": \"2019-02-19T08:39:15.537+08:00\",\n    \"TotalResults\": 74999543,\n    \"Agreement\": \"Use of the APIs and any related data will be subject to terms and conditions.\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "0d112508-b7fc-434b-a605-ccb5197fc6ee",
+          "name": "Bad request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "open-banking",
+                "v1.0",
+                "personal-mortgages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) Client ID for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientID",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) Client Secret for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientSecret",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "Options en-HK, zh-HK or zh-CN. If not provided, en-HK will be as default value",
+                "key": "Accept-Language",
+                "value": "<string>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"400\",\n  \"title\": \"Bad request\",\n  \"description\": \"You have sent a request which could not be understood.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "3e9d6345-4d1d-485f-ba3f-1b9d26e1a688",
+          "name": "Bad request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "open-banking",
+                "v1.0",
+                "personal-mortgages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) Client ID for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientID",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) Client Secret for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientSecret",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "Options en-HK, zh-HK or zh-CN. If not provided, en-HK will be as default value",
+                "key": "Accept-Language",
+                "value": "<string>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"title\": \"Unauthorized Error\",\n  \"description\": \"Your request could not be authenticated.\",\n  \"status\": \"401\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "c9136bb4-5400-4e1f-af81-aa01a8f15cc0",
+          "name": "Bad request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "open-banking",
+                "v1.0",
+                "personal-mortgages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) Client ID for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientID",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) Client Secret for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientSecret",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "Options en-HK, zh-HK or zh-CN. If not provided, en-HK will be as default value",
+                "key": "Accept-Language",
+                "value": "<string>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"title\": \"Forbidden Error\",\n  \"description\": \"You do not have proper authorization to access to the requested content.\",\n  \"status\": \"403\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "0577f488-052c-4a30-bd63-e688edc4b5b7",
+          "name": "Bad request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "open-banking",
+                "v1.0",
+                "personal-mortgages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) Client ID for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientID",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) Client Secret for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientSecret",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "Options en-HK, zh-HK or zh-CN. If not provided, en-HK will be as default value",
+                "key": "Accept-Language",
+                "value": "<string>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Request Timeout",
+          "code": 408,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"408\",\n  \"title\": \"Client timeout\",\n  \"description\": \"Your client has failed to submit a request, and a timeout has occurred.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "d4f95669-30d4-4b3e-8084-27a94b79a677",
+          "name": "Bad request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "open-banking",
+                "v1.0",
+                "personal-mortgages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) Client ID for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientID",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) Client Secret for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientSecret",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "Options en-HK, zh-HK or zh-CN. If not provided, en-HK will be as default value",
+                "key": "Accept-Language",
+                "value": "<string>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Too Many Requests",
+          "code": 429,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"429\",\n  \"title\": \"Too many requests\",\n  \"description\": \"You have requested this resource too often. Slow down.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "18ac0b2c-1a78-4ce1-8b47-74a4a9bb97e7",
+          "name": "System error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "open-banking",
+                "v1.0",
+                "personal-mortgages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) Client ID for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientID",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) Client Secret for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientSecret",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "Options en-HK, zh-HK or zh-CN. If not provided, en-HK will be as default value",
+                "key": "Accept-Language",
+                "value": "<string>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"500\",\n  \"title\": \"Internal server error\",\n  \"description\": \"An error occurred on the server. No further information is available.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "cb78e56c-daa7-49ab-aa46-856e1e714a39",
+          "name": "System error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "open-banking",
+                "v1.0",
+                "personal-mortgages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) Client ID for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientID",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "(Required) Client Secret for the Third Party Provider, available after logon to the developer portal.",
+                "key": "ClientSecret",
+                "value": "<string>"
+              },
+              {
+                "disabled": false,
+                "description": "Options en-HK, zh-HK or zh-CN. If not provided, en-HK will be as default value",
+                "key": "Accept-Language",
+                "value": "<string>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"503\",\n  \"title\": \"Service temporarily unavailable\",\n  \"description\": \"The service is temporarily unavailable.\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/sandbox",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "bbab806b-0b7a-4833-a182-a71b44b72b0c",
+    "name": "Mortgage Loans",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Information about our financing options geared towards property purchase for retail customers, including interest rates, eligibility requirements, term lengths and more.",
+      "type": "text/plain"
+    }
+  }
+}
