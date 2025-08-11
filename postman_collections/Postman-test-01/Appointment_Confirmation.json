@@ -1,0 +1,37 @@
+[
+  {
+    "appointment.confirmation_*boolean": true,
+    "appointment.id_*string": "APPT123456",
+    "customer.customer.subscriberId_*string": "SUB123456",
+    "statusCode": 200,
+    "scenario": "successful operation"
+  },
+  {
+    "appointment.confirmation_*boolean": false,
+    "appointment.id_*string": "APPT654321",
+    "customer.customer.subscriberId_*string": "SUB654321",
+    "statusCode": 400,
+    "scenario": "Bad Request"
+  },
+  {
+    "appointment.confirmation_*boolean": true,
+    "appointment.id_*string": "APPT789012",
+    "customer.customer.subscriberId_*string": "SUB789012",
+    "statusCode": 401,
+    "scenario": "Unauthorized"
+  },
+  {
+    "appointment.confirmation_*boolean": false,
+    "appointment.id_*string": "APPT345678",
+    "customer.customer.subscriberId_*string": "SUB345678",
+    "statusCode": 404,
+    "scenario": "Not Found"
+  },
+  {
+    "appointment.confirmation_*boolean": true,
+    "appointment.id_*string": "APPT987654",
+    "customer.customer.subscriberId_*string": "SUB987654",
+    "statusCode": 503,
+    "scenario": "Service Unavailable"
+  }
+]
