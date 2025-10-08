@@ -1,0 +1,64 @@
+[
+    {
+        "testCaseId": "TC001",
+        "description": "Test login functionality with valid credentials",
+        "input": {
+            "username": "validUser",
+            "password": "validPassword123"
+        },
+        "expectedOutput": "Login successful",
+        "priority": "High"
+    },
+    {
+        "testCaseId": "TC002",
+        "description": "Test login functionality with invalid credentials",
+        "input": {
+            "username": "invalidUser",
+            "password": "invalidPassword"
+        },
+        "expectedOutput": "Login failed",
+        "priority": "High"
+    },
+    {
+        "testCaseId": "TC003",
+        "description": "Test password reset functionality",
+        "input": {
+            "email": "user@example.com"
+        },
+        "expectedOutput": "Password reset link sent",
+        "priority": "Medium"
+    },
+    {
+        "testCaseId": "TC004",
+        "description": "Test user registration with valid data",
+        "input": {
+            "username": "newUser",
+            "email": "newuser@example.com",
+            "password": "newPassword123"
+        },
+        "expectedOutput": "Registration successful",
+        "priority": "High"
+    },
+    {
+        "testCaseId": "TC005",
+        "description": "Test user registration with existing email",
+        "input": {
+            "username": "anotherUser",
+            "email": "existinguser@example.com",
+            "password": "anotherPassword123"
+        },
+        "expectedOutput": "Email already exists",
+        "priority": "Medium"
+    },
+    {
+        "testCaseId": "TC006",
+        "description": "Test profile update functionality",
+        "input": {
+            "userId": "12345",
+            "newEmail": "updateduser@example.com",
+            "newPhone": "123-456-7890"
+        },
+        "expectedOutput": "Profile updated successfully",
+        "priority": "Low"
+    }
+]
